@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  22 MAY 2013 18:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  23 MAY 2013 18:55
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -216,22 +216,31 @@ LaTeX Warning: Citation `eisenberg_fablearn' on page 18 undefined on input line
  43.
 
 Missing character: There is no Õ in font cmr12!
-Missing character: There is no Õ in font cmr12!
-Missing character: There is no Ñ in font cmr12!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18])
+ [18]
 [19]
+Missing character: There is no Õ in font cmti12!
+Missing character: There is no Ñ in font cmti12!
+
+
+LaTeX Warning: Citation `rosner_craft_vs_design' on page 20 undefined on input 
+line 54.
+
+
+LaTeX Warning: Citation `tanenbaum' on page 20 undefined on input line 56.
+
+) [20]
 \openout2 = `chap3.aux'.
 
- (./chap3.tex [20
+ (./chap3.tex
+Chapter 3.
+[21
 
 
 
 ]
-Chapter 3.
-[21]
 
 LaTeX Warning: Citation `DesignScript' on page 22 undefined on input line 14.
 
@@ -251,16 +260,20 @@ LaTeX Warning: Citation `tinkercad' on page 23 undefined on input line 21.
 
 LaTeX Warning: Citation `123D' on page 23 undefined on input line 21.
 
-[23] [24]) [25]
+[23] [24]
+
+LaTeX Warning: Citation `spirogator' on page 25 undefined on input line 31.
+
+) [25] [26]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex [26
+ (./chap4.tex
+Chapter 4.
+) [27
 
 
 
 ]
-Chapter 4.
-) [27]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex [28
@@ -328,10 +341,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1753 strings out of 494578
- 21006 string characters out of 3168574
- 83309 words of memory out of 3000000
- 4911 multiletter control sequences out of 15000+200000
+ 1756 strings out of 494578
+ 21053 string characters out of 3168574
+ 86309 words of memory out of 3000000
+ 4914 multiletter control sequences out of 15000+200000
  9404 words of font info for 33 fonts, out of 3000000 for 9000
  314 hyphenation exceptions out of 8191
  28i,8n,35p,2921b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -341,7 +354,7 @@ mr12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr17.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti12.pfb>
-Output written on main.pdf (40 pages, 103394 bytes).
+Output written on main.pdf (40 pages, 109151 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  106 compressed objects within 2 object streams

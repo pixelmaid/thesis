@@ -3,10 +3,10 @@
 \contentsline {section}{\numberline {2.1}Computational Design}{15}
 \contentsline {section}{\numberline {2.2}Digital Fabrication}{18}
 \contentsline {section}{\numberline {2.3}Algorithmic Craft}{19}
-\contentsline {section}{\numberline {2.4}Barriers}{19}
+\contentsline {section}{\numberline {2.4}Challenges in broad participation in computational design and digital fabrication}{19}
 \contentsline {chapter}{\numberline {3}Related Tools and Research}{21}
 \contentsline {section}{\numberline {3.1}Professional Computational Design Tools}{21}
-\contentsline {section}{\numberline {3.2}entry-level CAD Tools}{23}
+\contentsline {section}{\numberline {3.2}Entry-level CAD Tools}{23}
 \contentsline {section}{\numberline {3.3}Learning-Oriented programming tools}{24}
 \contentsline {section}{\numberline {3.4}Novel Fabrication and CAD tools}{25}
 \contentsline {chapter}{\numberline {4}Design Objectives}{27}
