@@ -1,0 +1,350 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  22 MAY 2013 18:17
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ba
+sque, danish, dutch, ukenglish, usenglishmax, finnish, french, german, ngerman,
+ swissgerman, hungarian, italian, bokmal, nynorsk, polish, portuguese, spanish,
+ swedish, loaded.
+(./mitthesis.cls
+Document Class: mitthesis 1999/10/20
+\vithesis=\count79
+(/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(./setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+)
+Thesis document copyright MIT unless otherwise (manually) specified
+\@titlesupervisor=\box26
+\@abstractsupervisor=\box27
+\c@savepage=\count89
+) (./lgrind.sty
+Package: lgrind 1997/01/30 v3.4 LGrind environment and supporting stuff
+\lc@unt=\count90
+\ln@xt=\count91
+\LGnuminterval=\count92
+\LGindent=\skip43
+\LGsloppy=\skip44
+\procbox=\box28
+\ls@far=\box29
+\tb@x=\box30
+\TBw@d=\dimen103
+\@ts=\dimen104
+)
+(/usr/local/texlive/2012basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2012basic/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2012basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count93
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+(./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
+(./chap8.aux) (./appa.aux) (./appb.aux) (./biblio.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+
+(/usr/local/texlive/2012basic/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count94
+\scratchdimen=\dimen105
+\scratchbox=\box31
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPshowfont=\toks14
+\MPscratchCnt=\count97
+\MPscratchDim=\dimen106
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
+\everyMPtoPDFconversion=\toks15
+)
+\openout2 = `cover.aux'.
+
+ (./cover.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 91.
+
+(/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
+ [1
+
+
+
+{/usr/local/texlive/2012basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
+(./abstract.tex) [3
+
+] (./quote.tex [4])) [5
+
+
+]
+\openout2 = `contents.aux'.
+
+ (./contents.tex [6
+
+
+
+] (./main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+
+[7])
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [8] (./main.lof)
+\tf@lof=\write4
+\openout4 = `main.lof'.
+
+ [9
+
+] [10
+
+] (./main.lot)
+\tf@lot=\write5
+\openout5 = `main.lot'.
+
+) [11]
+\openout2 = `chap1.aux'.
+
+ (./chap1.tex [12
+
+
+
+]
+Chapter 1.
+
+LaTeX Warning: Citation `resnick1' on page 13 undefined on input line 9.
+
+
+LaTeX Warning: Citation `mellis_thesis' on page 13 undefined on input line 9.
+
+[13]) [14]
+\openout2 = `chap2.aux'.
+
+ (./chap2.tex
+Chapter 2.
+Missing character: There is no Õ in font cmti12!
+Missing character: There is no Õ in font cmti12!
+Missing character: There is no Õ in font cmti12!
+
+LaTeX Warning: Citation `hardy' on page 15 undefined on input line 16.
+
+[15
+
+
+
+]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+ [16]
+
+LaTeX Warning: Citation `reas' on page 17 undefined on input line 29.
+
+[17]
+
+LaTeX Warning: Citation `gershenfeld' on page 18 undefined on input line 42.
+
+
+LaTeX Warning: Citation `lipson' on page 18 undefined on input line 42.
+
+
+LaTeX Warning: Citation `eisenberg_fablearn' on page 18 undefined on input line
+ 43.
+
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18])
+[19]
+\openout2 = `chap3.aux'.
+
+ (./chap3.tex [20
+
+
+
+]
+Chapter 3.
+[21]
+
+LaTeX Warning: Citation `DesignScript' on page 22 undefined on input line 14.
+
+
+LaTeX Warning: Citation `OpenScad' on page 22 undefined on input line 16.
+
+
+Underfull \vbox (badness 1675) has occurred while \output is active []
+
+ [22]
+
+LaTeX Warning: Citation `sketchup' on page 23 undefined on input line 21.
+
+
+LaTeX Warning: Citation `tinkercad' on page 23 undefined on input line 21.
+
+
+LaTeX Warning: Citation `123D' on page 23 undefined on input line 21.
+
+[23] [24]) [25]
+\openout2 = `chap4.aux'.
+
+ (./chap4.tex [26
+
+
+
+]
+Chapter 4.
+) [27]
+\openout2 = `chap5.aux'.
+
+ (./chap5.tex [28
+
+
+
+]
+Chapter 5.
+) [29]
+\openout2 = `chap6.aux'.
+
+ (./chap6.tex [30
+
+
+
+]
+Chapter 6.
+) [31]
+\openout2 = `chap7.aux'.
+
+ (./chap7.tex [32
+
+
+
+]
+Chapter 7.
+) [33]
+\openout2 = `chap8.aux'.
+
+ (./chap8.tex [34
+
+
+
+]
+Chapter 8.
+) [35]
+\openout2 = `appa.aux'.
+
+ (./appa.tex [36
+
+
+
+]
+Appendix A.
+[37])
+\openout2 = `appb.aux'.
+
+ (./appb.tex [38
+
+
+
+
+]
+Appendix B.
+[39] [40])
+\openout2 = `biblio.aux'.
+
+ (./biblio.tex
+No file main.bbl.
+) (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+(./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
+(./chap8.aux) (./appa.aux) (./appb.aux) (./biblio.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1753 strings out of 494578
+ 21006 string characters out of 3168574
+ 83309 words of memory out of 3000000
+ 4911 multiletter control sequences out of 15000+200000
+ 9404 words of font info for 33 fonts, out of 3000000 for 9000
+ 314 hyphenation exceptions out of 8191
+ 28i,8n,35p,2921b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr17.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmti12.pfb>
+Output written on main.pdf (40 pages, 103394 bytes).
+PDF statistics:
+ 155 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
