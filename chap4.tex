@@ -4,6 +4,32 @@
 %% You can process specific files by typing their names in at the 
 %% \files=
 %% prompt when you run the file main.tex through LaTeX.
-\chapter{Design Objectives}
+\chapter{Objectives}
+As indicated by the analysis of existing CAD and computational design tools. Many wonderful options exist to support novice entry into computer science. In addition, new tools are emerging to support novices in Computer Aided Design and digital fabrication. At this point however, is a lack of tools, which attempt to bridge these two spaces and make it feasible for people without significant technological experience to combine computational design and digital fabrication. The goal of my masters thesis is to explore and evaluate possible methods of bridging this space by developing tools that allow for casual, craft-oriented applications of digital fabrication and computational design. My objective is to better understand the relationship between textual programing language and visual design, investigate the iteration between code and physical object and examine strategies that support independent amateur use of computational design and digital fabrication. 
 
-	Practical objects	Open ended design options	Low Barrier to entry	Targeted audience
+	\section{Functional Properties of Algorithmic Crafting Tools}
+	Based on my examination of related CAD and computational design tools I hypothesized that the following functional properties are necessary for an effective algorithmic craft software:
+	\begin{itemize}
+\item \textbf{Emphasis on computational design:} Programing should be the chief method of generating and manipulating designs, and this focus should be reflected in the interface of the software. 
+\item \textbf{ Novice-oriented programing syntax:} The programing syntax and application programing interface (API) should be designed for novice programmers, and should be limited to methods and structures relevant to the task of design. 
+\item \textbf {Design methods that facilitate digital fabrication:} The software should include programing and drawing methods that allow for the production of designs that are suitable for digital fabrication, including shape boolean operations, and support for exporting to relevant file formats. 
+\item \textbf{ Prioritization of visualization and simulation:} Users  should be given ample and highly responsive visual feedback to inform their programming decisions.
+\item \textbf{ Simple workflow from software to fabrication:} The transition from the design tool to the fabrication device should require as few intermediary steps as possible.
+\item \textbf{ Free and open-source:} The software should be freely available, and able to function on multiple platforms with low requirements for computational processing power to afford high levels of access to casual users. If possible, the software should also be open source, in order to encourage the proliferation of additional novice oriented tools that can be developed for the specific needs of distinct user groups.
+\item \textbf{Domain specificity:} In order to ensure the usability of the software, it should be constrained to a the design of a particular set of end products, or crafting techniques. Or, if the software is general purpose, it should be packaged with a set of well documented example designs and projects that clearly demonstrate its key applications. 
+\item \textbf{Fabrication and craft-specific documentation:} In addition to the documentation of the application and programing language, the fabrication and crafting techniques that are compatible with the software should be thoughtfully documented and provided to users. This documentation should include details on suitable materials, fabrication machine access and settings, and tutorials on the craft components of example projects.
+\end{itemize}
+
+\section{Evaluation Criteria}
+In addition to these functional properties, I generated a set of evaluation criteria for any prospective algorithmic crafting software. A successful tool should produce the following results:
+\begin{itemize}
+
+\item \textbf{Allow users to successfully create physical artifacts:} The artifacts themselves should be both durable and used or in the creators life after completion.
+\item \textbf{Afford a wide degree of variation in design and expression:} The personal stylistic and aesthetic preferences of the creator should be apparent in the resultant artifact.
+\item \textbf{Enable people to understand the functionality and utility of the programs they write} Individuals should emerge from the process with a general understanding of some of the key components of computer programing, with an ability to articulate how these components function in their design. 
+\item \textbf{Allow users to create objects and designs they would have difficulty generating with conventional techniques} The tool should enable the use of the affordances of computational design expressed in the Section \ref{sec:computational_design}, specifically precision, visual complexity, generativity and stylistic abstraction.
+\item \textbf{Engender in users a positive, enjoyable experience:} The tool and subsequent crafting activities should be pleasurable.
+\item \textbf{Foster a sense of confidence:} After working with the tool, people should have increased confidence in their ability to successfully program, design, and use digital fabrication tools. 
+\end{itemize}
+
+Over the course of my masters thesis, I developed and tested three successive algorithmic crafting software tools, Codeable Objects, a domain specific programing library for the design and production of lamps, Soft Objects, an expanded version of Codeable Objects aimed at computational fashion design and DressCode, an integrated programing and visual design environment. In the following  three chapters, I detail the development, feature set and evaluation of each tool in accordance with the above criteria. 
