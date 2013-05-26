@@ -1,21 +1,20 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  23 MAY 2013 18:55
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.3.9)  24 MAY 2013 10:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ba
-sque, danish, dutch, ukenglish, usenglishmax, finnish, french, german, ngerman,
- swissgerman, hungarian, italian, bokmal, nynorsk, polish, portuguese, spanish,
- swedish, loaded.
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ba
+sque, danish, dutch, finnish, french, german, ngerman, swissgerman, hungarian, 
+italian, bokmal, nynorsk, polish, portuguese, spanish, swedish, loaded.
 (./mitthesis.cls
 Document Class: mitthesis 1999/10/20
 \vithesis=\count79
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/report.cls
+(/usr/local/texlive/2011basic/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/size12.clo
+(/usr/local/texlive/2011basic/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -53,22 +52,22 @@ Package: lgrind 1997/01/30 v3.4 LGrind environment and supporting stuff
 \TBw@d=\dimen103
 \@ts=\dimen104
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2011basic/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2011basic/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2011basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+(/usr/local/texlive/2011basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+(/usr/local/texlive/2011basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count93
 )
@@ -100,7 +99,7 @@ LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2011basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count94
 \scratchdimen=\dimen105
@@ -119,7 +118,7 @@ LaTeX Font Info:    ... okay on input line 29.
  (./cover.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 91.
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2011basic/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
@@ -128,7 +127,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 
 
 
-{/usr/local/texlive/2012basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/usr/local/texlive/2011basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
 (./abstract.tex) [3
@@ -341,18 +340,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1756 strings out of 494578
- 21053 string characters out of 3168574
- 86309 words of memory out of 3000000
- 4914 multiletter control sequences out of 15000+200000
+ 1749 strings out of 494752
+ 20939 string characters out of 3171021
+ 85990 words of memory out of 3000000
+ 4894 multiletter control sequences out of 15000+200000
  9404 words of font info for 33 fonts, out of 3000000 for 9000
- 314 hyphenation exceptions out of 8191
+ 166 hyphenation exceptions out of 8191
  28i,8n,35p,2921b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/ams
+</usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr17.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti12.pfb>
 Output written on main.pdf (40 pages, 109151 bytes).
 PDF statistics:
