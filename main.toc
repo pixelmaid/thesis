@@ -1,18 +1,25 @@
-\contentsline {chapter}{\numberline {1}Introduction}{13}
-\contentsline {chapter}{\numberline {2}Motivation and Background}{15}
-\contentsline {section}{\numberline {2.1}Computational Design}{15}
-\contentsline {section}{\numberline {2.2}Digital Fabrication}{18}
-\contentsline {section}{\numberline {2.3}Algorithmic Craft}{19}
-\contentsline {section}{\numberline {2.4}Challenges in broad participation in computational design and digital fabrication}{19}
-\contentsline {chapter}{\numberline {3}Related Tools and Research}{21}
-\contentsline {section}{\numberline {3.1}Professional Computational Design Tools}{21}
-\contentsline {section}{\numberline {3.2}Entry-level CAD Tools}{23}
-\contentsline {section}{\numberline {3.3}Learning-Oriented programming tools}{24}
-\contentsline {section}{\numberline {3.4}Novel Fabrication and CAD tools}{25}
-\contentsline {chapter}{\numberline {4}Design Objectives}{27}
-\contentsline {chapter}{\numberline {5}Design Tools}{29}
-\contentsline {chapter}{\numberline {6}Discussion (rename)}{31}
-\contentsline {chapter}{\numberline {7}Future Directions}{33}
-\contentsline {chapter}{\numberline {8}Conclusion}{35}
-\contentsline {chapter}{\numberline {A}Tables}{37}
-\contentsline {chapter}{\numberline {B}Figures}{39}
+\contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}
+\contentsline {chapter}{\numberline {2}Motivation and Background}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Computational Design}{15}{section.2.1}
+\contentsline {section}{\numberline {2.2}Digital Fabrication}{18}{section.2.2}
+\contentsline {section}{\numberline {2.3}Algorithmic Craft}{19}{section.2.3}
+\contentsline {section}{\numberline {2.4}Challenges in broad participation in computational design and digital fabrication}{19}{section.2.4}
+\contentsline {chapter}{\numberline {3}Related Tools and Research}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Professional Computational Design Tools}{21}{section.3.1}
+\contentsline {section}{\numberline {3.2}Entry-level CAD Tools}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Learning-Oriented programming tools}{24}{section.3.3}
+\contentsline {section}{\numberline {3.4}Novel Fabrication and CAD tools}{25}{section.3.4}
+\contentsline {chapter}{\numberline {4}Objectives}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Functional Properties of Algorithmic Crafting Tools}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Evaluation Criteria}{29}{section.4.2}
+\contentsline {chapter}{\numberline {5}Design Tools}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Codeable Objects}{31}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Motivation}{31}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Tool Description and workflow}{33}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Soft Objects}{35}{section.5.2}
+\contentsline {section}{\numberline {5.3}DressCode}{35}{section.5.3}
+\contentsline {chapter}{\numberline {6}Discussion (rename)}{37}{chapter.6}
+\contentsline {chapter}{\numberline {7}Future Directions}{39}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{41}{chapter.8}
+\contentsline {chapter}{\numberline {A}Tables}{43}{appendix.A}
+\contentsline {chapter}{\numberline {B}Figures}{45}{appendix.B}
