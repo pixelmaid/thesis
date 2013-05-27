@@ -7,7 +7,17 @@
 \chapter{Design Tools}
 \todo{introduction to design tools}
 
+\section{Design Tool Evaluation Methodology}
+The workshops were evaluated through pre and post surveys, interviews, and photographs of student projects.  The surveys were aimed at understanding participants’ previous experience in programming and design, their interest in and attitudes toward programming and design (before and after the workshops), and their engagement in and enjoyment of the workshops.Pre-surveys were administered at the start of the workshops and focused on participants’ previous experience and attitudes. They also asked students to describe their opinions about how programing and craft could be combined, and how they felt programming could extend or limit creativity. Post-surveys were administered at the termination of the workshops and contained attitudinal questions that were matched to the pre-surveys. In addition, post surveys contained a range of written questions asking the participants to describe their opinion of the success of their projects and their experience using Codeable Objects, Soft Objects or DressCode respectively.  In-person interviews were conducted with the participants in the fashion workshop. These interviews lasted an average of 15-30 minutes and were audio recorded and transcribed. During the interviews, the participants were asked to describe their experience in the workshop and talk about the process of conceptualizing, designing and producing their garments. They were asked to describe what they enjoyed, what was difficult for them, and what they felt they had learned through this process. Survey and verbal interview responses and project outcomes were then analyzed to determine if the essential qualities outlined in the requirements section (above) were achieved.  We also used this information to identify recurring and prominent themes in participants’ experiences.
+
 \section{Codeable Objects}
+
+\begin{center}
+\includegraphics[width=6.5in]{images/finished_lamps.png}
+\end{center}
+
+
+
 Codeable Objects is computational design tool that allowed people to design a laser cut lamp. The choice of a lamp allowed for a relatively broad design space wherein aesthetics were a primary consideration, while still retaining the qualities of functionality and utility in the finished product.  Lamps possess an established function, but offer a great deal of flexibility and personal freedom in the aesthetics and form. In addition, there is an established history of creating DIY lamps via digital fabrication. The Instructables community tutorial website has an entire section devoted to DIY lamps, and many examples of patterns that use a laser cutter for fabrication. 
 \begin{center}
 \begin{figure}[h!]
@@ -29,17 +39,66 @@ One of the most frequent applications of a laser cutter is to create 3D forms by
 The objective of the first version of Codeable Objects was simple: to create a tool that allowed to design a custom lamp by describing the form and the pattern of the shades, which they could then fabricate and assemble. The lamp itself was comprised of 4 basic parts, a wooden press fit frame, a set of vellum pieces that fit over the frame to act as a shade,a set of cardstock pieces with a pattern that fit over the shades, and a commercial made light fixture that fit into the frame (see figure: \ref{fig:lamp_parts}.)
 \begin{center}
 \begin{figure}[h!]
-\includegraphics[width=5.337in]{images/parts.png}
+\includegraphics[width=6.5in]{images/parts.png}
 \caption{the individual parts of a lamp}
 \label{fig:lamp_parts}
 \end{figure}
 \end{center}
-Codeable Objects was developed as a programing library for Processing andcontained a set of pre-defined programing methods that allow the user to describe the lamp, and define the tool paths for all three materials. For the first version of the library, all design took place via textual programing. Within the Processing IDE one imports and initialize the controller class of the library, and uses it to call four main functions that determine the height, top width, middle width and bottom width of the lamp. These 4 parameters are used to determine the form of the lamp, by generating the equation of a parabola with 3 intersection points. By rotating this parabola round the y-axis, it was possible to generate a closed 3-dimensional ellipsoid form.  The library also provided access to an additional set of methods that control over a number of other parameters in describing the form of the lamp, including the number of sides, the resolution of the curve and the position of the internal structural supports.  When the code is compiled, the application displays a graphic view containing 3d wireframe model of the current lamp as defined by the parameters. 
+Codeable Objects was developed as a programing library for Processing and contained a set of pre-defined programing methods that allow the user to describe the lamp, and define the tool paths for all three materials. The first version of the library was somewhat rough. All design took place via textual programing, and keyboard commands. Within the Processing IDE one imports and initialize the controller class of the library, and uses it to call four main functions that determine the height, top width, middle width and bottom width of the lamp. These 4 parameters are used to determine the form of the lamp, by generating the equation of a parabola with 3 intersection points. By rotating this parabola round the y-axis, it was possible to generate a closed 3-dimensional ellipsoid form.  The library also provided access to an additional set of methods that control over a number of other parameters in describing the form of the lamp, including the number of sides, the resolution of the curve and the position of the internal structural supports. To facilitate the construction process, notches are automatically generated in all of the individual parts to allow the form of the lamp to be press-fit together. The inclusion of this feature gives the user freedom to customize the shape of their lamp, without having to worry about the mechanics of construction. The library determines the correct position of the notches by calculating appropriate angle for each individual notch and determining the correct edge of intersection for each tool path based on this angle.  
+
+ Codeable Objects also includes a second set of programing methods that allow users to describe the  decorative components of the lamp by specifying coordinates in polar or Cartesian space. Upon compilation, the coordinates are used by the application to calculate a design using a Voronoi diagram. A Voronoi diagram is a geometric subdivision of space that generates a quadrants based on a given point set according to the equidistant boundaries between all the points \cite{deBerg}. When the diagram is calculated, each segment is checked for intersection or containment with the polygon. Segments with both endpoints within the polygon are preserved unchanged, while segments with only one endpoint inside the diagram are clipped at the appropriate edge of intersection, by checking their angle against the angle of the points of the edges of the boundary. Segments which have both points outside of the polygon are checked for intersection using the segment intersection algorithm and either clipped according to their intersection points or removed altogether if they lack an intersection (fig: \ref{fig:voronoi_clipped}).
+ \begin{wrapfigure}{r}{0.5\textwidth}
+  \vspace{-20pt}
+ \begin{center}
+\includegraphics[scale=0.5]{images/voronoi_clipped.png}
+\end{center}
+\caption{Algorithim for constraining the voronoi diagram within the shade}
+\label{fig:voronoi_clipped}
+  \vspace{-10pt}
+\end{wrapfigure}
+  
+Once the code is compiled, a graphic preview is displayed. For the pilot version, users could use key-commands to toggle between a view of the form of the 3D form of lamp, the voronoi-diagram pattern, and a 2D preview of the press fit parts (fig:\ref{fig:codeable_objects_v1}.) A final key-command allowed for the resultant design files to be exported as three separate pdfs, containing the paths for the press-fit frame, the shades, and the pattern files. 
+
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=6.5in]{images/codeable_objects_v1.jpg}
+\caption{The first version of Codeable Objects, with only text-based interaction}
+\label{fig:codeable_objects_v1}
+\end{figure}
+\end{center}
+
+\subsection{Evaluation}
+Using this basic pilot library, the first evaluation of Codeable Objects was conducted with a group of nine graduate students, ranging in age from 24-34, who engaged in a six-hour workshop. Five participants were women.  According to self-reported pre-survey data, all but one of the participants were intermediate to experienced programmers. Five of the nine had previous experience with Processing. In contrast, participants indicated they had little or no prior experience in design.  What experience they had was primarily gained in high school art classes and college elective courses. 
+During the workshop, each participants engaged in the design and fabrication of a lamp. Participants received programing instruction in the use of Codeable Objects and a basic explanation of the principles behind the geometry of the lamp. The pilot version of Codeable Objects was packaged with a set of example programs that contained the basic code for initializing the library and defining the parameters of the lamp, a long with a variety of point generation methods. Examples included algorithms to generate spirals, circles and sine and cosine wave distributions of points. Participants were also provided with access to materials, and received training in the use of the laser cutter. Participants were given approximately four hours to design the structure and ornamentation of their lamp, followed by instruction on and access to the laser cutter. After cutting, participants were provided instructions about how to assemble their lamps. 
+
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=6.5in]{images/finished_lamps2.png}
+\caption{Several of the finished lamps from the first workshop}
+\label{fig:finished_lamps}
+\end{figure}
+\end{center}
+
+\subsection{ Workshop Results}
+All but one of the participants in the Lamp workshop successfully completed their lamp. The one exception was a user who wished to incorporate a specialized light fixture into their piece, but unfortunately damaged her parts while waiting for the fixture to arrive. Participants with little or no prior programing experience primarily relied upon tweaking or remixing the example programs to design the form and pattern of their lamp, whereas those more experienced in programing experimented extensively with the library to produce a wide range of forms and patterns. One participant wrote a program that decomposed a black and white image into a point cloud and used that as the basis for her pattern. Another participant wrote a program that used a Gaussian distribution of points to achieve the gradual variation he desired in his final pattern. 
+
+ The physical assembly process required additional time beyond the duration of the workshop for most participants. This can partially be attributed to the bottleneck on the laser cutter, however the design and crafting components of the project took longer than expected. Despite this, all the participants returned after the workshop to complete their projects, and each participants indicated on the survey that they were able to complete a finished product to their satisfaction. The physical objects produced were both attractive and functional; participants displayed their lamps in their offices and homes after completion. One participant returned several days later to build a second lamp so that he would have a matching set for his bedside tables (figure:\ref{fig:finished_lamps}.)
+ 
+\subsection{Discussion}
+The most evident success of the pilot version of Codeable objects was the high rate of project completion. This success rate was closely connected to the ability of the library to correctly constrain the design parameters of the lamp. Although participants at times had to re-fabricate parts due to incorrect settings on the laser cutter or variations in the physical materials, at no point did a participant have to re-fabricate their piece due to errors in the design itself. Once fabricated, all participants pieces fit together correctly. This success came at the cost however, of significant design limitations. Participants who wished to modify the form to have more than one curve, or create patterns that went beyond the restrictions of the Voronoi diagram had to resort to post-processing their design files with a different CAD tool. In general, the 
+
+physical construction difficulties
+
+Dissemination
+
+programing vs graphical interaction
 
 
-		Workflow description
-		Workshop
-		Workshop results
+
+
+ 
+ 
+
 
 	\section{Soft Objects}
 		Motivation and design principles
