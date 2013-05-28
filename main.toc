@@ -16,10 +16,15 @@
 \contentsline {section}{\numberline {5.1}Codeable Objects}{31}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Motivation}{31}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Tool Description and workflow}{33}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Soft Objects}{35}{section.5.2}
-\contentsline {section}{\numberline {5.3}DressCode}{35}{section.5.3}
-\contentsline {chapter}{\numberline {6}Discussion (rename)}{37}{chapter.6}
-\contentsline {chapter}{\numberline {7}Future Directions}{39}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusion}{41}{chapter.8}
-\contentsline {chapter}{\numberline {A}Tables}{43}{appendix.A}
-\contentsline {chapter}{\numberline {B}Figures}{45}{appendix.B}
+\contentsline {subsection}{\numberline {5.1.3}Discussion}{35}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Soft Objects}{39}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Motivation}{39}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Tool description}{39}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Workshop}{41}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Results}{42}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}DressCode}{43}{section.5.3}
+\contentsline {chapter}{\numberline {6}Discussion (rename)}{45}{chapter.6}
+\contentsline {chapter}{\numberline {7}Future Directions}{47}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{49}{chapter.8}
+\contentsline {chapter}{\numberline {A}Tables}{51}{appendix.A}
+\contentsline {chapter}{\numberline {B}Figures}{53}{appendix.B}

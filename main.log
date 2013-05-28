@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  25 MAY 2013 18:36
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  27 MAY 2013 20:21
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -433,7 +433,7 @@ am-ing should be the chief method
 
  (./chap5.tex
 Chapter 5.
-<images/instructables_lamps.png, id=285, 469.755pt x 352.31625pt>
+<images/instructables_lamps.png, id=307, 469.755pt x 352.31625pt>
 File: images/instructables_lamps.png Graphic file (type png)
 
 <use images/instructables_lamps.png>
@@ -451,7 +451,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-] <images/solidworks_lamp.png, id=296, 469.755pt x 164.615pt>
+] <images/solidworks_lamp.png, id=317, 469.755pt x 164.615pt>
 File: images/solidworks_lamp.png Graphic file (type png)
 
 <use images/solidworks_lamp.png>
@@ -466,7 +466,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 22--23
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [32 <./images/instructables_lamps.png>]
-<images/parts.png, id=303, 385.44pt x 289.08pt>
+<images/parts.png, id=324, 385.44pt x 289.08pt>
 File: images/parts.png Graphic file (type png)
  <use images/parts.png>
 Package pdftex.def Info: images/parts.png used on input line 32.
@@ -478,53 +478,115 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [33 <./images/solidworks_lamp.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34 <./images/parts.png (PNG copy)>]) [35]
+ [34 <./images/parts.png (PNG copy)>]
+Underfull \vbox (badness 1005) has occurred while \output is active []
+
+ [35]
+<images/slider_interface.png, id=339, 1409.265pt x 364.36125pt>
+File: images/slider_interface.png Graphic file (type png)
+
+<use images/slider_interface.png>
+Package pdftex.def Info: images/slider_interface.png used on input line 69.
+(pdftex.def)             Requested size: 469.75499pt x 121.45158pt.
+
+Overfull \hbox (36.135pt too wide) in paragraph at lines 69--70
+[][] 
+ []
+
+[36 <./images/slider_interface.png (PNG copy)>]
+Missing character: There is no Õ in font cmr12!
+
+Underfull \vbox (badness 5652) has occurred while \output is active []
+
+ [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+
+[39] <images/primitive_syntax.png, id=357, 1409.265pt x 707.64375pt>
+File: images/primitive_syntax.png Graphic file (type png)
+
+<use images/primitive_syntax.png>
+Package pdftex.def Info: images/primitive_syntax.png used on input line 99.
+(pdftex.def)             Requested size: 469.75499pt x 235.87708pt.
+
+Overfull \hbox (42.93498pt too wide) in paragraph at lines 99--100
+[][] 
+ []
+
+[40 <./images/primitive_syntax.png (PNG copy)>]
+<images/softobjects_workflow.jpg, id=363, 1418.29875pt x 903.375pt>
+File: images/softobjects_workflow.jpg Graphic file (type jpg)
+
+<use images/softobjects_workflow.jpg>
+Package pdftex.def Info: images/softobjects_workflow.jpg used on input line 111
+.
+(pdftex.def)             Requested size: 469.75499pt x 299.20364pt.
+
+Overfull \hbox (36.135pt too wide) in paragraph at lines 111--112
+[][] 
+ []
+
+Missing character: There is no Ñ in font cmr12!
+[41 <./images/softobjects_workflow.jpg>]
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+ [42]
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+) [43]
 \openout2 = `chap6.aux'.
 
- (./chap6.tex [36
+ (./chap6.tex [44
 
 
 
 ]
 Chapter 6.
-) [37]
+) [45]
 \openout2 = `chap7.aux'.
 
- (./chap7.tex [38
+ (./chap7.tex [46
 
 
 
 ]
 Chapter 7.
-) [39]
+) [47]
 \openout2 = `chap8.aux'.
 
- (./chap8.tex [40
+ (./chap8.tex [48
 
 
 
 ]
 Chapter 8.
-) [41]
+) [49]
 \openout2 = `appa.aux'.
 
- (./appa.tex [42
+ (./appa.tex [50
 
 
 
 ]
 Appendix A.
-[43])
+[51])
 \openout2 = `appb.aux'.
 
- (./appb.tex [44
+ (./appb.tex [52
 
 
 
 
 ]
 Appendix B.
-[45] [46])
+[53] [54])
 \openout2 = `biblio.aux'.
 
  (./biblio.tex (./main.bbl
@@ -533,7 +595,7 @@ Underfull \hbox (badness 2970) in paragraph at lines 6--10
  www . instructables . com / id /
  []
 
-)) [47
+)) [55
 
 
 
@@ -547,19 +609,28 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
 (./chap8.aux) (./appa.aux) (./appb.aux) (./biblio.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 301D36EA36987A90B3BE21C97B4BACB8;1627.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 37BE7EACB6C31C5010D859573AAA0D8C;1825
+(rerunfilecheck)             After:  FA06256E5612A7BD43EF8DDB68BBEC70;1948.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 5887 strings out of 494578
- 84264 string characters out of 3168574
- 174819 words of memory out of 3000000
- 8887 multiletter control sequences out of 15000+200000
+ 5925 strings out of 494578
+ 85025 string characters out of 3168574
+ 174983 words of memory out of 3000000
+ 8905 multiletter control sequences out of 15000+200000
  9573 words of font info for 34 fonts, out of 3000000 for 9000
  314 hyphenation exceptions out of 8191
  29i,8n,35p,2924b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -570,10 +641,10 @@ m/cmr17.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (47 pages, 776160 bytes).
+Output written on main.pdf (55 pages, 1635824 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 352 compressed objects within 4 object streams
- 89 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 482 PDF objects out of 1000 (max. 8388607)
+ 406 compressed objects within 5 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 255 words of extra memory for PDF output out of 10000 (max. 10000000)
 
