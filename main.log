@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.3.9)  26 MAY 2013 23:11
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.3.9)  27 MAY 2013 23:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -452,7 +452,7 @@ Missing character: There is no Õ in font cmr12!
 
 
 
-] <images/finished_lamps.png, id=317, 1409.265pt x 1141.26375pt>
+] <images/finished_lamps.png, id=343, 1409.265pt x 1141.26375pt>
 File: images/finished_lamps.png Graphic file (type png)
 
 <use images/finished_lamps.png>
@@ -464,7 +464,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 19--20
  []
 
 [32 <./images/finished_lamps.png (PNG copy)>]
-<images/instructables_lamps.png, id=322, 1409.265pt x 1050.92625pt>
+<images/instructables_lamps.png, id=348, 1409.265pt x 1050.92625pt>
 File: images/instructables_lamps.png Graphic file (type png)
 
 <use images/instructables_lamps.png>
@@ -479,7 +479,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 27--28
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33 <./images/instructables_lamps.png (PNG copy)>]
-<images/solidworks_lamp.png, id=329, 1409.265pt x 493.845pt>
+<images/solidworks_lamp.png, id=355, 1409.265pt x 493.845pt>
 File: images/solidworks_lamp.png Graphic file (type png)
 
 <use images/solidworks_lamp.png>
@@ -491,7 +491,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 35--36
  []
 
 [34 <./images/solidworks_lamp.png>]
-<images/parts.png, id=338, 1409.265pt x 948.54375pt>
+<images/parts.png, id=364, 1409.265pt x 948.54375pt>
 File: images/parts.png Graphic file (type png)
  <use images/parts.png>
 Package pdftex.def Info: images/parts.png used on input line 45.
@@ -502,7 +502,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 45--46
  []
 
 [35 <./images/parts.png>]
-<images/voronoi_clipped.png, id=346, 357.335pt x 283.0575pt>
+<images/voronoi_clipped.png, id=372, 357.335pt x 283.0575pt>
 File: images/voronoi_clipped.png Graphic file (type png)
 
 <use images/voronoi_clipped.png>
@@ -512,7 +512,7 @@ Package pdftex.def Info: images/voronoi_clipped.png used on input line 56.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
-<images/codeable_objects_v1.jpg, id=353, 1003.75pt x 634.37pt>
+<images/codeable_objects_v1.jpg, id=379, 1003.75pt x 634.37pt>
 File: images/codeable_objects_v1.jpg Graphic file (type jpg)
 
 <use images/codeable_objects_v1.jpg>
@@ -524,7 +524,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 67--68
  []
 
 [37 <./images/voronoi_clipped.png (PNG copy)> <./images/codeable_objects_v1.jpg
->] <images/finished_lamps2.png, id=359, 1409.265pt x 548.0475pt>
+>] <images/finished_lamps2.png, id=385, 1409.265pt x 548.0475pt>
 File: images/finished_lamps2.png Graphic file (type png)
 
 <use images/finished_lamps2.png>
@@ -541,53 +541,115 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39 <./images/finished_lamps2.png>]) [40]
+ [39 <./images/finished_lamps2.png>]
+Underfull \vbox (badness 1005) has occurred while \output is active []
+
+ [40]
+<images/slider_interface.png, id=401, 1409.265pt x 364.36125pt>
+File: images/slider_interface.png Graphic file (type png)
+
+<use images/slider_interface.png>
+Package pdftex.def Info: images/slider_interface.png used on input line 119.
+(pdftex.def)             Requested size: 469.75499pt x 121.45158pt.
+
+Overfull \hbox (36.135pt too wide) in paragraph at lines 119--120
+[][] 
+ []
+
+[41 <./images/slider_interface.png (PNG copy)>]
+Missing character: There is no Õ in font cmr12!
+
+Underfull \vbox (badness 5652) has occurred while \output is active []
+
+ [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+
+[44] <images/primitive_syntax.png, id=419, 1409.265pt x 707.64375pt>
+File: images/primitive_syntax.png Graphic file (type png)
+
+<use images/primitive_syntax.png>
+Package pdftex.def Info: images/primitive_syntax.png used on input line 149.
+(pdftex.def)             Requested size: 469.75499pt x 235.87708pt.
+
+Overfull \hbox (42.93498pt too wide) in paragraph at lines 149--150
+[][] 
+ []
+
+[45 <./images/primitive_syntax.png (PNG copy)>]
+<images/softobjects_workflow.jpg, id=426, 1418.29875pt x 903.375pt>
+File: images/softobjects_workflow.jpg Graphic file (type jpg)
+
+<use images/softobjects_workflow.jpg>
+Package pdftex.def Info: images/softobjects_workflow.jpg used on input line 161
+.
+(pdftex.def)             Requested size: 469.75499pt x 299.20364pt.
+
+Overfull \hbox (36.135pt too wide) in paragraph at lines 161--162
+[][] 
+ []
+
+Missing character: There is no Ñ in font cmr12!
+[46 <./images/softobjects_workflow.jpg>]
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+ [47]
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+) [48]
 \openout2 = `chap6.aux'.
 
  (./chap6.tex
 Chapter 6.
-) [41
+) [49
 
 
 
 ]
 \openout2 = `chap7.aux'.
 
- (./chap7.tex [42
+ (./chap7.tex [50
 
 
 
 ]
 Chapter 7.
-) [43]
+) [51]
 \openout2 = `chap8.aux'.
 
- (./chap8.tex [44
+ (./chap8.tex [52
 
 
 
 ]
 Chapter 8.
-) [45]
+) [53]
 \openout2 = `appa.aux'.
 
- (./appa.tex [46
+ (./appa.tex [54
 
 
 
 ]
 Appendix A.
-[47])
+[55])
 \openout2 = `appb.aux'.
 
- (./appb.tex [48
+ (./appb.tex [56
 
 
 
 
 ]
 Appendix B.
-[49] [50])
+[57] [58])
 \openout2 = `biblio.aux'.
 
  (./biblio.tex (./main.bbl
@@ -596,7 +658,7 @@ Underfull \hbox (badness 2970) in paragraph at lines 6--10
  www . instructables . com / id /
  []
 
-)) [51
+)) [59
 
 
 
@@ -611,7 +673,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D2BD59CB1E6F24DFDADEE389BF67B69F;1907.
+(rerunfilecheck)             Checksum: 6875D2EB400D4C7FB14522E94C0D622A;2164.
 
 
 LaTeX Warning: There were undefined references.
@@ -619,10 +681,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 5965 strings out of 494752
- 85667 string characters out of 3171021
- 175071 words of memory out of 3000000
- 8925 multiletter control sequences out of 15000+200000
+ 6002 strings out of 494752
+ 86426 string characters out of 3171021
+ 175235 words of memory out of 3000000
+ 8944 multiletter control sequences out of 15000+200000
  9573 words of font info for 34 fonts, out of 3000000 for 9000
  166 hyphenation exceptions out of 8191
  29i,8n,35p,2924b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -633,10 +695,10 @@ m/cmr17.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti12.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (51 pages, 8620946 bytes).
+Output written on main.pdf (59 pages, 9479561 bytes).
 PDF statistics:
- 471 PDF objects out of 1000 (max. 8388607)
- 398 compressed objects within 4 object streams
- 101 named destinations out of 1000 (max. 500000)
- 268 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 540 PDF objects out of 1000 (max. 8388607)
+ 455 compressed objects within 5 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 315 words of extra memory for PDF output out of 10000 (max. 10000000)
 

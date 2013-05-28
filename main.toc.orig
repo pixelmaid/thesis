@@ -1,0 +1,47 @@
+\contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}
+\contentsline {chapter}{\numberline {2}Motivation and Background}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Computational Design}{15}{section.2.1}
+\contentsline {section}{\numberline {2.2}Digital Fabrication}{18}{section.2.2}
+\contentsline {section}{\numberline {2.3}Algorithmic Craft}{19}{section.2.3}
+\contentsline {section}{\numberline {2.4}Challenges in broad participation in computational design and digital fabrication}{19}{section.2.4}
+\contentsline {chapter}{\numberline {3}Related Tools and Research}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Professional Computational Design Tools}{21}{section.3.1}
+\contentsline {section}{\numberline {3.2}Entry-level CAD Tools}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Learning-Oriented programming tools}{24}{section.3.3}
+\contentsline {section}{\numberline {3.4}Novel Fabrication and CAD tools}{25}{section.3.4}
+\contentsline {chapter}{\numberline {4}Objectives}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Functional Properties of Algorithmic Crafting Tools}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Evaluation Criteria}{29}{section.4.2}
+\contentsline {chapter}{\numberline {5}Design Tools}{31}{chapter.5}
+<<<<<<< HEAD
+\contentsline {section}{\numberline {5.1}Design Tool Evaluation Methodology}{31}{section.5.1}
+\contentsline {section}{\numberline {5.2}Codeable Objects}{32}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Motivation}{34}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Tool Description and workflow}{35}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Evaluation}{38}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4} Workshop Results}{38}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Discussion}{40}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Soft Objects}{40}{section.5.3}
+\contentsline {section}{\numberline {5.4}DressCode}{40}{section.5.4}
+\contentsline {chapter}{\numberline {6}Discussion (rename)}{41}{chapter.6}
+\contentsline {chapter}{\numberline {7}Future Directions}{43}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{45}{chapter.8}
+\contentsline {chapter}{\numberline {A}Tables}{47}{appendix.A}
+\contentsline {chapter}{\numberline {B}Figures}{49}{appendix.B}
+=======
+\contentsline {section}{\numberline {5.1}Codeable Objects}{31}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Motivation}{31}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Tool Description and workflow}{33}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Discussion}{35}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Soft Objects}{39}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Motivation}{39}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Tool description}{39}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Workshop}{41}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Results}{42}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}DressCode}{43}{section.5.3}
+\contentsline {chapter}{\numberline {6}Discussion (rename)}{45}{chapter.6}
+\contentsline {chapter}{\numberline {7}Future Directions}{47}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{49}{chapter.8}
+\contentsline {chapter}{\numberline {A}Tables}{51}{appendix.A}
+\contentsline {chapter}{\numberline {B}Figures}{53}{appendix.B}
+>>>>>>> b924a53acbf439d0a0f892736ac7a7e86154d6e0
