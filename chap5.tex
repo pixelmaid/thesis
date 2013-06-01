@@ -320,6 +320,12 @@ Finally, as in the Lamp workshop, participants were frustrated by the delay betw
 
 \todo{\subsubsection{Critiques of computational design}}
 \section{DressCode}\label{sec:DressCode}
+
+\begin{center}
+\includegraphics[width=6.5in]{images/dressCode_main.png}
+\end{center}
+
+
 The preliminary work of Codeable Objects and Soft Objects clearly demonstrated that algorithmic craft offers a compelling opportunity for personal, creative expression through programming. My goal following these projects was to address some the limitations present in these preliminarily projects by developing a stand-alone programing environment and design tool. The resulting software, DressCode is a tool developed expressly to support new programmers in open-ended casual computational design for digital fabrication. To evaluate Dress Code, I conducted two separate day long workshops, one with experienced programmers and designers, and one for young people who were new to programming. I also worked with FUSE, an out of school STEAM exploration program to develop a set of online activities using DressCode, which is currently in the preliminary stages of evaluation.	 
 
 \subsection{Design principles}
@@ -328,8 +334,44 @@ Based on the success of the prior fashion workshop, and my continued interest in
 By building my own software, I sought to improve on the preliminary programming libraries in three key areas. First, DressCode contains its own programing language. The DressCode language has a simplified syntax and contains a limited set of textual programming methods, allowing people with little-to-no prior programming experience to working with the language quickly and effectively. Second, the DressCode environment is designed to equally prioritize textual programing and visual design and manipulation. To that end, the software has a two-panel development environment that displays a graphic two-dimensional (2-D) rendering of the user’s current design in the first panel, and their code in the second. As a user makes changes to their code, the effects on the design are rendered in the graphic panel. Finally, DressCode contains functionality that is specific to digital fabrication and algorithmic craft. The tool allows for a variety of methods to translate one's design to a tool-paths for fabrication machines. In addition, the API contains programing methods that support the creation of forms and patterns that are suitable for fabrication, with minimal effort on the part of the user.  The goal of designing a software 2-panel programing and design environment, with a specialized programing language and immediate support for digital fabrication was to assist non-programmers in independently making design decisions with programing. In short, I wanted to make it as easy as possible for people to decide on their own desired style or aesthetic, and then realize it by writing their own code. The following section describes the features of the DressCode software in greater detail.
 
 \subsection{Tool description}
+I've divided the description of DressCode into three sections: the programing syntax and drawing API, the interface design, and the process of going from DressCode to a fabrication machine.
+\subsubsection{Programing Language}
+The DressCode programing language is interpreted with semantic functionality that is simulated through a Java-based library.  We relied on the ANTLR framework to generate the necessary lexing and parsing methods for the language, and developed the semantic functionality using java and the java openGL (JOGL). When a program is run in DressCode, the raw script is first tokenized and then parsed to generate an abstract syntax tree (AST). During this phase, all user-generated function definitions are stored in memory. If any parsing errors are encountered, they are output to the console as "compiler errors". Assuming the parse is successful, DressCode then walks the resultant AST and attempts to execute the semantic functionality of the program. After being excecuted, the resultant design is rendered on the display panel. Any runtime errors are displayed in the output console. For most programs, this process is instantaneous, however some programs with complex operations require several seconds to be excecuted. 
+\todo{put in flowchart like boyfriend told me to do, when he was being helpful}
+The language is imperative in nature, with statements being executed in the order in which they are read. The exception to this is user defined functions, which may be defined at any point in the program, and called before they are defined. Each statement in DressCode must be terminated by a semicolon. I spent some time experimenting with terminating statements with newlines, similar to whitespace sensitive languages like Python, as I thought this might be more conducive to novice use. Unfortunately, the implementation of selective whitespace recognition is a challenging task to define in a grammar, so while we were able to develop a version of DressCode that recognized statements terminated by a line break, it would have taken significant time to develop this functionality to a level of robustness appropriate for user testing. For the short term, we have opted for a syntax requiring semicolons, however we plan to continue to explore newline statement termination in the future. 
+
+DressCode supports many datatypes and 
+
+ The API is organized around the creation and transformation of 2D shape primitives. By duplicating and manipulating these primitives in a structured manner, it is possible to generate complex and interesting designs from simple forms.  \begin{center}
+\begin{figure}[h!]
+\includegraphics[width=6.5in]{images/early_dress_code.png}
+\caption{The first bare-bones version of DressCode}
+\label{fig:early_dress_code}
+\end{figure}
+\end{center}
+\subsubsection{Fabrication process}
+
+\subsubsection{Interface Design}
+The interface of DressCode has two primary sections, a design panel and a coding panel. The divider between the two panels can be resized, allowing the the 
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=6.5in]{images/dress_code_interface.png}
+\caption{The DressCode interface}
+\label{fig:dress_code_interface}
+\end{figure}
+\end{center}
+\subsubsection{Fabrication process}
+
 \subsection{Workshops}
 \subsection{Workshop results}
 \subsection{Curriculum description}
 \subsection{Preliminary curriculum results}
 \subsection{Discussion}
+\subsubsection{Starting notions of craft and computation}
+\subsubsection{independent programming with a sense of ownership}
+\subsubsection{Design Process and resultant aesthetics}
+\subsubsection{Pride and Acomplishment in Algorithmic Craft}
+\subsubsection{Design history and selection}
+\subsubsection{Prototyping pt 2}
+\subsubsection{Connection to other applications}
+
