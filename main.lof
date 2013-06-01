@@ -19,8 +19,10 @@
 \contentsline {figure}{\numberline {5-14}{\ignorespaces Bracelets and scarves from preliminary activities}}{52}{figure.5.14}
 \contentsline {figure}{\numberline {5-15}{\ignorespaces Progression of samurai dress (from left to right: concept sketch, computationally generated pattern,laser-cut components of final garment)}}{56}{figure.5.15}
 \contentsline {figure}{\numberline {5-16}{\ignorespaces Illustrator shape booleans - the laser cutter would cut along the blue line (from left to right: vector path, expanded vector path, group of individual vector polygons, merged group of vector polygons)}}{62}{figure.5.16}
-\contentsline {figure}{\numberline {5-17}{\ignorespaces The first bare-bones version of DressCode}}{66}{figure.5.17}
-\contentsline {figure}{\numberline {5-18}{\ignorespaces The DressCode interface}}{67}{figure.5.18}
+\contentsline {figure}{\numberline {5-17}{\ignorespaces Interpreter structure}}{65}{figure.5.17}
+\contentsline {figure}{\numberline {5-18}{\ignorespaces A selection of methods from the DressCode API}}{69}{figure.5.18}
+\contentsline {figure}{\numberline {5-19}{\ignorespaces The first bare-bones version of DressCode}}{70}{figure.5.19}
+\contentsline {figure}{\numberline {5-20}{\ignorespaces The DressCode interface}}{71}{figure.5.20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

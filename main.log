@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  31 MAY 2013 20:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  1 JUN 2013 16:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -221,42 +221,68 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \WF@box=\box31
 \WF@everypar=\toks15
 Package: wrapfig 2003/01/31  v 3.6
-) (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux)
-(./chap2.aux) (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux)
-(./chap7.aux) (./chap8.aux) (./biblio.aux))
+)
+(/usr/local/texlive/2012basic/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count105
+\lst@gtempboxa=\box32
+\lst@token=\toks16
+\lst@length=\count106
+\lst@currlwidth=\dimen112
+\lst@column=\count107
+\lst@pos=\count108
+\lst@lostspace=\dimen113
+\lst@width=\dimen114
+\lst@newlines=\count109
+\lst@lineno=\count110
+\lst@maxwidth=\dimen115
+
+(/usr/local/texlive/2012basic/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count111
+\lst@skipnumbers=\count112
+\lst@framebox=\box33
+)
+(/usr/local/texlive/2012basic/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+(./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
+(./chap8.aux) (./biblio.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 
 (/usr/local/texlive/2012basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
-\scratchdimen=\dimen112
-\scratchbox=\box32
-\nofMPsegments=\count106
-\nofMParguments=\count107
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count108
-\MPscratchDim=\dimen113
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
-\everyMPtoPDFconversion=\toks17
+\scratchcounter=\count113
+\scratchdimen=\dimen116
+\scratchbox=\box34
+\nofMPsegments=\count114
+\nofMParguments=\count115
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count116
+\MPscratchDim=\dimen117
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
+\everyMPtoPDFconversion=\toks18
 )
-\AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring OFF on input line 32.
+\AtBeginShipoutBox=\box35
+Package hyperref Info: Link coloring OFF on input line 68.
  (/usr/local/texlive/2012basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -264,11 +290,11 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 y
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count111
+\c@section@level=\count119
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -289,6 +315,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\c@lstlisting=\count120
 \openout2 = `cover.aux'.
 
  (./cover.tex
@@ -462,7 +489,7 @@ Missing character: There is no Õ in font cmr12!
 
 
 
-] <images/finished_lamps.png, id=399, 1409.265pt x 1141.26375pt>
+] <images/finished_lamps.png, id=403, 1409.265pt x 1141.26375pt>
 File: images/finished_lamps.png Graphic file (type png)
 
 <use images/finished_lamps.png>
@@ -474,7 +501,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 19--20
  []
 
 [32 <./images/finished_lamps.png (PNG copy)>]
-<images/instructables_lamps.png, id=404, 1409.265pt x 1050.92625pt>
+<images/instructables_lamps.png, id=408, 1409.265pt x 1050.92625pt>
 File: images/instructables_lamps.png Graphic file (type png)
 
 <use images/instructables_lamps.png>
@@ -489,7 +516,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 27--28
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33 <./images/instructables_lamps.png (PNG copy)>]
-<images/solidworks_lamp.png, id=411, 1409.265pt x 493.845pt>
+<images/solidworks_lamp.png, id=415, 1409.265pt x 493.845pt>
 File: images/solidworks_lamp.png Graphic file (type png)
 
 <use images/solidworks_lamp.png>
@@ -501,7 +528,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 35--36
  []
 
 [34 <./images/solidworks_lamp.png>]
-<images/parts.png, id=420, 1409.265pt x 948.54375pt>
+<images/parts.png, id=424, 1409.265pt x 948.54375pt>
 File: images/parts.png Graphic file (type png)
  <use images/parts.png>
 Package pdftex.def Info: images/parts.png used on input line 45.
@@ -515,7 +542,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 45--46
 
 LaTeX Warning: Citation `deBerg' on page 36 undefined on input line 52.
 
-<images/voronoi_clipped.png, id=427, 357.335pt x 283.0575pt>
+<images/voronoi_clipped.png, id=431, 357.335pt x 283.0575pt>
 File: images/voronoi_clipped.png Graphic file (type png)
 
 <use images/voronoi_clipped.png>
@@ -525,7 +552,7 @@ Package pdftex.def Info: images/voronoi_clipped.png used on input line 56.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
-<images/codeable_objects_v1.jpg, id=433, 1003.75pt x 634.37pt>
+<images/codeable_objects_v1.jpg, id=437, 1003.75pt x 634.37pt>
 File: images/codeable_objects_v1.jpg Graphic file (type jpg)
 
 <use images/codeable_objects_v1.jpg>
@@ -537,7 +564,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 67--68
  []
 
 [37 <./images/voronoi_clipped.png (PNG copy)> <./images/codeable_objects_v1.jpg
->] <images/finished_lamps2.png, id=439, 1409.265pt x 548.0475pt>
+>] <images/finished_lamps2.png, id=444, 1409.265pt x 548.0475pt>
 File: images/finished_lamps2.png Graphic file (type png)
 
 <use images/finished_lamps2.png>
@@ -558,7 +585,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1005) has occurred while \output is active []
 
  [40]
-<images/slider_interface.png, id=456, 1409.265pt x 364.36125pt>
+<images/slider_interface.png, id=460, 1409.265pt x 364.36125pt>
 File: images/slider_interface.png Graphic file (type png)
 
 <use images/slider_interface.png>
@@ -575,7 +602,7 @@ Missing character: There is no Õ in font cmr12!
 Underfull \vbox (badness 5652) has occurred while \output is active []
 
  [42]
-<images/paper_lamps.png, id=466, 1409.265pt x 301.125pt>
+<images/paper_lamps.png, id=470, 1409.265pt x 301.125pt>
 File: images/paper_lamps.png Graphic file (type png)
 
 <use images/paper_lamps.png>
@@ -587,7 +614,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 136--137
  []
 
 [43 <./images/paper_lamps.png (PNG copy)>]
-<images/fashion_show.png, id=472, 1409.265pt x 867.24pt>
+<images/fashion_show.png, id=476, 1409.265pt x 867.24pt>
 File: images/fashion_show.png Graphic file (type png)
 
 <use images/fashion_show.png>
@@ -609,7 +636,7 @@ LaTeX Warning: Citation `herpen' on page 45 undefined on input line 153.
 LaTeX Warning: Citation `n12' on page 45 undefined on input line 153.
 
 [45 <./images/fashion_show.png (PNG copy)>]
-<images/3d_prinited_high_fashion.png, id=481, 1879.02pt x 469.755pt>
+<images/3d_prinited_high_fashion.png, id=485, 1879.02pt x 469.755pt>
 File: images/3d_prinited_high_fashion.png Graphic file (type png)
 
 <use images/3d_prinited_high_fashion.png>
@@ -626,7 +653,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 157--158
 LaTeX Warning: Reference `accessible_fashion' on page 47 undefined on input lin
 e 163.
 
-<images/accessible_fashion.png, id=486, 1879.02pt x 469.755pt>
+<images/accessible_fashion.png, id=490, 1879.02pt x 469.755pt>
 File: images/accessible_fashion.png Graphic file (type png)
 
 <use images/accessible_fashion.png>
@@ -649,7 +676,7 @@ Underfull \vbox (badness 7888) has occurred while \output is active []
 Missing character: There is no Ñ in font cmr12!
 Missing character: There is no Õ in font cmr12!
 
-<images/primitive_syntax.png, id=491, 1409.265pt x 707.64375pt>
+<images/primitive_syntax.png, id=495, 1409.265pt x 707.64375pt>
 File: images/primitive_syntax.png Graphic file (type png)
 
 <use images/primitive_syntax.png>
@@ -664,7 +691,7 @@ Overfull \hbox (42.93498pt too wide) in paragraph at lines 183--184
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [48 <./images/accessible_fashion.png (PNG copy)>]
-<images/softobjects_workflow.jpg, id=497, 1418.29875pt x 903.375pt>
+<images/softobjects_workflow.jpg, id=501, 1418.29875pt x 903.375pt>
 File: images/softobjects_workflow.jpg Graphic file (type jpg)
 
 <use images/softobjects_workflow.jpg>
@@ -684,7 +711,7 @@ Missing character: There is no Ñ in font cmr12!
 Underfull \vbox (badness 3312) has occurred while \output is active []
 
  [50 <./images/softobjects_workflow.jpg>]
-<images/scarves_bracelets.png, id=508, 1409.265pt x 261.97874pt>
+<images/scarves_bracelets.png, id=512, 1409.265pt x 261.97874pt>
 File: images/scarves_bracelets.png Graphic file (type png)
 
 <use images/scarves_bracelets.png>
@@ -700,7 +727,7 @@ Missing character: There is no Ó in font cmr12!
 Missing character: There is no Ò in font cmr12!
 Missing character: There is no Ó in font cmr12!
 [51 <./images/scarves_bracelets.png (PNG copy)>]
-<images/fashion_results.png, id=513, 1409.265pt x 466.74374pt>
+<images/fashion_results.png, id=517, 1409.265pt x 466.74374pt>
 File: images/fashion_results.png Graphic file (type png)
 
 <use images/fashion_results.png>
@@ -730,7 +757,7 @@ Missing character: There is no Õ in font cmti12!
  [54]
 Missing character: There is no Õ in font cmr12!
 
-<images/samurai_dress_progression.png, id=529, 1343.0175pt x 554.07pt>
+<images/samurai_dress_progression.png, id=533, 1343.0175pt x 554.07pt>
 File: images/samurai_dress_progression.png Graphic file (type png)
 
 <use images/samurai_dress_progression.png>
@@ -782,7 +809,7 @@ Missing character: There is no Ò in font cmti12!
 Missing character: There is no Ó in font cmti12!
 Missing character: There is no Õ in font cmti12!
 Missing character: There is no Õ in font cmti12!
- [60] <images/illustrator_example.png, id=562, 1409.265pt x 310.15875pt>
+ [60] <images/illustrator_example.png, id=566, 1409.265pt x 310.15875pt>
 File: images/illustrator_example.png Graphic file (type png)
 
 <use images/illustrator_example.png>
@@ -800,12 +827,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Citation `khan' on page 61 undefined on input line 336.
 
-[61] <images/dressCode_main.png, id=568, 469.755pt x 296.10625pt>
+[61] <images/dressCode_main.png, id=572, 1879.02pt x 1184.425pt>
 File: images/dressCode_main.png Graphic file (type png)
 
 <use images/dressCode_main.png>
 Package pdftex.def Info: images/dressCode_main.png used on input line 343.
-(pdftex.def)             Requested size: 469.75499pt x 296.10551pt.
+(pdftex.def)             Requested size: 469.75499pt x 296.10553pt.
 
 Overfull \hbox (36.135pt too wide) in paragraph at lines 343--344
  [] 
@@ -821,67 +848,101 @@ Missing character: There is no Õ in font cmr12!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64]
-[65] <images/early_dress_code.png, id=587, 1409.265pt x 915.42pt>
-File: images/early_dress_code.png Graphic file (type png)
+<images/interpreter_structure_horz.png, id=587, 1439.3775pt x 496.85625pt>
+File: images/interpreter_structure_horz.png Graphic file (type png)
 
-<use images/early_dress_code.png>
-Package pdftex.def Info: images/early_dress_code.png used on input line 365.
-(pdftex.def)             Requested size: 469.75499pt x 305.1346pt.
+<use images/interpreter_structure_horz.png>
+Package pdftex.def Info: images/interpreter_structure_horz.png used on input li
+ne 360.
+(pdftex.def)             Requested size: 469.75499pt x 162.15111pt.
 
-Overfull \hbox (36.135pt too wide) in paragraph at lines 365--366
+Overfull \hbox (36.135pt too wide) in paragraph at lines 360--361
 [][] 
  []
 
-<images/dress_code_interface.png, id=588, 1879.02pt x 1156.32pt>
-File: images/dress_code_interface.png Graphic file (type png)
+[65 <./images/interpreter_structure_horz.png (PNG copy)>]
 
-<use images/dress_code_interface.png>
-Package pdftex.def Info: images/dress_code_interface.png used on input line 376
-.
-(pdftex.def)             Requested size: 469.75499pt x 289.07928pt.
+LaTeX Warning: Reference `fig:basic_datatypes' on page 66 undefined on input li
+ne 367.
 
-Overfull \hbox (36.135pt too wide) in paragraph at lines 376--377
+[66] [67] [68] <images/api_table.png, id=662, 1409.265pt x 542.025pt>
+File: images/api_table.png Graphic file (type png)
+
+<use images/api_table.png>
+Package pdftex.def Info: images/api_table.png used on input line 486.
+(pdftex.def)             Requested size: 469.75499pt x 180.67178pt.
+
+Overfull \hbox (36.135pt too wide) in paragraph at lines 486--487
+[][] 
+ []
+
+<images/early_dress_code.png, id=663, 1409.265pt x 915.42pt>
+File: images/early_dress_code.png Graphic file (type png)
+
+<use images/early_dress_code.png>
+Package pdftex.def Info: images/early_dress_code.png used on input line 495.
+(pdftex.def)             Requested size: 469.75499pt x 305.1346pt.
+
+Overfull \hbox (36.135pt too wide) in paragraph at lines 495--496
 [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [66 <./images/early_dress_code.png (PNG copy)>]
+<images/dress_code_interface.png, id=664, 1879.02pt x 1156.32pt>
+File: images/dress_code_interface.png Graphic file (type png)
+
+<use images/dress_code_interface.png>
+Package pdftex.def Info: images/dress_code_interface.png used on input line 505
+.
+(pdftex.def)             Requested size: 469.75499pt x 289.07928pt.
+
+Overfull \hbox (36.135pt too wide) in paragraph at lines 505--506
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[69 <./images/api_table.png (PNG copy)>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70 <./images/early_dress_code.png (PNG copy)>]
 Overfull \vbox (83.81592pt too high) has occurred while \output is active []
 
 
-[67 <./images/dress_code_interface.png (PNG copy)>]
+[71 <./images/dress_code_interface.png (PNG copy)>]
 \openout2 = `chap6.aux'.
 
- (./chap6.tex [68
+ (./chap6.tex [72
 
 
 
 ]
 Chapter 6.
-) [69]
+) [73]
 \openout2 = `chap7.aux'.
 
- (./chap7.tex [70
+ (./chap7.tex [74
 
 
 
 ]
 Chapter 7.
-) [71]
+) [75]
 \openout2 = `chap8.aux'.
 
- (./chap8.tex [72
+ (./chap8.tex [76
 
 
 
 ]
 Chapter 8.
-) [73]
+) [77]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex (./main.bbl [74
+ (./biblio.tex (./main.bbl [78
 
 
 
@@ -891,41 +952,43 @@ Underfull \hbox (badness 2970) in paragraph at lines 6--10
  www . instructables . com / id /
  []
 
-)) [75]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
+)) [79]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
 (./chap8.aux) (./biblio.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 90BDDBDCD8BDD6C0ABD9394EBA6E7260;2704.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 6137 strings out of 494578
- 89268 string characters out of 3168574
- 178796 words of memory out of 3000000
- 9050 multiletter control sequences out of 15000+200000
- 9573 words of font info for 34 fonts, out of 3000000 for 9000
+ 7483 strings out of 494578
+ 108970 string characters out of 3168574
+ 305391 words of memory out of 3000000
+ 10310 multiletter control sequences out of 15000+200000
+ 9741 words of font info for 35 fonts, out of 3000000 for 9000
  314 hyphenation exceptions out of 8191
- 29i,8n,35p,2924b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,8n,35p,2924b,1721s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr17.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmti12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (75 pages, 17397396 bytes).
+s/cm/cmr6.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt8.pfb>
+Output written on main.pdf (79 pages, 19511581 bytes).
 PDF statistics:
- 705 PDF objects out of 1000 (max. 8388607)
- 592 compressed objects within 6 object streams
- 161 named destinations out of 1000 (max. 500000)
- 426 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 819 PDF objects out of 1000 (max. 8388607)
+ 697 compressed objects within 7 object streams
+ 232 named destinations out of 1000 (max. 500000)
+ 436 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -37,21 +37,20 @@
 \contentsline {subsection}{\numberline {5.4.1}Design principles}{63}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Tool description}{65}{subsection.5.4.2}
 \contentsline {subsubsection}{Programing Language}{65}{section*.12}
-\contentsline {subsubsection}{Fabrication process}{66}{section*.13}
-\contentsline {subsubsection}{Interface Design}{66}{section*.14}
-\contentsline {subsubsection}{Fabrication process}{67}{section*.15}
-\contentsline {subsection}{\numberline {5.4.3}Workshops}{67}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Workshop results}{67}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}Curriculum description}{67}{subsection.5.4.5}
-\contentsline {subsection}{\numberline {5.4.6}Preliminary curriculum results}{67}{subsection.5.4.6}
-\contentsline {subsection}{\numberline {5.4.7}Discussion}{67}{subsection.5.4.7}
-\contentsline {subsubsection}{Starting notions of craft and computation}{67}{section*.16}
-\contentsline {subsubsection}{independent programming with a sense of ownership}{67}{section*.17}
-\contentsline {subsubsection}{Design Process and resultant aesthetics}{67}{section*.18}
-\contentsline {subsubsection}{Pride and Acomplishment in Algorithmic Craft}{67}{section*.19}
-\contentsline {subsubsection}{Design history and selection}{67}{section*.20}
-\contentsline {subsubsection}{Prototyping pt 2}{67}{section*.21}
-\contentsline {subsubsection}{Connection to other applications}{67}{section*.22}
-\contentsline {chapter}{\numberline {6}Discussion (rename)}{69}{chapter.6}
-\contentsline {chapter}{\numberline {7}Future Directions}{71}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusion}{73}{chapter.8}
+\contentsline {subsubsection}{Interface Design}{69}{section*.13}
+\contentsline {subsubsection}{Fabrication process}{71}{section*.14}
+\contentsline {subsection}{\numberline {5.4.3}Workshops}{71}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Workshop results}{71}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Curriculum description}{71}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.6}Preliminary curriculum results}{71}{subsection.5.4.6}
+\contentsline {subsection}{\numberline {5.4.7}Discussion}{71}{subsection.5.4.7}
+\contentsline {subsubsection}{Starting notions of craft and computation}{71}{section*.15}
+\contentsline {subsubsection}{independent programming with a sense of ownership}{71}{section*.16}
+\contentsline {subsubsection}{Design Process and resultant aesthetics}{71}{section*.17}
+\contentsline {subsubsection}{Pride and Acomplishment in Algorithmic Craft}{71}{section*.18}
+\contentsline {subsubsection}{Design history and selection}{71}{section*.19}
+\contentsline {subsubsection}{Prototyping pt 2}{71}{section*.20}
+\contentsline {subsubsection}{Connection to other applications}{71}{section*.21}
+\contentsline {chapter}{\numberline {6}Discussion (rename)}{73}{chapter.6}
+\contentsline {chapter}{\numberline {7}Future Directions}{75}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{77}{chapter.8}
