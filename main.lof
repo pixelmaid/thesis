@@ -3,26 +3,30 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5-1}{\ignorespaces a selection of laser cut lamps from Instructables}}{33}{figure.5.1}
-\contentsline {figure}{\numberline {5-2}{\ignorespaces Instructables lamp tutorial with SolidWorks design process}}{34}{figure.5.2}
-\contentsline {figure}{\numberline {5-3}{\ignorespaces the individual parts of a lamp}}{35}{figure.5.3}
-\contentsline {figure}{\numberline {5-4}{\ignorespaces Algorithim for constraining the voronoi diagram within the shade}}{37}{figure.5.4}
-\contentsline {figure}{\numberline {5-5}{\ignorespaces The first version of Codeable Objects, with only text-based interaction}}{37}{figure.5.5}
-\contentsline {figure}{\numberline {5-6}{\ignorespaces Several of the finished lamps from the first workshop}}{39}{figure.5.6}
-\contentsline {figure}{\numberline {5-7}{\ignorespaces Revised graphic view with sliders}}{41}{figure.5.7}
-\contentsline {figure}{\numberline {5-8}{\ignorespaces The revised paper lamps}}{43}{figure.5.8}
-\contentsline {figure}{\numberline {5-9}{\ignorespaces 3D printed fashion (from left to right: Crystallization 3d Top by Iris Van Herpen, Drape Dress by Janne Kyttanen, N12 Bikini by Continuum Fashion, Strvct shoe by Continuum Fashion}}{46}{figure.5.9}
-\contentsline {figure}{\numberline {5-10}{\ignorespaces "Ready to wear" computational fashion (from left to right: Fibonacci Scarf by Diana Eng, Biomimicry laser-cut bracelet by Stefanie Nieuwenhuyse, Laser Lace All-Over Tee by Diana Eng, Interstice bracelet by Nervous Systems, Modular Fashion by Eunsuk Hur}}{48}{figure.5.10}
-\contentsline {figure}{\numberline {5-11}{\ignorespaces Soft Objects primitives}}{49}{figure.5.11}
-\contentsline {figure}{\numberline {5-12}{\ignorespaces Soft Objects workflow}}{50}{figure.5.12}
-\contentsline {figure}{\numberline {5-13}{\ignorespaces Completed garments (from left to right: octagon dress, flag pants, samurai dress, viral sweatshirt)}}{51}{figure.5.13}
-\contentsline {figure}{\numberline {5-14}{\ignorespaces Bracelets and scarves from preliminary activities}}{52}{figure.5.14}
-\contentsline {figure}{\numberline {5-15}{\ignorespaces Progression of samurai dress (from left to right: concept sketch, computationally generated pattern,laser-cut components of final garment)}}{56}{figure.5.15}
-\contentsline {figure}{\numberline {5-16}{\ignorespaces Illustrator shape booleans - the laser cutter would cut along the blue line (from left to right: vector path, expanded vector path, group of individual vector polygons, merged group of vector polygons)}}{62}{figure.5.16}
-\contentsline {figure}{\numberline {5-17}{\ignorespaces Interpreter structure}}{65}{figure.5.17}
-\contentsline {figure}{\numberline {5-18}{\ignorespaces A selection of methods from the DressCode API}}{69}{figure.5.18}
-\contentsline {figure}{\numberline {5-19}{\ignorespaces The first bare-bones version of DressCode}}{70}{figure.5.19}
-\contentsline {figure}{\numberline {5-20}{\ignorespaces The DressCode interface}}{71}{figure.5.20}
+\contentsline {figure}{\numberline {5-1}{\ignorespaces a selection of laser cut lamps from Instructables}}{32}{figure.5.1}
+\contentsline {figure}{\numberline {5-2}{\ignorespaces Instructables lamp tutorial with SolidWorks design process}}{33}{figure.5.2}
+\contentsline {figure}{\numberline {5-3}{\ignorespaces the individual parts of a lamp}}{34}{figure.5.3}
+\contentsline {figure}{\numberline {5-4}{\ignorespaces Algorithim for constraining the voronoi diagram within the shade}}{35}{figure.5.4}
+\contentsline {figure}{\numberline {5-5}{\ignorespaces The first version of Codeable Objects, with only text-based interaction}}{36}{figure.5.5}
+\contentsline {figure}{\numberline {5-6}{\ignorespaces Several of the finished lamps from the first workshop}}{37}{figure.5.6}
+\contentsline {figure}{\numberline {5-7}{\ignorespaces Revised graphic view with sliders}}{38}{figure.5.7}
+\contentsline {figure}{\numberline {5-8}{\ignorespaces The revised paper lamps}}{40}{figure.5.8}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6-1}{\ignorespaces 3D printed fashion (from left to right: Crystallization 3d Top by Iris Van Herpen, Drape Dress by Janne Kyttanen, N12 Bikini by Continuum Fashion, Strvct shoe by Continuum Fashion}}{44}{figure.6.1}
+\contentsline {figure}{\numberline {6-2}{\ignorespaces "Ready to wear" computational fashion (from left to right: Fibonacci Scarf by Diana Eng, Biomimicry laser-cut bracelet by Stefanie Nieuwenhuyse, Laser Lace All-Over Tee by Diana Eng, Interstice bracelet by Nervous Systems, Modular Fashion by Eunsuk Hur}}{45}{figure.6.2}
+\contentsline {figure}{\numberline {6-3}{\ignorespaces Soft Objects primitives}}{46}{figure.6.3}
+\contentsline {figure}{\numberline {6-4}{\ignorespaces Soft Objects workflow}}{47}{figure.6.4}
+\contentsline {figure}{\numberline {6-5}{\ignorespaces Completed garments (from left to right: octagon dress, flag pants, samurai dress, viral sweatshirt)}}{48}{figure.6.5}
+\contentsline {figure}{\numberline {6-6}{\ignorespaces Bracelets and scarves from preliminary activities}}{49}{figure.6.6}
+\contentsline {figure}{\numberline {6-7}{\ignorespaces Progression of samurai dress (from left to right: concept sketch, computationally generated pattern,laser-cut components of final garment)}}{52}{figure.6.7}
+\contentsline {figure}{\numberline {6-8}{\ignorespaces Illustrator shape booleans - the laser cutter would cut along the blue line (from left to right: vector path, expanded vector path, group of individual vector polygons, merged group of vector polygons)}}{56}{figure.6.8}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7-1}{\ignorespaces Interpreter structure}}{59}{figure.7.1}
+\contentsline {figure}{\numberline {7-2}{\ignorespaces A selection of methods from the DressCode API}}{63}{figure.7.2}
+\contentsline {figure}{\numberline {7-3}{\ignorespaces DressCode shape primitives with visible origins}}{63}{figure.7.3}
+\contentsline {figure}{\numberline {7-4}{\ignorespaces SVG import and sample of transformation methods}}{64}{figure.7.4}
+\contentsline {figure}{\numberline {7-5}{\ignorespaces Grouping with transformation and repeat statements}}{65}{figure.7.5}
+\contentsline {figure}{\numberline {7-6}{\ignorespaces The DressCode interface}}{66}{figure.7.6}
+\contentsline {figure}{\numberline {7-7}{\ignorespaces The first bare-bones version of DressCode}}{67}{figure.7.7}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
