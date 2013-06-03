@@ -35,22 +35,27 @@
 \contentsline {chapter}{\numberline {7}DressCode}{57}{chapter.7}
 \contentsline {section}{\numberline {7.1}Design principles}{58}{section.7.1}
 \contentsline {section}{\numberline {7.2}Tool description}{59}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Programing Language}{59}{subsection.7.2.1}
-\contentsline {subsubsection}{Language Structure}{60}{section*.6}
-\contentsline {subsubsection}{Drawing API}{62}{section*.7}
-\contentsline {subsection}{\numberline {7.2.2}Interface Design}{65}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Fabrication process}{68}{subsection.7.2.3}
-\contentsline {section}{\numberline {7.3}Workshops}{68}{section.7.3}
-\contentsline {section}{\numberline {7.4}Results}{68}{section.7.4}
-\contentsline {section}{\numberline {7.5}Curriculum description}{68}{section.7.5}
-\contentsline {section}{\numberline {7.6}Preliminary curriculum results}{68}{section.7.6}
-\contentsline {section}{\numberline {7.7}Discussion}{68}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}Starting notions of craft and computation}{68}{subsection.7.7.1}
-\contentsline {subsection}{\numberline {7.7.2}independent programming with a sense of ownership}{68}{subsection.7.7.2}
-\contentsline {subsection}{\numberline {7.7.3}Design Process and resultant aesthetics}{68}{subsection.7.7.3}
-\contentsline {subsection}{\numberline {7.7.4}Pride and Acomplishment in Algorithmic Craft}{68}{subsection.7.7.4}
-\contentsline {subsection}{\numberline {7.7.5}Design history and selection}{68}{subsection.7.7.5}
-\contentsline {subsection}{\numberline {7.7.6}Prototyping pt 2}{68}{subsection.7.7.6}
-\contentsline {subsection}{\numberline {7.7.7}Connection to other applications}{68}{subsection.7.7.7}
-\contentsline {chapter}{\numberline {8}Discussion (rename)}{69}{chapter.8}
-\contentsline {chapter}{\numberline {9}Future Directions}{71}{chapter.9}
+\contentsline {subsection}{\numberline {7.2.1}Interface Design}{59}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Programing Language}{60}{subsection.7.2.2}
+\contentsline {subsubsection}{Language Structure}{62}{section*.6}
+\contentsline {subsubsection}{Drawing API}{64}{section*.7}
+\contentsline {paragraph}{Shape Primitives:}{65}{section*.8}
+\contentsline {paragraph}{Shape Transformations:}{65}{section*.9}
+\contentsline {paragraph}{Polygon Booleans:}{67}{section*.10}
+\contentsline {paragraph}{Additional Methods:}{69}{section*.11}
+\contentsline {paragraph}{Constants:}{69}{section*.12}
+\contentsline {section}{\numberline {7.3}Fabrication and Crafting Process}{70}{section.7.3}
+\contentsline {section}{\numberline {7.4}Workshops}{71}{section.7.4}
+\contentsline {section}{\numberline {7.5}Results}{72}{section.7.5}
+\contentsline {section}{\numberline {7.6}Curriculum description}{72}{section.7.6}
+\contentsline {section}{\numberline {7.7}Preliminary curriculum results}{72}{section.7.7}
+\contentsline {section}{\numberline {7.8}Discussion}{72}{section.7.8}
+\contentsline {subsection}{\numberline {7.8.1}Starting notions of craft and computation}{72}{subsection.7.8.1}
+\contentsline {subsection}{\numberline {7.8.2}independent programming with a sense of ownership}{72}{subsection.7.8.2}
+\contentsline {subsection}{\numberline {7.8.3}Design Process and resultant aesthetics}{72}{subsection.7.8.3}
+\contentsline {subsection}{\numberline {7.8.4}Pride and Acomplishment in Algorithmic Craft}{72}{subsection.7.8.4}
+\contentsline {subsection}{\numberline {7.8.5}Design history and selection}{72}{subsection.7.8.5}
+\contentsline {subsection}{\numberline {7.8.6}Prototyping pt 2}{72}{subsection.7.8.6}
+\contentsline {subsection}{\numberline {7.8.7}Connection to other applications}{72}{subsection.7.8.7}
+\contentsline {chapter}{\numberline {8}Discussion (rename)}{73}{chapter.8}
+\contentsline {chapter}{\numberline {9}Future Directions}{75}{chapter.9}

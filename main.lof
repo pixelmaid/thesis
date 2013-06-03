@@ -21,12 +21,15 @@
 \contentsline {figure}{\numberline {6-7}{\ignorespaces Progression of samurai dress (from left to right: concept sketch, computationally generated pattern,laser-cut components of final garment)}}{52}{figure.6.7}
 \contentsline {figure}{\numberline {6-8}{\ignorespaces Illustrator shape booleans - the laser cutter would cut along the blue line (from left to right: vector path, expanded vector path, group of individual vector polygons, merged group of vector polygons)}}{56}{figure.6.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7-1}{\ignorespaces Interpreter structure}}{59}{figure.7.1}
-\contentsline {figure}{\numberline {7-2}{\ignorespaces A selection of methods from the DressCode API}}{63}{figure.7.2}
-\contentsline {figure}{\numberline {7-3}{\ignorespaces DressCode shape primitives with visible origins}}{63}{figure.7.3}
-\contentsline {figure}{\numberline {7-4}{\ignorespaces SVG import and sample of transformation methods}}{64}{figure.7.4}
-\contentsline {figure}{\numberline {7-5}{\ignorespaces Grouping with transformation and repeat statements}}{65}{figure.7.5}
-\contentsline {figure}{\numberline {7-6}{\ignorespaces The DressCode interface}}{66}{figure.7.6}
-\contentsline {figure}{\numberline {7-7}{\ignorespaces The first bare-bones version of DressCode}}{67}{figure.7.7}
+\contentsline {figure}{\numberline {7-1}{\ignorespaces The DressCode interface}}{59}{figure.7.1}
+\contentsline {figure}{\numberline {7-2}{\ignorespaces The first bare-bones version of DressCode}}{61}{figure.7.2}
+\contentsline {figure}{\numberline {7-3}{\ignorespaces Interpreter structure}}{61}{figure.7.3}
+\contentsline {figure}{\numberline {7-4}{\ignorespaces A selection of methods from the DressCode API}}{65}{figure.7.4}
+\contentsline {figure}{\numberline {7-5}{\ignorespaces DressCode shape primitives with visible origins}}{66}{figure.7.5}
+\contentsline {figure}{\numberline {7-6}{\ignorespaces SVG import and sample of transformation methods}}{67}{figure.7.6}
+\contentsline {figure}{\numberline {7-7}{\ignorespaces Grouping with transformation and repeat statements}}{68}{figure.7.7}
+\contentsline {figure}{\numberline {7-8}{\ignorespaces Polygon boolean operations}}{69}{figure.7.8}
+\contentsline {figure}{\numberline {7-9}{\ignorespaces Stripe pattern variations using the DressCode random method }}{70}{figure.7.9}
+\contentsline {figure}{\numberline {7-10}{\ignorespaces Several example artifacts created with DressCode Designs (clockwise from top left: vinyl-cut screen printed pillow, vinyl-cut tea light, ink-jet printed silk caftan, laser-cut iron-on tshirt, 3d printed silver pendant) }}{71}{figure.7.10}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
