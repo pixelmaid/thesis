@@ -36,13 +36,13 @@ The design panel is primarily composed of the drawing canvas. The drawing canvas
 
 The grid button allows the user to toggle between a grid in the units that correspond to the current units of the project (either millimeters or inches), pixels, or no grid. The target button allows the user to graphically select a set of coordinates and have them appear in the programming window as text, and can be used like an eyedropper for pixel coordinates. The plus and minus magnifying glasses and the hand tool are used to pan and zoom in and out of the screen.  Lastly, the arrow tool allows for design elements to be graphically selected and manipulated. After a design element is moved with the arrow tool, with the corresponding code for the move appears in the programing window. 
 
-  \begin{center}
-\begin{figure}[h!]
-\includegraphics[width=6.5in]{images/early_dress_code.png}
-\caption{The first bare-bones version of DressCode}
-\label{fig:early_dress_code}
-\end{figure}
-\end{center}
+  %\begin{center}
+%\begin{figure}[h!]
+%\includegraphics[width=6.5in]{images/early_dress_code.png}
+%\caption{The first bare-bones version of DressCode}
+%\label{fig:early_dress_code}
+%\end{figure}
+%\end{center}
 
 \subsection{Programing Language}
 The DressCode programing language is interpreted with semantic functionality that is simulated through a Java-based library.  We relied on the ANTLR framework to generate the necessary lexing and parsing methods for the language, and developed the semantic functionality using java and the java openGL (JOGL). When a program is run in DressCode, the raw script is first tokenized and then parsed to generate an abstract syntax tree (AST). During this phase, all user-generated function definitions are stored in memory. If any parsing errors are encountered, they are output to the console as "compiler errors". Assuming the parse is successful, DressCode then walks the resultant AST and attempts to execute the semantic functionality of the program (figure:\ref{fig:interpreter_structure}.) After being executed, the resultant design is rendered on the display panel. Any runtime errors are displayed in the output console. For most programs, this process is instantaneous, however some programs with complex operations require several seconds to be executed. 
@@ -249,7 +249,7 @@ To provide some support in the crafting process for independent users, my underg
 
  \begin{center}
 \begin{figure}[h!]
-\includegraphics[width=6.5in]{images/dresscode_examples.png}
+\includegraphics[width=\columnwidth]{images/dresscode_examples.png}
 \caption{Several example artifacts created with DressCode Designs (clockwise from top left: vinyl-cut screen printed pillow, vinyl-cut tea light, ink-jet printed silk caftan, laser-cut iron-on tshirt, 3d printed silver pendant) }
 \label{fig:dresscode_examples}
 \end{figure}
@@ -257,15 +257,80 @@ To provide some support in the crafting process for independent users, my underg
 
 
 \section{Workshops}
-DressCode was evaluated in 
+We informally tested DressCode with members of the FUSE development team, and by the staff at Dream Yard, an after school STEM education space in the Bronx. Following these tests, and a period of additional development, DressCode was evaluated during two separate day long workshops at the MIT Media lab. The first workshop was conducted among experienced designers, artists and programmers, who were selected individually from MIT, Harvard and the Cambridge community. The second workshop was conducted among ten young adults selected from youth organizations in Cambridge and art and craft workshop mailing-lists at MIT.Both workshops used DressCode to create laser-cut leather crafts.
+
+\subsection{Expert Workshop}
+The expert workshop was comprised of eight participants between the ages of  19 to 33. Five of the eight participants were female and three were male, and all had prior experience in programming. 75\% of the participants indicated a strong prior interest in design, and 50\% enjoyed crafting. All participants had formal training at a college level in either art, design or computer science 
+
+The expert workshop was deliberately open and informal. We began the workshop with an open 30 minute discussion on the connections and intersections between design, arts and crafts and programming. Following this discussion the, participants were given a 45 minute general tutorial on the basics of the DressCode environment and programming language, after which participants were given access to the DressCode online code reference and a physical handout with quick references for some of the key methods. We also provided with a leather bracelet template and several example programs that generated different patterns for the template as  examples. Participants were given the option to design within the template or rely on modifying these examples, but were also free to create whatever they wanted.  Following the programing tutorial, participants were shown the basic fabrication process, and introduced to the materials, consisting of several varieties and colors of leather. Participants then had 3-4 hours to design their piece. As they completed their designs, they were taken in groups to the shop to fabricate their parts and then given access to craft tools and a variety of fasteners (snaps, rivets and jewelry connectors) to convert them into finished artifacts.
+
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/adult_design_time.png}
+\caption{The expert workshop}
+\label{fig:adult_design_time}
+\end{figure}
+\end{center}
+
+\subsection{Youth Workshop}
+The youth workshop was conducted among ten young adults, aged 15-17, 20\% male and 80\% female. Five of the youth participants were participants in the Teach to Learn, Learn to Teach program in Boston \todo{cite program and find a description}. Of those surveyed three participants had prior experience with Scratch, and two had worked with the Arduino programing environment in a prior Media Lab workshop.  All of the participants said they had some prior experience in art, design, or craft. 
+
+The youth workshop was more structured than the expert workshop with the goal of helping to familiarize participants with the possibilities and affordances of computational design and fabrication. We began by passing out three colors of post-its for the categories of of art and craft, design and programming. We then held a 5 minute brainstorm where we asked each participant to write down people, tools, ideas and projects the associated each category on the respective colored post-it. After, we collected the post its, and put them up on a board in related clusters, and used the resulting associations to instigate 30 minute discussion on the participants ideas about the connections between the three domains.  We ended the discussion by talking about some of the possible craft applications of computational design, and began the introduction to DressCode.
+
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/youth_brainstorm.png}
+\caption{The youth brainstorm and discussion}
+\label{fig:youth_brainstorm}
+\end{figure}
+\end{center}
+
+All of the design work in the youth workshop was structured around the concept of radial symmetry. I chose radial symmetry because it is a relatively easy pattern express mathematically, it serves as an excellent motivation for using a loop, and it is a pattern that is commonly found in nature, making it possible to generate designs that are floral,biological or organic in appearance. In addition, radially symmetric forms are often aesthetically appealing to people.  To begin, I explained the concept of DressCode and then spent 20 minutes leading the group, step by step through the process of creating a basic algorithm that used a repeat loop to create and rotate a number of ellipses around a central point (figure: \ref{fig:starting_algorithm}.) After every participant had successfully created their version of the algorithm, I showed them how they could use the same algorithm to create different designs by changing the number of iterations of the loop, the type of shape that was drawn, and the width and height of the shape. Participants then had 15 minutes to experiment with different parameters, and produce different designs, followed by a group show and tell session (figure: \ref{fig:show_and_tell}.) 
+
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/first_algorithm.png}
+\caption{The first algorithm learned by the youth participants}
+\label{fig:starting_algorithm}
+\end{figure}
+\end{center}
+
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/show_and_tell.png}
+\caption{Some example variations on the first activity}
+\label{fig:show_and_tell}
+\end{figure}
+\end{center}
+
+Next, the participants were provided with example programs that contained a bracelet template. The example programs featured a pre-written function that duplicated the algorithm they had written in the previous activity, with arguments corresponding to same values they were manipulating before. Participants were then given time to use the function to make multiple elements of the original radial pattern with different parameters. A second tab in the example program revealed the code for the radial function, which they could modify if they desired. The example template was constrained so that the dimensions of the bracelet would automatically correspond to the size of the drawing board. By measuring their wrist and resizing the drawing board, they could generate a bracelet of the correct size, and maintain their original design (figure: \ref{fig:bracelet_template}.)
+
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/bracelet_template.png}
+\caption{The bracelet template with one instance of the radial function being called}
+\label{fig:bracelet_template}
+\end{figure}
+\end{center}
+
+Participants were given approximately two hours of free design time. When they had settled on a final design, they first printed out a paper copy and ensured that it fit their wrist. Following that, they selected their material and were taken in groups to the laser cutter where they cut their piece. Afterwards, they were shown how to attach the fasteners to the bracelet, and provided with additional handcrafting tools that allowed them to further alter the piece by hand. 
+
 \section{Results}
+
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/youth_results.png}
+\caption{Results from the youth workshop}
+\label{fig:youth_results}
+\end{figure}
+\end{center}
 \section{Curriculum description}
 \section{Preliminary curriculum results}
 \section{Discussion}
 \subsection{Starting notions of craft and computation}
 \subsection{independent programming with a sense of ownership}
 \subsection{Design Process and resultant aesthetics}
-\subsection{Pride and Acomplishment in Algorithmic Craft}
+\subsection{Pride and Accomplishment in Algorithmic Craft}
 \subsection{Design history and selection}
 \subsection{Prototyping pt 2}
 \subsection{Connection to other applications}

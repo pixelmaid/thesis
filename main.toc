@@ -29,7 +29,7 @@
 \contentsline {subsection}{\numberline {6.5.2}Application of computational affordances}{51}{subsection.6.5.2}
 \contentsline {subsection}{\numberline {6.5.3}Aesthetics and Identity Expressed through Code}{53}{subsection.6.5.3}
 \contentsline {subsection}{\numberline {6.5.4}Physical and Digital connections}{53}{subsection.6.5.4}
-\contentsline {subsection}{\numberline {6.5.5}Enthusiasm in crafting and coding}{55}{subsection.6.5.5}
+\contentsline {subsection}{\numberline {6.5.5}Enthusiasm in crafting and coding}{54}{subsection.6.5.5}
 \contentsline {section}{\numberline {6.6}Limitations}{55}{section.6.6}
 \contentsline {subsection}{\numberline {6.6.1}Critiques of computational design}{56}{subsection.6.6.1}
 \contentsline {chapter}{\numberline {7}DressCode}{57}{chapter.7}
@@ -37,25 +37,27 @@
 \contentsline {section}{\numberline {7.2}Tool description}{59}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}Interface Design}{59}{subsection.7.2.1}
 \contentsline {subsection}{\numberline {7.2.2}Programing Language}{60}{subsection.7.2.2}
-\contentsline {subsubsection}{Language Structure}{62}{section*.6}
+\contentsline {subsubsection}{Language Structure}{61}{section*.6}
 \contentsline {subsubsection}{Drawing API}{64}{section*.7}
-\contentsline {paragraph}{Shape Primitives:}{65}{section*.8}
+\contentsline {paragraph}{Shape Primitives:}{64}{section*.8}
 \contentsline {paragraph}{Shape Transformations:}{65}{section*.9}
 \contentsline {paragraph}{Polygon Booleans:}{67}{section*.10}
-\contentsline {paragraph}{Additional Methods:}{69}{section*.11}
+\contentsline {paragraph}{Additional Methods:}{68}{section*.11}
 \contentsline {paragraph}{Constants:}{69}{section*.12}
 \contentsline {section}{\numberline {7.3}Fabrication and Crafting Process}{70}{section.7.3}
-\contentsline {section}{\numberline {7.4}Workshops}{71}{section.7.4}
-\contentsline {section}{\numberline {7.5}Results}{72}{section.7.5}
-\contentsline {section}{\numberline {7.6}Curriculum description}{72}{section.7.6}
-\contentsline {section}{\numberline {7.7}Preliminary curriculum results}{72}{section.7.7}
-\contentsline {section}{\numberline {7.8}Discussion}{72}{section.7.8}
-\contentsline {subsection}{\numberline {7.8.1}Starting notions of craft and computation}{72}{subsection.7.8.1}
-\contentsline {subsection}{\numberline {7.8.2}independent programming with a sense of ownership}{72}{subsection.7.8.2}
-\contentsline {subsection}{\numberline {7.8.3}Design Process and resultant aesthetics}{72}{subsection.7.8.3}
-\contentsline {subsection}{\numberline {7.8.4}Pride and Acomplishment in Algorithmic Craft}{72}{subsection.7.8.4}
-\contentsline {subsection}{\numberline {7.8.5}Design history and selection}{72}{subsection.7.8.5}
-\contentsline {subsection}{\numberline {7.8.6}Prototyping pt 2}{72}{subsection.7.8.6}
-\contentsline {subsection}{\numberline {7.8.7}Connection to other applications}{72}{subsection.7.8.7}
-\contentsline {chapter}{\numberline {8}Discussion (rename)}{73}{chapter.8}
-\contentsline {chapter}{\numberline {9}Future Directions}{75}{chapter.9}
+\contentsline {section}{\numberline {7.4}Workshops}{70}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Expert Workshop}{71}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Youth Workshop}{72}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}Results}{75}{section.7.5}
+\contentsline {section}{\numberline {7.6}Curriculum description}{75}{section.7.6}
+\contentsline {section}{\numberline {7.7}Preliminary curriculum results}{75}{section.7.7}
+\contentsline {section}{\numberline {7.8}Discussion}{75}{section.7.8}
+\contentsline {subsection}{\numberline {7.8.1}Starting notions of craft and computation}{75}{subsection.7.8.1}
+\contentsline {subsection}{\numberline {7.8.2}independent programming with a sense of ownership}{75}{subsection.7.8.2}
+\contentsline {subsection}{\numberline {7.8.3}Design Process and resultant aesthetics}{75}{subsection.7.8.3}
+\contentsline {subsection}{\numberline {7.8.4}Pride and Accomplishment in Algorithmic Craft}{75}{subsection.7.8.4}
+\contentsline {subsection}{\numberline {7.8.5}Design history and selection}{75}{subsection.7.8.5}
+\contentsline {subsection}{\numberline {7.8.6}Prototyping pt 2}{75}{subsection.7.8.6}
+\contentsline {subsection}{\numberline {7.8.7}Connection to other applications}{75}{subsection.7.8.7}
+\contentsline {chapter}{\numberline {8}Discussion (rename)}{77}{chapter.8}
+\contentsline {chapter}{\numberline {9}Future Directions}{79}{chapter.9}

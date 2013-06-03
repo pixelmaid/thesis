@@ -16,20 +16,25 @@
 \contentsline {figure}{\numberline {6-2}{\ignorespaces "Ready to wear" computational fashion (from left to right: Fibonacci Scarf by Diana Eng, Biomimicry laser-cut bracelet by Stefanie Nieuwenhuyse, Laser Lace All-Over Tee by Diana Eng, Interstice bracelet by Nervous Systems, Modular Fashion by Eunsuk Hur}}{45}{figure.6.2}
 \contentsline {figure}{\numberline {6-3}{\ignorespaces Soft Objects primitives}}{46}{figure.6.3}
 \contentsline {figure}{\numberline {6-4}{\ignorespaces Soft Objects workflow}}{47}{figure.6.4}
-\contentsline {figure}{\numberline {6-5}{\ignorespaces Completed garments (from left to right: octagon dress, flag pants, samurai dress, viral sweatshirt)}}{48}{figure.6.5}
-\contentsline {figure}{\numberline {6-6}{\ignorespaces Bracelets and scarves from preliminary activities}}{49}{figure.6.6}
+\contentsline {figure}{\numberline {6-5}{\ignorespaces Bracelets and scarves from preliminary activities}}{48}{figure.6.5}
+\contentsline {figure}{\numberline {6-6}{\ignorespaces Completed garments (from left to right: octagon dress, flag pants, samurai dress, viral sweatshirt)}}{49}{figure.6.6}
 \contentsline {figure}{\numberline {6-7}{\ignorespaces Progression of samurai dress (from left to right: concept sketch, computationally generated pattern,laser-cut components of final garment)}}{52}{figure.6.7}
 \contentsline {figure}{\numberline {6-8}{\ignorespaces Illustrator shape booleans - the laser cutter would cut along the blue line (from left to right: vector path, expanded vector path, group of individual vector polygons, merged group of vector polygons)}}{56}{figure.6.8}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7-1}{\ignorespaces The DressCode interface}}{59}{figure.7.1}
-\contentsline {figure}{\numberline {7-2}{\ignorespaces The first bare-bones version of DressCode}}{61}{figure.7.2}
-\contentsline {figure}{\numberline {7-3}{\ignorespaces Interpreter structure}}{61}{figure.7.3}
-\contentsline {figure}{\numberline {7-4}{\ignorespaces A selection of methods from the DressCode API}}{65}{figure.7.4}
-\contentsline {figure}{\numberline {7-5}{\ignorespaces DressCode shape primitives with visible origins}}{66}{figure.7.5}
-\contentsline {figure}{\numberline {7-6}{\ignorespaces SVG import and sample of transformation methods}}{67}{figure.7.6}
-\contentsline {figure}{\numberline {7-7}{\ignorespaces Grouping with transformation and repeat statements}}{68}{figure.7.7}
-\contentsline {figure}{\numberline {7-8}{\ignorespaces Polygon boolean operations}}{69}{figure.7.8}
-\contentsline {figure}{\numberline {7-9}{\ignorespaces Stripe pattern variations using the DressCode random method }}{70}{figure.7.9}
-\contentsline {figure}{\numberline {7-10}{\ignorespaces Several example artifacts created with DressCode Designs (clockwise from top left: vinyl-cut screen printed pillow, vinyl-cut tea light, ink-jet printed silk caftan, laser-cut iron-on tshirt, 3d printed silver pendant) }}{71}{figure.7.10}
+\contentsline {figure}{\numberline {7-2}{\ignorespaces Interpreter structure}}{61}{figure.7.2}
+\contentsline {figure}{\numberline {7-3}{\ignorespaces A selection of methods from the DressCode API}}{64}{figure.7.3}
+\contentsline {figure}{\numberline {7-4}{\ignorespaces DressCode shape primitives with visible origins}}{65}{figure.7.4}
+\contentsline {figure}{\numberline {7-5}{\ignorespaces SVG import and sample of transformation methods}}{66}{figure.7.5}
+\contentsline {figure}{\numberline {7-6}{\ignorespaces Grouping with transformation and repeat statements}}{67}{figure.7.6}
+\contentsline {figure}{\numberline {7-7}{\ignorespaces Polygon boolean operations}}{68}{figure.7.7}
+\contentsline {figure}{\numberline {7-8}{\ignorespaces Stripe pattern variations using the DressCode random method }}{69}{figure.7.8}
+\contentsline {figure}{\numberline {7-9}{\ignorespaces Several example artifacts created with DressCode Designs (clockwise from top left: vinyl-cut screen printed pillow, vinyl-cut tea light, ink-jet printed silk caftan, laser-cut iron-on tshirt, 3d printed silver pendant) }}{71}{figure.7.9}
+\contentsline {figure}{\numberline {7-10}{\ignorespaces The expert workshop}}{72}{figure.7.10}
+\contentsline {figure}{\numberline {7-11}{\ignorespaces The youth brainstorm and discussion}}{73}{figure.7.11}
+\contentsline {figure}{\numberline {7-12}{\ignorespaces The first algorithm learned by the youth participants}}{73}{figure.7.12}
+\contentsline {figure}{\numberline {7-13}{\ignorespaces Some example variations on the first activity}}{74}{figure.7.13}
+\contentsline {figure}{\numberline {7-14}{\ignorespaces The bracelet template with one instance of the radial function being called}}{74}{figure.7.14}
+\contentsline {figure}{\numberline {7-15}{\ignorespaces Results from the youth workshop}}{75}{figure.7.15}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
