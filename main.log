@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  3 JUN 2013 01:18
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  6 JUN 2013 19:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -249,7 +249,7 @@ Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
 (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
-(./chap8.aux) (./chap9.aux) (./chap10.aux) (./biblio.aux))
+(./chap8.aux) (./chap9.aux) (./chap10.aux) (./appa.aux) (./biblio.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
@@ -376,14 +376,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapter 1.
-
-LaTeX Warning: Citation `mellis_thesis' on page 13 undefined on input line 9.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13])
-[14]
+[13]) [14]
 \openout2 = `chap2.aux'.
 
  (./chap2.tex
@@ -397,86 +390,82 @@ Missing character: There is no Õ in font cmti10!
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
- [16]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+ [16] [17] <images/pavillion_shopbot.png, id=456, 3244.12pt x 714.67pt>
+File: images/pavillion_shopbot.png Graphic file (type png)
 
-LaTeX Warning: Citation `gershenfeld' on page 17 undefined on input line 42.
-
-
-LaTeX Warning: Citation `lipson' on page 17 undefined on input line 42.
-
-
-LaTeX Warning: Citation `eisenberg_fablearn' on page 17 undefined on input line
- 43.
-
+<use images/pavillion_shopbot.png>
+Package pdftex.def Info: images/pavillion_shopbot.png used on input line 53.
+(pdftex.def)             Requested size: 433.62pt x 95.51665pt.
+ [18 <./images/pavillion_shopbot.png (PNG copy)>]
 Missing character: There is no Õ in font cmr10!
 
-Underfull \vbox (badness 3668) has occurred while \output is active []
 
- [17]
-[18]
+LaTeX Warning: Citation `craft_reader' on page 19 undefined on input line 64.
+
+[19]
 Missing character: There is no Õ in font cmti10!
 Missing character: There is no Ñ in font cmti10!
 
 
-LaTeX Warning: Citation `rosner_craft_vs_design' on page 19 undefined on input 
-line 54.
+LaTeX Warning: Citation `rosner_craft_vs_design' on page 20 undefined on input 
+line 77.
 
 
-LaTeX Warning: Citation `tanenbaum' on page 19 undefined on input line 56.
+LaTeX Warning: Citation `tanenbaum' on page 20 undefined on input line 80.
 
-) [19]
+) [20]
 \openout2 = `chap3.aux'.
 
- (./chap3.tex [20
+ (./chap3.tex
+Chapter 3.
+[21
 
 
 
 ]
-Chapter 3.
-
-LaTeX Warning: Citation `DesignScript' on page 21 undefined on input line 14.
-
-[21]
-
-LaTeX Warning: Citation `OpenScad' on page 22 undefined on input line 16.
+Missing character: There is no § in font cmr10!
 
 
-LaTeX Warning: Citation `sketchup' on page 22 undefined on input line 21.
+LaTeX Warning: Citation `123D' on page 22 undefined on input line 25.
+
+[22]
+
+LaTeX Warning: Citation `scratch' on page 23 undefined on input line 35.
 
 
-LaTeX Warning: Citation `tinkercad' on page 22 undefined on input line 21.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+<images/logo_turtle.png, id=500, 776.9025pt x 650.43pt>
+File: images/logo_turtle.png Graphic file (type png)
+
+<use images/logo_turtle.png>
+Package pdftex.def Info: images/logo_turtle.png used on input line 41.
+(pdftex.def)             Requested size: 433.62pt x 363.03741pt.
 
 
-LaTeX Warning: Citation `123D' on page 22 undefined on input line 21.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22] [23]
-
-LaTeX Warning: Citation `spirogator' on page 24 undefined on input line 31.
-
-) [24] [25]
+[24] [25 <./images/logo_turtle.png (PNG copy)>]) [26]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex [26
-
-
-
-]
+ (./chap4.tex
 Chapter 4.
-[27] [28]
+[27
+
+
+
+] [28]
 Missing character: There is no Õ in font cmr10!
 Missing character: There is no Õ in font cmr10!
 Missing character: There is no Õ in font cmr10!
-) [29]
+) [29] [30]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [30
-
-
-
-]
+ (./chap5.tex
 Chapter 5.
-<images/finished_lamps.png, id=501, 1409.265pt x 1141.26375pt>
+<images/finished_lamps.png, id=546, 1409.265pt x 1141.26375pt>
 File: images/finished_lamps.png Graphic file (type png)
 
 <use images/finished_lamps.png>
@@ -487,8 +476,12 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 10--11
  [] 
  []
 
-[31 <./images/finished_lamps.png (PNG copy)>]
-<images/instructables_lamps.png, id=507, 1409.265pt x 1050.92625pt>
+[31
+
+
+
+ <./images/finished_lamps.png (PNG copy)>]
+<images/instructables_lamps.png, id=552, 1409.265pt x 1050.92625pt>
 File: images/instructables_lamps.png Graphic file (type png)
 
 <use images/instructables_lamps.png>
@@ -500,7 +493,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 16--17
  []
 
 [32 <./images/instructables_lamps.png (PNG copy)>]
-<images/solidworks_lamp.png, id=515, 1409.265pt x 493.845pt>
+<images/solidworks_lamp.png, id=560, 1409.265pt x 493.845pt>
 File: images/solidworks_lamp.png Graphic file (type png)
 
 <use images/solidworks_lamp.png>
@@ -511,7 +504,8 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 24--25
 [][] 
  []
 
-<images/parts.png, id=518, 1409.265pt x 948.54375pt>
+[33 <./images/solidworks_lamp.png>]
+<images/parts.png, id=568, 1409.265pt x 948.54375pt>
 File: images/parts.png Graphic file (type png)
  <use images/parts.png>
 Package pdftex.def Info: images/parts.png used on input line 34.
@@ -521,11 +515,8 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 34--35
 [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[33 <./images/solidworks_lamp.png>]
-<images/voronoi_clipped.png, id=526, 357.335pt x 283.0575pt>
+[34 <./images/parts.png>]
+<images/voronoi_clipped.png, id=576, 357.335pt x 283.0575pt>
 File: images/voronoi_clipped.png Graphic file (type png)
 
 <use images/voronoi_clipped.png>
@@ -541,11 +532,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--50
 \OT1/cmr/m/n/10 4[]).
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34 <./images/parts.png>] <images/codeable_objects_v1.jpg, id=533, 1003.75pt x
- 634.37pt>
+<images/codeable_objects_v1.jpg, id=578, 1003.75pt x 634.37pt>
 File: images/codeable_objects_v1.jpg Graphic file (type jpg)
 
 <use images/codeable_objects_v1.jpg>
@@ -560,14 +547,14 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 56--57
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [35 <./images/voronoi_clipped.png (PNG copy)>]
-<images/finished_lamps2.png, id=540, 1409.265pt x 548.0475pt>
+<images/finished_lamps2.png, id=585, 1409.265pt x 548.0475pt>
 File: images/finished_lamps2.png Graphic file (type png)
 
 <use images/finished_lamps2.png>
-Package pdftex.def Info: images/finished_lamps2.png used on input line 68.
+Package pdftex.def Info: images/finished_lamps2.png used on input line 69.
 (pdftex.def)             Requested size: 469.75499pt x 182.67926pt.
 
-Overfull \hbox (36.135pt too wide) in paragraph at lines 68--69
+Overfull \hbox (36.135pt too wide) in paragraph at lines 69--70
 [][] 
  []
 
@@ -575,35 +562,33 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 68--69
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [36 <./images/codeable_objects_v1.jpg>] [37 <./images/finished_lamps2.png>]
-<images/slider_interface.png, id=553, 1409.265pt x 364.36125pt>
+[38] <images/slider_interface.png, id=602, 1409.265pt x 364.36125pt>
 File: images/slider_interface.png Graphic file (type png)
 
 <use images/slider_interface.png>
-Package pdftex.def Info: images/slider_interface.png used on input line 108.
+Package pdftex.def Info: images/slider_interface.png used on input line 124.
 (pdftex.def)             Requested size: 469.75499pt x 121.45158pt.
 
-Overfull \hbox (36.135pt too wide) in paragraph at lines 108--109
+Overfull \hbox (36.135pt too wide) in paragraph at lines 124--125
 [][] 
  []
 
-[38 <./images/slider_interface.png (PNG copy)>]
-Missing character: There is no Õ in font cmr10!
-
-Underfull \vbox (badness 1769) has occurred while \output is active []
-
- [39]
-<images/paper_lamps.png, id=563, 1409.265pt x 301.125pt>
+[39 <./images/slider_interface.png (PNG copy)>]
+<images/paper_lamps.png, id=608, 1409.265pt x 301.125pt>
 File: images/paper_lamps.png Graphic file (type png)
 
 <use images/paper_lamps.png>
-Package pdftex.def Info: images/paper_lamps.png used on input line 125.
+Package pdftex.def Info: images/paper_lamps.png used on input line 147.
 (pdftex.def)             Requested size: 469.75499pt x 100.37321pt.
 
-Overfull \hbox (36.135pt too wide) in paragraph at lines 125--126
+Overfull \hbox (36.135pt too wide) in paragraph at lines 147--148
 [][] 
  []
 
-) [40 <./images/paper_lamps.png (PNG copy)>] [41]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40]) [41 <./images/paper_lamps.png (PNG copy)>]
 \openout2 = `chap6.aux'.
 
  (./chap6.tex [42
@@ -612,7 +597,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 125--126
 
 ]
 Chapter 6.
-<images/fashion_show.png, id=576, 1409.265pt x 867.24pt>
+<images/fashion_show.png, id=622, 1409.265pt x 867.24pt>
 File: images/fashion_show.png Graphic file (type png)
 
 <use images/fashion_show.png>
@@ -630,7 +615,7 @@ LaTeX Warning: Citation `n12' on page 43 undefined on input line 17.
 Underfull \vbox (badness 3039) has occurred while \output is active []
 
  [43 <./images/fashion_show.png (PNG copy)>]
-<images/3d_prinited_high_fashion.png, id=583, 1879.02pt x 469.755pt>
+<images/3d_prinited_high_fashion.png, id=629, 1879.02pt x 469.755pt>
 File: images/3d_prinited_high_fashion.png Graphic file (type png)
 
 <use images/3d_prinited_high_fashion.png>
@@ -647,7 +632,7 @@ LaTeX Warning: Reference `accessible_fashion' on page 44 undefined on input lin
 e 27.
 
 [44 <./images/3d_prinited_high_fashion.png (PNG copy)>]
-<images/accessible_fashion.png, id=589, 1879.02pt x 469.755pt>
+<images/accessible_fashion.png, id=635, 1879.02pt x 469.755pt>
 File: images/accessible_fashion.png Graphic file (type png)
 
 <use images/accessible_fashion.png>
@@ -660,47 +645,46 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 33--34
 
 Missing character: There is no Ñ in font cmr10!
 Missing character: There is no Ñ in font cmr10!
+Missing character: There is no Ñ in font cmr10!
+Missing character: There is no Õ in font cmr10!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45 <./images/accessible_fashion.png (PNG copy)>]
-Missing character: There is no Ñ in font cmr10!
-Missing character: There is no Õ in font cmr10!
-
-<images/primitive_syntax.png, id=594, 1409.265pt x 707.64375pt>
+<images/primitive_syntax.png, id=640, 1409.265pt x 707.64375pt>
 File: images/primitive_syntax.png Graphic file (type png)
 
 <use images/primitive_syntax.png>
-Package pdftex.def Info: images/primitive_syntax.png used on input line 47.
+Package pdftex.def Info: images/primitive_syntax.png used on input line 45.
 (pdftex.def)             Requested size: 469.75499pt x 235.87708pt.
 
-Overfull \hbox (42.93498pt too wide) in paragraph at lines 47--48
+Overfull \hbox (42.93498pt too wide) in paragraph at lines 45--46
 [][] 
  []
 
 [46 <./images/primitive_syntax.png (PNG copy)>]
-<images/softobjects_workflow.jpg, id=601, 1418.29875pt x 903.375pt>
+<images/softobjects_workflow.jpg, id=646, 1418.29875pt x 903.375pt>
 File: images/softobjects_workflow.jpg Graphic file (type jpg)
 
 <use images/softobjects_workflow.jpg>
-Package pdftex.def Info: images/softobjects_workflow.jpg used on input line 59.
+Package pdftex.def Info: images/softobjects_workflow.jpg used on input line 56.
 
 (pdftex.def)             Requested size: 469.75499pt x 299.20364pt.
 
-Overfull \hbox (36.135pt too wide) in paragraph at lines 59--60
+Overfull \hbox (36.135pt too wide) in paragraph at lines 56--57
 [][] 
  []
 
 Missing character: There is no Ñ in font cmr10!
 [47 <./images/softobjects_workflow.jpg>]
-<images/scarves_bracelets.png, id=607, 1409.265pt x 261.97874pt>
+<images/scarves_bracelets.png, id=652, 1409.265pt x 261.97874pt>
 File: images/scarves_bracelets.png Graphic file (type png)
 
 <use images/scarves_bracelets.png>
-Package pdftex.def Info: images/scarves_bracelets.png used on input line 72.
+Package pdftex.def Info: images/scarves_bracelets.png used on input line 67.
 (pdftex.def)             Requested size: 469.75499pt x 87.32469pt.
 
-Overfull \hbox (36.135pt too wide) in paragraph at lines 72--73
+Overfull \hbox (36.135pt too wide) in paragraph at lines 67--68
 [][] 
  []
 
@@ -709,14 +693,14 @@ Missing character: There is no Ó in font cmr10!
 Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
 [48 <./images/scarves_bracelets.png (PNG copy)>]
-<images/fashion_results.png, id=612, 1409.265pt x 466.74374pt>
+<images/fashion_results.png, id=659, 1409.265pt x 466.74374pt>
 File: images/fashion_results.png Graphic file (type png)
 
 <use images/fashion_results.png>
-Package pdftex.def Info: images/fashion_results.png used on input line 87.
+Package pdftex.def Info: images/fashion_results.png used on input line 82.
 (pdftex.def)             Requested size: 469.75499pt x 155.57849pt.
 
-Overfull \hbox (36.135pt too wide) in paragraph at lines 87--88
+Overfull \hbox (36.135pt too wide) in paragraph at lines 82--83
 [][] 
  []
 
@@ -726,34 +710,30 @@ Missing character: There is no Ó in font cmr10!
 Missing character: There is no Õ in font cmti10!
 Missing character: There is no Õ in font cmti10!
 Missing character: There is no Õ in font cmti10!
-Missing character: There is no Õ in font cmti10!
-Missing character: There is no Õ in font cmti10!
-Missing character: There is no Õ in font cmti10!
  [50]
+Missing character: There is no Õ in font cmti10!
+Missing character: There is no Õ in font cmti10!
+Missing character: There is no Õ in font cmti10!
 Missing character: There is no Õ in font cmti10!
 Missing character: There is no Õ in font cmti10!
 Missing character: There is no É in font cmti10!
 Missing character: There is no Õ in font cmti10!
 Missing character: There is no Õ in font cmr10!
-
-<images/samurai_dress_progression.png, id=624, 1343.0175pt x 554.07pt>
+ [51]
+<images/samurai_dress_progression.png, id=675, 1343.0175pt x 554.07pt>
 File: images/samurai_dress_progression.png Graphic file (type png)
 
 <use images/samurai_dress_progression.png>
 Package pdftex.def Info: images/samurai_dress_progression.png used on input lin
-e 140.
+e 145.
 (pdftex.def)             Requested size: 469.75499pt x 193.80058pt.
 
-Overfull \hbox (36.135pt too wide) in paragraph at lines 140--141
+Overfull \hbox (36.135pt too wide) in paragraph at lines 145--146
 [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[51]
 Missing character: There is no É in font cmti10!
- [52 <./images/samurai_dress_progression.png (PNG copy)>]
+[52 <./images/samurai_dress_progression.png (PNG copy)>]
 Missing character: There is no Õ in font cmr10!
 Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
@@ -771,9 +751,9 @@ Missing character: There is no Õ in font cmti10!
 Missing character: There is no Õ in font cmti10!
 Missing character: There is no Õ in font cmti10!
 Missing character: There is no Õ in font cmti10!
+ [54]
 Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
- [54]
 Missing character: There is no Õ in font cmti10!
 Missing character: There is no Ò in font cmti10!
 Missing character: There is no Ó in font cmti10!
@@ -782,28 +762,20 @@ Missing character: There is no Ò in font cmti10!
 Missing character: There is no Ó in font cmti10!
 Missing character: There is no Õ in font cmti10!
 Missing character: There is no Õ in font cmti10!
+ [55]
 
-[55] <images/illustrator_example.png, id=648, 1409.265pt x 310.15875pt>
-File: images/illustrator_example.png Graphic file (type png)
-
-<use images/illustrator_example.png>
-Package pdftex.def Info: images/illustrator_example.png used on input line 195.
-
-(pdftex.def)             Requested size: 469.75499pt x 103.38441pt.
-
-Overfull \hbox (36.135pt too wide) in paragraph at lines 195--196
-[][] 
- []
+LaTeX Warning: Reference `fig:illustrator_example' on page 56 undefined on inpu
+t line 197.
 
 
-LaTeX Warning: Citation `khan' on page 56 undefined on input line 200.
+LaTeX Warning: Citation `khan' on page 56 undefined on input line 199.
 
-) [56 <./images/illustrator_example.png>]
+) [56]
 \openout2 = `chap7.aux'.
 
  (./chap7.tex
 Chapter 7.
-<images/dressCode_main.png, id=653, 1879.02pt x 1184.425pt>
+<images/dressCode_main.png, id=698, 1879.02pt x 1184.425pt>
 File: images/dressCode_main.png Graphic file (type png)
 
 <use images/dressCode_main.png>
@@ -824,7 +796,7 @@ Missing character: There is no Õ in font cmr10!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
-<images/dress_code_interface.png, id=662, 1879.02pt x 1156.32pt>
+<images/dress_code_interface.png, id=707, 1879.02pt x 1156.32pt>
 File: images/dress_code_interface.png Graphic file (type png)
 
 <use images/dress_code_interface.png>
@@ -837,7 +809,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 27--28
  []
 
 [59 <./images/dress_code_interface.png (PNG copy)>]
-<images/interpreter_structure_horz.png, id=669, 1439.3775pt x 496.85625pt>
+<images/interpreter_structure_horz.png, id=714, 1439.3775pt x 496.85625pt>
 File: images/interpreter_structure_horz.png Graphic file (type png)
 
 <use images/interpreter_structure_horz.png>
@@ -858,7 +830,7 @@ LaTeX Warning: Reference `fig:basic_datatypes' on page 61 undefined on input li
 ne 61.
 
 [61 <./images/interpreter_structure_horz.png (PNG copy)>] [62] [63]
-<images/api_table.png, id=758, 1409.265pt x 542.025pt>
+<images/api_table.png, id=803, 1409.265pt x 542.025pt>
 File: images/api_table.png Graphic file (type png)
 
 <use images/api_table.png>
@@ -870,7 +842,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 180--181
  []
 
 [64 <./images/api_table.png (PNG copy)>]
-<images/primitives.png, id=769, 1409.265pt x 623.32875pt>
+<images/primitives.png, id=814, 1409.265pt x 623.32875pt>
 File: images/primitives.png Graphic file (type png)
 
 <use images/primitives.png>
@@ -882,7 +854,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 190--191
  []
 
 [65 <./images/primitives.png (PNG copy)>]
-<images/transformation.png, id=776, 1879.02pt x 1092.08pt>
+<images/transformation.png, id=821, 1879.02pt x 1092.08pt>
 File: images/transformation.png Graphic file (type png)
 
 <use images/transformation.png>
@@ -893,7 +865,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 203--204
 [][] 
  []
 
-<images/grouping.png, id=778, 1409.265pt x 819.06pt>
+<images/grouping.png, id=823, 1409.265pt x 819.06pt>
 File: images/grouping.png Graphic file (type png)
  <use images/grouping.png>
 Package pdftex.def Info: images/grouping.png used on input line 213.
@@ -910,7 +882,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [67 <./images/grouping.png (PNG copy)>]
-<images/boolean.png, id=790, 1409.265pt x 819.06pt>
+<images/boolean.png, id=836, 1409.265pt x 819.06pt>
 File: images/boolean.png Graphic file (type png)
  <use images/boolean.png>
 Package pdftex.def Info: images/boolean.png used on input line 226.
@@ -921,7 +893,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 226--227
  []
 
 [68 <./images/boolean.png (PNG copy)>]
-<images/random_symmetry.png, id=797, 1418.29875pt x 882.29625pt>
+<images/random_symmetry.png, id=843, 1418.29875pt x 882.29625pt>
 File: images/random_symmetry.png Graphic file (type png)
 
 <use images/random_symmetry.png>
@@ -939,7 +911,7 @@ Missing character: There is no Ž in font cmr10!
 LaTeX Warning: Citation `thesis_website' on page 70 undefined on input line 248
 .
 
-<images/dresscode_examples.png, id=804, 2821.54124pt x 1279.78125pt>
+<images/dresscode_examples.png, id=850, 2821.54124pt x 1279.78125pt>
 File: images/dresscode_examples.png Graphic file (type png)
 
 <use images/dresscode_examples.png>
@@ -949,7 +921,7 @@ Package pdftex.def Info: images/dresscode_examples.png used on input line 252.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[70] <images/adult_design_time.png, id=809, 1409.265pt x 867.24pt>
+[70] <images/adult_design_time.png, id=855, 1409.265pt x 867.24pt>
 File: images/adult_design_time.png Graphic file (type png)
 
 <use images/adult_design_time.png>
@@ -960,7 +932,7 @@ Package pdftex.def Info: images/adult_design_time.png used on input line 269.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [71 <./images/dresscode_examples.png (PNG copy)>]
-<images/youth_brainstorm.png, id=815, 1409.265pt x 484.81125pt>
+<images/youth_brainstorm.png, id=860, 1409.265pt x 484.81125pt>
 File: images/youth_brainstorm.png Graphic file (type png)
 
 <use images/youth_brainstorm.png>
@@ -971,14 +943,14 @@ Package pdftex.def Info: images/youth_brainstorm.png used on input line 282.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [72 <./images/adult_design_time.png (PNG copy)>]
-<images/first_algorithm.png, id=822, 1409.265pt x 502.87875pt>
+<images/first_algorithm.png, id=867, 1409.265pt x 502.87875pt>
 File: images/first_algorithm.png Graphic file (type png)
 
 <use images/first_algorithm.png>
 Package pdftex.def Info: images/first_algorithm.png used on input line 292.
 (pdftex.def)             Requested size: 433.62pt x 154.73213pt.
 
-<images/show_and_tell.png, id=823, 469.755pt x 103.38625pt>
+<images/show_and_tell.png, id=868, 469.755pt x 103.38625pt>
 File: images/show_and_tell.png Graphic file (type png)
 
 <use images/show_and_tell.png>
@@ -989,14 +961,14 @@ Package pdftex.def Info: images/show_and_tell.png used on input line 300.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [73 <./images/youth_brainstorm.png (PNG copy)> <./images/first_algorithm.png (P
-NG copy)>] <images/bracelet_template.png, id=830, 1409.265pt x 478.78876pt>
+NG copy)>] <images/bracelet_template.png, id=875, 1409.265pt x 478.78876pt>
 File: images/bracelet_template.png Graphic file (type png)
 
 <use images/bracelet_template.png>
 Package pdftex.def Info: images/bracelet_template.png used on input line 310.
 (pdftex.def)             Requested size: 433.62pt x 147.31981pt.
 
-<images/youth_results.png, id=831, 1409.265pt x 725.71124pt>
+<images/youth_results.png, id=876, 1409.265pt x 725.71124pt>
 File: images/youth_results.png Graphic file (type png)
 
 <use images/youth_results.png>
@@ -1030,53 +1002,54 @@ Chapter 9.
 
 
 No file chap10.tex.
-\openout2 = `biblio.aux'.
+\openout2 = `appa.aux'.
 
-(./biblio.tex (./main.bbl [80
+(./appa.tex [80
 
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6--10
-[]\OT1/cmr/m/n/10 How to make a laser cut lamp.  []$\OT1/cmtt/m/n/10 http : / /
- www . instructables . com / id /
- []
+Appendix A.
+Missing character: There is no Õ in font cmr10!
+[81]
+Missing character: There is no Õ in font cmr10!
+ [82])
+\openout2 = `biblio.aux'.
+
+ (./biblio.tex (./main.bbl
+Missing character: There is no Ð in font cmti10!
+ [83
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 17--20
-[]\OT1/cmr/m/n/10 Dresscode wiki.  []$\OT1/cmtt/m/n/10 http : / / jacobsj . scr
-ipts . mit . edu / dresscode/$[]\OT1/cmr/m/n/10 , 2013.  (Ac-cessed:
- []
 
-)) [81]
+
+])) [84]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
- (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
-(./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
-(./chap8.aux) (./chap9.aux) (./chap10.aux) (./biblio.aux))
+ (./main.aux (./cover.aux)
+(./contents.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux)
+(./chap5.aux) (./chap6.aux) (./chap7.aux) (./chap8.aux) (./chap9.aux)
+(./chap10.aux) (./appa.aux) (./biblio.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 88F74D8C5ABC9D7501470DA76C551241;3963.
+(rerunfilecheck)             Checksum: 77500608B1F7FBC9A8E55A3474270E50;4019.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 7592 strings out of 494578
- 111139 string characters out of 3168574
- 335162 words of memory out of 3000000
- 10378 multiletter control sequences out of 15000+200000
+ 7661 strings out of 494578
+ 111873 string characters out of 3168574
+ 336208 words of memory out of 3000000
+ 10396 multiletter control sequences out of 15000+200000
  7608 words of font info for 28 fonts, out of 3000000 for 9000
  314 hyphenation exceptions out of 8191
- 29i,8n,35p,2747b,1731s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,8n,35p,2283b,1731s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/
@@ -1087,10 +1060,10 @@ msfonts/cm/cmsy10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmtt8.pfb>
-Output written on main.pdf (81 pages, 33118047 bytes).
+Output written on main.pdf (84 pages, 35768514 bytes).
 PDF statistics:
- 963 PDF objects out of 1000 (max. 8388607)
- 825 compressed objects within 9 object streams
- 255 named destinations out of 1000 (max. 500000)
- 619 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1056 PDF objects out of 1200 (max. 8388607)
+ 913 compressed objects within 10 object streams
+ 298 named destinations out of 1000 (max. 500000)
+ 632 words of extra memory for PDF output out of 10000 (max. 10000000)
 

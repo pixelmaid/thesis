@@ -1,6 +1,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2-1}{\ignorespaces 3-axis CNC milling machine adapted as CNC deposition tool using a custom threading tool. (Part of the Silk Pavilion Fabrication process)}}{18}{figure.2.1}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3-1}{\ignorespaces The Logo Turtle robot: an early form of computational design and digital fabrication for novices)}}{25}{figure.3.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5-1}{\ignorespaces a selection of laser cut lamps from Instructables}}{32}{figure.5.1}
@@ -9,8 +11,8 @@
 \contentsline {figure}{\numberline {5-4}{\ignorespaces Algorithim for constraining the voronoi diagram within the shade}}{35}{figure.5.4}
 \contentsline {figure}{\numberline {5-5}{\ignorespaces The first version of Codeable Objects, with only text-based interaction}}{36}{figure.5.5}
 \contentsline {figure}{\numberline {5-6}{\ignorespaces Several of the finished lamps from the first workshop}}{37}{figure.5.6}
-\contentsline {figure}{\numberline {5-7}{\ignorespaces Revised graphic view with sliders}}{38}{figure.5.7}
-\contentsline {figure}{\numberline {5-8}{\ignorespaces The revised paper lamps}}{40}{figure.5.8}
+\contentsline {figure}{\numberline {5-7}{\ignorespaces Revised graphic view with sliders}}{39}{figure.5.7}
+\contentsline {figure}{\numberline {5-8}{\ignorespaces The revised paper lamps}}{41}{figure.5.8}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6-1}{\ignorespaces 3D printed fashion (from left to right: Crystallization 3d Top by Iris Van Herpen, Drape Dress by Janne Kyttanen, N12 Bikini by Continuum Fashion, Strvct shoe by Continuum Fashion}}{44}{figure.6.1}
 \contentsline {figure}{\numberline {6-2}{\ignorespaces "Ready to wear" computational fashion (from left to right: Fibonacci Scarf by Diana Eng, Biomimicry laser-cut bracelet by Stefanie Nieuwenhuyse, Laser Lace All-Over Tee by Diana Eng, Interstice bracelet by Nervous Systems, Modular Fashion by Eunsuk Hur}}{45}{figure.6.2}
@@ -19,7 +21,6 @@
 \contentsline {figure}{\numberline {6-5}{\ignorespaces Bracelets and scarves from preliminary activities}}{48}{figure.6.5}
 \contentsline {figure}{\numberline {6-6}{\ignorespaces Completed garments (from left to right: octagon dress, flag pants, samurai dress, viral sweatshirt)}}{49}{figure.6.6}
 \contentsline {figure}{\numberline {6-7}{\ignorespaces Progression of samurai dress (from left to right: concept sketch, computationally generated pattern,laser-cut components of final garment)}}{52}{figure.6.7}
-\contentsline {figure}{\numberline {6-8}{\ignorespaces Illustrator shape booleans - the laser cutter would cut along the blue line (from left to right: vector path, expanded vector path, group of individual vector polygons, merged group of vector polygons)}}{56}{figure.6.8}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7-1}{\ignorespaces The DressCode interface}}{59}{figure.7.1}
 \contentsline {figure}{\numberline {7-2}{\ignorespaces Interpreter structure}}{61}{figure.7.2}
@@ -36,5 +37,6 @@
 \contentsline {figure}{\numberline {7-13}{\ignorespaces Some example variations on the first activity}}{74}{figure.7.13}
 \contentsline {figure}{\numberline {7-14}{\ignorespaces The bracelet template with one instance of the radial function being called}}{74}{figure.7.14}
 \contentsline {figure}{\numberline {7-15}{\ignorespaces Results from the youth workshop}}{75}{figure.7.15}
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
