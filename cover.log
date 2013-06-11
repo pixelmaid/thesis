@@ -1,0 +1,31 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  7 JUN 2013 23:24
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**cover.tex
+(./cover.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ba
+sque, danish, dutch, ukenglish, usenglishmax, finnish, french, german, ngerman,
+ swissgerman, hungarian, italian, bokmal, nynorsk, polish, portuguese, spanish,
+ swedish, loaded.
+./cover.tex:57: Undefined control sequence.
+l.57 \department
+                {Department of Media Arts and Sciences}
+? 
+./cover.tex:57: Emergency stop.
+l.57 \department
+                {Department of Media Arts and Sciences}
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 5 strings out of 494578
+ 118 string characters out of 3168574
+ 45826 words of memory out of 3000000
+ 3329 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 314 hyphenation exceptions out of 8191
+ 5i,0n,1p,111b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+./cover.tex:57:  ==> Fatal error occurred, no output PDF file produced!

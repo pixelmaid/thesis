@@ -55,14 +55,15 @@
 \contentsline {section}{\numberline {7.7}Preliminary curriculum results}{80}{section.7.7}
 \contentsline {section}{\numberline {7.8}Discussion}{80}{section.7.8}
 \contentsline {subsection}{\numberline {7.8.1}Enjoyment in Programing}{80}{subsection.7.8.1}
-\contentsline {subsection}{\numberline {7.8.2}Starting notions of craft and computation}{84}{subsection.7.8.2}
-\contentsline {subsection}{\numberline {7.8.3}Relation to Other Design Tools}{86}{subsection.7.8.3}
-\contentsline {subsection}{\numberline {7.8.4}Design Process and resultant aesthetics}{87}{subsection.7.8.4}
-\contentsline {subsection}{\numberline {7.8.5}Pride and Accomplishment in Algorithmic Craft}{89}{subsection.7.8.5}
-\contentsline {subsection}{\numberline {7.8.6}Design history and selection}{90}{subsection.7.8.6}
-\contentsline {subsection}{\numberline {7.8.7}Prototyping pt 2}{90}{subsection.7.8.7}
-\contentsline {subsection}{\numberline {7.8.8}Connection to other applications}{90}{subsection.7.8.8}
-\contentsline {subsection}{\numberline {7.8.9} challenges in crafting}{90}{subsection.7.8.9}
+\contentsline {subsection}{\numberline {7.8.2}Design Processes of Youth and Expert practitioners}{84}{subsection.7.8.2}
+\contentsline {subsection}{\numberline {7.8.3}Computational Aesthetics}{87}{subsection.7.8.3}
+\contentsline {subsection}{\numberline {7.8.4}Starting notions of craft and computation}{87}{subsection.7.8.4}
+\contentsline {subsection}{\numberline {7.8.5}Relation to Other Design Tools}{89}{subsection.7.8.5}
+\contentsline {subsection}{\numberline {7.8.6}Pride and Accomplishment in Algorithmic Craft}{89}{subsection.7.8.6}
+\contentsline {subsection}{\numberline {7.8.7}Design history and selection}{89}{subsection.7.8.7}
+\contentsline {subsection}{\numberline {7.8.8}Prototyping pt 2}{89}{subsection.7.8.8}
+\contentsline {subsection}{\numberline {7.8.9}Connection to other applications}{89}{subsection.7.8.9}
+\contentsline {subsection}{\numberline {7.8.10} challenges in crafting}{89}{subsection.7.8.10}
 \contentsline {chapter}{\numberline {8}Discussion (rename)}{91}{chapter.8}
 \contentsline {chapter}{\numberline {9}Future Directions}{93}{chapter.9}
 \contentsline {chapter}{\numberline {A}Interview Questions}{95}{appendix.A}
