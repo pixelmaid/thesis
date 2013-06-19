@@ -4,10 +4,10 @@
 %% You can process specific files by typing their names in at the 
 %% \files=
 %% prompt when you run the file main.tex through LaTeX.
-\chapter{Algorithmic Fabrication: Computational Design, Digital Fabrication and Craft}
+\chapter{Background and Motivation}
 
 \begin{flushright}
-\textit{``The mathematician’s patterns, like the painter’s or the poet’s 
+\textit{``The mathematician's patterns, like the painter's or the poet's 
 must be beautiful; the ideas like the colours or the words, must fit 
 together in a harmonious way. Beauty is the first test: there is no 
 permanent place in the world for ugly mathematics."
@@ -16,21 +16,73 @@ G. H. Hardy \cite{hardy}
 \end{flushright}
 
 
-In order to illustrate the creative potential of algorithmic craft, it is useful to examine its contents: computational design , craft and digital fabrication.  Each of these disciplines have separate strengths and limitations when used independently. Through their convergence, new and compelling forms of creation become possible. In computational design, the abstract qualities of computation provide a powerful way of thinking about design. With appropriate programming, a computer can embody any conceivable process \cite{mateas}. Similarly, computational design can be applied to any design domain, be it physical, visual, sonic, or interactive. Although individual applications of computational design often consider material properties that are  relevant to a specific domain, computational design does posses an inherent connection to the material world. Craft on the other hand is rooted in materiality. Craftspeople work in close contact with the physical world and craft artifacts and processes are directly informed by material properties. Digital fabrication provides a connection between the abstraction of computational design and the material domain of craft, by converting digital concepts to physical forms. In the following section I discuss the properties of computational design, digital fabrication and craft in greater detail and demonstrate specific connection points between each medium.
+In order to illustrate the creative potential of algorithmic craft, it is useful to examine its contents: computational design, digital fabrication and craft.  Each of these disciplines have distinct strengths and limitations. Through their convergence, new, compelling forms of creation become possible. In computational design, the abstract qualities of computation provide a powerful way of thinking about design. With appropriate programming, a computer can embody any conceivable process \cite{mateas}. Similarly, computational design can be applied to any design domain, be it physical, visual, sonic, or interactive. Although individual applications of computational design often consider material properties that are  relevant to a specific domain, computational design does posses an inherent connection to the material world. Craft on the other hand is closely linked to materiality. Craftspeople work in close contact with the physical world and craft artifacts and processes are directly informed by material properties. Digital fabrication provides a connection between the abstraction of computational design and the material domain of craft, by converting digital concepts to physical forms. In the following section I discuss the properties of computational design, digital fabrication and craft in greater detail and describe connection points between each discipline.
 
 \section{Computational Design}\label{sec:computational_design}
-As previously mentioned, computational design can refer to a range of design practices that incorporate programing. My focus in computational design is the process of using computer code to create visual forms and patterns. Because computational design requires the designer to write computer programs, it is possible to mistake the practice of computational design as a technical skill rather than a way of thinking \cite{reas}. Although some degree of technical programing expertise is required, computational design is better represented as a way of applying procedural thinking to a design task.  Rather than producing specific design representations, the designer authors a set of rules that define a system capable of producing many outcomes. Designs are presented in abstract terms, resulting in the potential to create multiple variations that share a set of constraints. One of the challenges of computational design is in authoring guidelines that effectively produce solutions within the desired design space. Presented as an ordered set of instructions, they constitute an algorithim. The ability to read and write and conceive of design algorithms allows for the incorporation of several key properties and methods. These include the following:
+As previously mentioned, computational design can refer to a range of design practices that incorporate computation and programing. Computation refers to the conception and description of procedures and processes \todo{redefine}. Programing is the process of describing these procedures in code that is readable by a computer. My focus in computational design is the process of using computation to create visual forms and patterns. Because computational design requires the designer to write programs, it is possible to mistake the practice of computational design as a technical skill rather than a way of thinking \cite{reas}. It is true that computational design does require a degree of technical expertise; practitioners must be able to write and read code.  Despite this requirement, computational design is better represented as a way of applying procedural thinking to a design task.  
 
-\todo{insert work examples by marius watz, sep kamvar, sol deWit, corey archangel and casey reas.... need ideas for female computational designers}
+  \begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/wall_drawings.jpg}
+\caption{Wall drawings by Sol Lewitt. From left to right: Wall Drawing 19: A wall divided vertically into six equal parts, with two of the four kinds of line directions superimposed in each part (1969), Wall Drawing 38 (Detail): Tissue paper cut into 1.5-inch (4 cm) squares and inserted into holes in the gray pegboard walls. All holes in the walls are filled randomly (1970).}
+\label{fig:wall_drawings}
+\end{figure}
+\end{center}
 
+Rather than producing specific design representations, the designer authors a set of rules that define a system capable of producing many outcomes. Designs are presented in abstract terms, resulting in the potential to create multiple variations that share a set of constraints. One of the challenges of computational design is in authoring guidelines that effectively produce solutions within the desired design space. Presented as an ordered set of instructions, these guidelines constitute an algorithm. Arguably, it is possible to engage in computational design without using a computer. The artist Sol Lewitt created a number of artworks consisting of a set of instructions that dictated the constraints of an artwork:
 
+\begin{quotation}
+WORK FROM INSTRUCTIONS (1971):\\USING A BLACK, HARD CRAYON DRAW A TWENTY INCH SQUARE.\\DIVIDE THIS SQUARE INTO ONE INCH SQUARES. \\WITHIN EACH ONE INCH SQUARE, DRAW NOTHING, OR DRAW A DIAGONAL STRAIGHT LINE FROM CORNER TO CORNER OR TWO CROSSING STRAIGHT LINES DIAGONALLY FROM CORNER TO CORNER.
+\end{quotation}
+
+ The resulting piece would vary depending on how the instructions were interpreted by the people executing them.  Many of his other artworks contained the instructions for producing them in the title of the piece (figure:\ref{fig:wall_drawings}.) Using a computer to execute computational design algorithms as opposed to human beings greatly accelerates the process of execution, and supports a non-linear design process. The specific affordances of computational design are as follows:
+ 
 \begin{itemize}
 \item \textbf{Precision:} Computation supports high levels of numerical precision with relatively little effort on the part of the designer.
-\item \textbf{Visual Complexity:}  Computational design supports the creation and transformation of complex patterns and structures through automation and iteration which allows for the combination and manipulation of large numbers of simple elements in a structured manner. 
+
+\item \textbf{Visual Complexity:}  Computational design supports the creation and transformation of complex patterns and structures through rapid automation and iteration which allows for the combination and manipulation of large numbers of simple elements in a structured manner. 
+
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/signals.jpg}
+\caption{Signals by Ben Fry and Casey Reas (2011) Unique digital print. Each graphical cluster represents signals between proteins in a cancer cell as they change over time. The overall piece is determined by a set of signaling data demonstrating cancer cell behavior \cite{reas_website}. }
+\label{fig:signals}
+\end{figure}
+\end{center}
+
 \item \textbf{Generativity and randomness:} Computation allows for the programmer to create algorithms which when run, allow for the computer to autonomously produce unique and often unexpected designs.
-\item  \textbf{Parameterization:} Computation allows users to specify a set of degrees of freedom and constraints of a model and then adjust the values of the degrees of freedom while maintaining the constraints of the original model.
-\item \textbf{Documentation and remixing:} Computationally generated designs are generated by a program, which can be shared with and modified by other designers. Because these programs are often text-based, they also serve as a form of documentation of the design process. 
+
+ \begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/marius_watz.jpg}
+\caption{Abstract01.js by Marius Watz (2010) The piece is comprised of a javascript program that autonomously creates abstract compositions.}
+\label{fig:marius_watz}
+\end{figure}
+\end{center}
+
+\item  \textbf{Parameterization:} Computation allows users to specify a set of degrees of freedom and constraints of a model and then adjust the values of the degrees of freedom while maintaining the constraints of the original model (figure \ref{fig:arachne}.)
+
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/arachne.jpg}
+\caption{Arachn\`{E}Armor / Corset  by Neri Oxman (2012), Digital Materials Centre Pompidou, Paris, France. The form of the web on the piece is determined by the anatomical location of a person's rib cage \cite{oxman_arache}. }
+\label{fig:arachne}
+\end{figure}
+\end{center}
+
+\item \textbf{Documentation and remixing:} Computationally generated designs are generated by a program, a document which can be shared with and modified by other designers. These programs also serve as a form of documentation of the design process itself. 
+
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/distillamap.jpg}
+\caption{ArachnÈ Armor / Corset  by Neri Oxman (2012), Digital Materials Centre Pompidou, Paris, France. The form of the web on the piece is determined by the anatomical location of a person's rib cage \cite{oxman_arache}. }
+\label{fig:arachne}
+\end{figure}
+\end{center}
+
 \end{itemize}	
+
+
 
 In combination with these affordances however, computational design also contains a number of unique challenges:
 \begin{itemize}
@@ -64,7 +116,9 @@ The cultural connotations of craft have varied throughout history. Once the prim
 \begin{itemize}
 \item \textbf{Materiality:} One aspect of craft involves the manipulation of physical materials \cite{on_craft}. Working with physical materials requires the use of one's hands, and is often an intuitive process. When we craft, we experience the feel of the paint brush moving across the canvas, the carving knife through a piece of wood, a needle through cloth, or our fingertips pressing into clay. The decisions we make in the craft process are altered by the feel of working with the material. 
 
-\item \textbf{Pleasure:} One of the responses to industrialism was the Arts and Crafts movement, initiated primarily by William Morris, and inspired by the writings of John Ruskin.  The arts and crafts movement sought to restore the aesthetics and practices of traditional craftsmanship, in response to the negative aesthetic effects and working conditions of industrialism.Fundamental to the arts and crafts movement was the notion that the act of creating beautiful artifacts with one’s hands was a pleasurable, and essential human experience \cite{abstracting_craft}. This emphasis on pleasure is retained in conceptions of craft today.
+\item \textbf{Pleasure:} One of the responses to industrialism was the Arts and Crafts movement, initiated primarily by William Morris, and inspired by the writings of John Ruskin.  
+The arts and crafts movement sought to restore the aesthetics and practices of traditional craftsmanship, in response to the negative aesthetic effects and working conditions of industrialism.
+Fundamental to the arts and crafts movement was the notion that the act of creating beautiful artifacts with one's hands was a pleasurable, and essential human experience \cite{abstracting_craft}. This emphasis on pleasure is retained in conceptions of craft today.
 
 \item \textbf{Craftsmanship:} Although not all craft ist functional, many forms of traditional craft, including sewing, pottery, and carpentry can be applied the creation of useful objects. In addition to this functionality, craft often emphasizes the importance of beauty in the form and ornamentation of objects. I use the term craftsmanship to describe the successful unification of aesthetics and utility in a single artifact. 
 \end{itemize}
@@ -81,7 +135,7 @@ Despite the opportunity for casual, non-professional engagement in computational
 There are also significant perceptual barriers to participation. There persists among the general public a  limited perception of the applications of programing. Many people consider programing to be irrelevant to their interests, and therefore lack motivation to pursue what they perceive to be a highly specialized and difficult undertaking \cite{resnick1}. There are also prevailing perceptions of digital fabrication which may hinder casual engagement. Personal fabrication technology is often portrayed as a precursor to the production of replicator-like technology which can instantiate literally anything by building it directly from atoms. This projection of future technology is exciting to think about. This view can also act as a barrier to widespread engagement with existing forms of digital fabrication, by setting up unreal expectations for this technology,or by portraying it as a variation on traditional forms of consumerism. The idea of fabrication as a perfect replication system also eliminates the need or desire for human engagement in the fabrication process, eliminating the entry points for craft. Daniella Rosner describes this view in her research:
 
 \begin{flushright}
- \textit{A central element of these and  other visions of the future is that  craft is done for us: Kitchens tell us what and how to cook, eliminating the creativity and pleasure of  cooking from scratch with what’s on hand; object printers create flawless prototypes, eliminating messily glued-together chipboard and toothpicks. In this new 
+ \textit{A central element of these and  other visions of the future is that  craft is done for us: Kitchens tell us what and how to cook, eliminating the creativity and pleasure of  cooking from scratch with what's on hand; object printers create flawless prototypes, eliminating messily glued-together chipboard and toothpicks. In this new 
 world, craft becomes fetish—the proudly displayed collection of vinyl records shelved alongside an iPod and digital files \cite{rosner_craft_vs_design}.}
 \end{flushright}
 
