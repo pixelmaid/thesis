@@ -4,10 +4,37 @@
 %% You can process specific files by typing their names in at the 
 %% \files=
 %% prompt when you run the file main.tex through LaTeX.
-\chapter{Related Tools and Research}
-Both computational design and digital fabrication are supported through the use of a variety of Computer Aided Design (CAD) software. There are 4 primary categories of existing software that are relevant to the study of the convergence of these fields: professional computational-design tools, entry-level programing environments, and novice-oriented CAD tools. While certain qualities are shared between these categories, several key distinctions exist between each group of tools.  
+\chapter{Related Software Tools and Research}
+Computational design and digital fabrication are supported through the use of a variety of Computer Aided Design (CAD) software. There are six primary categories of existing software that are relevant to the study of the convergence of these fields: 
 
-\section{Professional Computational Design Tools}\label{sec:professional_computational_design_tools}
+\begin{enumerate}
+\item{Programing libraries and frameworks for visual computational design.}
+\item{Professional CAD tools with computational-design functionality.}
+\item{Entry-level programing environments.}
+\item{Entry-level CAD tools.}
+\item{Novel fabrication and CAD tools.} 
+\end{enumerate}
+
+While some tools fall into several of these categories, it is useful to highlight the general functional distinctions and design strategies of each group of tools. 
+
+\section{Programing libraries and frameworks for visual computational design}
+Many of the examples of computational design referenced in section \ref{sec:computational_design} were created through the use of custom software tools written in a wide variety of programing languages, libraries and environments. Arguably, computational design can be performed with any programing language that has the capability to output some form of graphic data. In order to facilitate the process, some people have developed programing libraries and toolkits explicitly for computational design. Here I list some of the most prominently used tools in this space and describe their relation to digital fabrication. openFrameworks is a popular open source C++ toolkit developed by Theo Watson and Zach Lieberman that is designed to support a number of creative applications of programming. The toolkit contains wrappers for a variety of commonly used C++ libraries including OpenGL, GLEW, GLUT, libtess2 and cairo for graphics and Assimp for model loading, and facilitates a more immediate use of these libraries in conjunction. Although openFrameworks is frequently used to create interactive screen-based projects, several extensions have been developed which allow for the import and export of .STL model data, making it feasible to use the toolkit to design for digital fabrication \cite{openframeworks}. 
+
+Cinder is another C++ toolkit for computational graphics creation. Cinder was developed by the Barbarian Group, and requires greater programing expertise to use than openFrameworks \cite{cinder}. Similar to OpenFrameworks, Cinder is frequently used to create interactive installations, but it has been used for digital fabrication oriented projects. Nervous Systems used Cinder to develop their Cell Cycle iPad app, which creates cellular bracelets and rings for 3D printing \cite{cell_cycle}. 
+
+Processing is a java-based programing language and development environment created by Casey Reas and Ben Fry. Processing is unique in that it is described as an entry level programing environment but is also an extremely successful professional computational-design tool. Processing contains several libraries that allow it to export to PDF and DXF formats, which enable a translation to digital fabrication \cite{processing}. 
+
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/framework_examples.jpg}
+\caption{Clockwise from upper-left: Fabricate Yourself by  Karl D.D. Willis, 3d printed puzzle pieces featuring conference attendees (created with the openFrameworks toolkit, Kinect and a 3d printer), Cell Cycle Bracelet and Ring creation application by Nervous Systems (created with Cinder toolkit), 3d Printed functional record by Amanda Ghassaei, (created using Processing.)}
+\label{fig:framework_examples}
+\end{figure}
+\end{center}
+
+All of these examples use textual programing as the sole means of design. In addition, because openFrameworks and Cinder exist as toolkits, they require the user to write programs in general purpose programing environments such as Visual Studio or Xcode. In the hands of experienced programmers, these tools facilitate remarkable forms of creative expression through code. Because of the difficulty of independently learning textual programing, it is uncommon for people without prior programing experience to use them for computational design without a great deal of instruction and support, let alone apply them to digital fabrication applications. Due to its unique positioning, Processing can act as an exception. We discuss this in greater detail in the section on entry level programing environments.
+
+\section{Professional CAD tools with computational-design functionality}\label{sec:professional_computational_design_tools}
 Several forms of professional computational-design tools exist. Many popular graphic-user-interface (GUI) CAD applications include a feature that allows the user to automate certain elements of the program through scripting or programing. For example, in Adobe software like Photoshop and Illustrator, it is possible to write JavaScript-based programs to automate various application procedures. Similarly, 3D modeling tools such as Maya and Blender feature the ability to script behaviors in languages that are syntactically similar to Perl and Python respectively. In all of these examples the programing interface is omitted from the primary interfaces of the application, and must be deliberately activated by the user.
 
 Some professional tools are more explicitly developed for computational design. The most prominent example is Grasshopper, a third-party add-on for the Rhinoceros 3D modeling software. Grasshopper is a data-flow programing environment that lets users combine a variety of modules and blocks to create and adjust 3D models in Rhino. A textual coding module is also available and allows users to integrate C\# scripts using the Rhino API into their program.
