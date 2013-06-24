@@ -13,10 +13,8 @@
 \contentsline {section}{\numberline {3.3}Entry-level CAD Tools}{39}{section.3.3}
 \contentsline {section}{\numberline {3.4}Entry-level programming environments}{40}{section.3.4}
 \contentsline {section}{\numberline {3.5}Novel Fabrication and CAD tools}{42}{section.3.5}
-\contentsline {chapter}{\numberline {4}Objectives}{45}{chapter.4}
-\contentsline {section}{\numberline {4.1}Functional Properties of Algorithmic Crafting Tools}{45}{section.4.1}
-\contentsline {section}{\numberline {4.2}Evaluation Criteria}{46}{section.4.2}
-\contentsline {section}{\numberline {4.3}Design Tools and Evaluation Methodology}{47}{section.4.3}
+\contentsline {chapter}{\numberline {4}Objectives and Evaluation Criteria}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Design Tools and Evaluation Methodology}{46}{section.4.1}
 \contentsline {chapter}{\numberline {5}Codeable Objects}{49}{chapter.5}
 \contentsline {section}{\numberline {5.1}Motivation}{50}{section.5.1}
 \contentsline {section}{\numberline {5.2}Tool Description and workflow}{51}{section.5.2}
@@ -69,7 +67,8 @@
 \contentsline {subsection}{\numberline {7.8.9}Connection to other applications}{109}{subsection.7.8.9}
 \contentsline {subsection}{\numberline {7.8.10} challenges in crafting}{109}{subsection.7.8.10}
 \contentsline {chapter}{\numberline {8}Discussion (rename)}{111}{chapter.8}
-\contentsline {chapter}{\numberline {9}Future Directions}{113}{chapter.9}
+\contentsline {chapter}{\numberline {9}Conclusion and Future Directions}{113}{chapter.9}
+\contentsline {section}{\numberline {9.1}Functional Properties of Algorithmic Crafting Tools}{113}{section.9.1}
 \contentsline {chapter}{\numberline {A}Interview Questions}{115}{appendix.A}
 \contentsline {paragraph}{Design Evaluation:}{115}{section*.13}
 \contentsline {paragraph}{Programing as a Design Tool:}{115}{section*.14}
