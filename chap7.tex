@@ -13,15 +13,10 @@
 
 The preliminary work of Codeable Objects and Soft Objects clearly demonstrated that algorithmic craft offers a compelling opportunity for personal, creative expression through programming. My goal following these first two tools was to address several of their primary limitations in an effort to better engage novice programers in the computational design aspects of algorithmic craft. DressCode is a stand-alone programing environment and design tool created to support new programmers in open, independent algorithmic craft. To evaluate Dress Code, I conducted two separate day-long workshops, one with experienced programmers and designers, and one for young people who were new to programming. I also worked with FUSE, an out of school STEAM exploration program to develop a set of online activities using DressCode, which are currently in the preliminary stages of evaluation.	 
 
-\section{Design principles}
-Based on the success of the prior fashion workshop, and my continued interest in exploring applications that appeal to women and girls, I decided to focus on computational fashion design and the fabrication of wearable artifacts in the development of DressCode. After reflecting on the potential limitations of this focus however, I decided to develop DressCode as a more open-ended computational design tool that could support the creation of a variety of artifacts, rather than just fashion. To preserve the emphasis on fashion, the majority of the example projects and artifacts I created with DressCode for this thesis were fashion-oriented. The workshops I conducted, as well as the curriculum I helped develop also had an emphasis on fashion or wearable artifacts.
+\section{Design principles and Software Features}
+The focus on fashion in the Soft Objects workshop allowed young people to use computation to create wearable artifacts of their own design. I felt this was a particularly compelling form of engaging young people with computation, and decided to continue working in domain of fashion and garment creation for DressCode. Although the name of the tool reflects an emphasis on fashion, as an application DressCode is general purpose, and can be applied to many forms of algorithmic craft. To preserve the emphasis on fashion, the majority of the example projects and artifacts I  have created with DressCode thus far, are fashion-oriented. The workshops I conducted, as well as the curriculum I helped develop also center on creating wearable artifacts.
 
-By building my own software, I sought to improve on the preliminary programming libraries in three key areas. First, DressCode contains its own programing language. The DressCode language has a simplified syntax and contains a limited set of textual programming methods, allowing people with little-to-no prior programming experience to working with the language quickly and effectively. Second, the DressCode environment is designed to equally prioritize textual programing and visual design and manipulation. To that end, the software has a two-panel development environment that displays a graphic two-dimensional (2-D) rendering of the user's current design in the first panel, and their code in the second. As a user makes changes to their code, the effects on the design are rendered in the graphic panel. Finally, DressCode contains functionality that is specific to digital fabrication and algorithmic craft. The tool allows for a variety of methods to translate one's design to a tool-paths for fabrication machines. In addition, the API contains programing methods that support the creation of forms and patterns that are suitable for fabrication, with minimal effort on the part of the user.  The goal of designing a software 2-panel programing and design environment, with a specialized programing language and immediate support for digital fabrication was to assist non-programmers in independently making design decisions with programing. In short, I wanted to make it as easy as possible for people to decide on their own desired style or aesthetic, and then realize it by writing their own code. The following section describes the features of the DressCode software in greater detail.
-
-\todo{put in rationale for why dress code is textual rather than visual programing language}
-
-\section{Tool description}
-DressCode is a programing and graphical design environment that enables the creation of 2D designs for 2-axis fabrication machines. DressCode is composed both of the application itself, and a custom programing language designed to correspond with the application.
+With DressCode, I attempted to improve on Soft Objects in several ways. DressCode contains its own programing language with a simplified syntax and a limited set of textual programming methods, to allow people with little or no prior programming experience to work with the language quickly and effectively. The methods within the programing language are developed with digital fabrication applications in mind. They provide the user with the means to design freely, while ensuring that the designs created will translate easily to 2-axis fabrication machines, without the need for additional design software. The DressCode interface is developed to equally prioritize textual programing and visual design, and provide constant visual feedback for programing decisions. The environment has two-panels, one displays a graphic rendering of the user's current design, the other displays their programing code. As a user makes changes to their code, the effects on the design are rendered in the graphic panel. By providing a specialized programing language and immediate support for digital fabrication was to assist non-programmers in independently making design decisions with programing. In short, I wanted to make it as easy as possible for people to decide on their own desired style or aesthetic, and then realize it by writing their own code. The following section describes the features of the DressCode software in greater detail.
 
 \subsection{Interface Design}
  \begin{center}
@@ -32,11 +27,7 @@ DressCode is a programing and graphical design environment that enables the crea
 \end{figure}
 \end{center}
 
-The interface of DressCode is divided into two sections, a design panel and a coding panel. The divider between the two panels can be resized as needed. The coding panel contains a primary window for entering text, an output console for print output and error reporting and a row of buttons on the top. When the play button is pressed, the program in the code window is run and the resulting design is displayed in the design panel. The first version of DressCode ran the code each time the enter key was pressed or a new statement was completed, however we received many requests from our initial user tests for manual control of the run process. The stop button attempts to terminate programs that are taking too long to run.The following three buttons allow for the creation of new programs and the saving and opening of existing programs. The final button opens a dialog that enables the user to select an Scalable Vector Graphics (SVG) file to import into their script (the rationale for this is described in \ref{par:shape_transformation} section below.)
-
-The design panel is primarily composed of the drawing canvas. The drawing canvas has a set of rulers and a grid, along with a black rectangle in the center which serves as the drawing board. The drawing board defines a reference for the coordinate system of the canvas, with the upper left hand corner corresponding to (0,0) in cartesian coordinates. Designs can be drawn on any part of the canvas, including outside the drawing board, however the exported designs file-dimensions will always correspond to the size of the drawing board. The right-most button in the design panel allows for the specification of the units of the project, and the resizing of the drawing board. The print button opens a dialog that allows the user to export their current design in a vector format. I experimented with various vector file formats including DXF, SVG and PDF, however for the time being, I settled on PDFs as they were compatible with the specific fabrication machines I intended to use in my workshops. 
-
-The grid button allows the user to toggle between a grid in the units that correspond to the current units of the project (either millimeters or inches), pixels, or no grid. The target button allows the user to graphically select a set of coordinates and have them appear in the programming window as text, and can be used like an eyedropper for pixel coordinates. The plus and minus magnifying glasses and the hand tool are used to pan and zoom in and out of the screen.  Lastly, the arrow tool allows for design elements to be graphically selected and manipulated. After a design element is moved with the arrow tool, with the corresponding code for the move appears in the programing window. 
+The interface of DressCode is divided into two sections, a design panel and a coding panel. The coding panel contains a primary window for entering text, an output console for print output and error reporting. When the play button is pressed, the program in the code window is run and the resulting design is displayed in the design panel. The design panel approximates many of the features of a digital graphic design tool, with rulers and a grid, and a drawing board. The drawing board defines a reference for the coordinate system referenced by the drawing API with the upper left hand corner corresponding to (0,0) in cartesian coordinates. Users can resize the drawing board and set the units to inches or millimeters at any point during the design process. The print button opens a dialog that allows the user to export their current design in a vector format. The design panel also features a set of buttons that allow for graphic manipulation of a user's design. The target button for example, allows the user to graphically select a set of coordinates and have them appear in the programming window as text, and can be used like an eyedropper for pixel coordinates. The plus and minus magnifying glasses and the hand tool are used to pan and zoom in and out of the screen. Lastly, the arrow tool allows for design elements to be graphically selected and manipulated. After a design element is moved with the arrow tool, with the corresponding code for the move appears in the programing window. The graphic components of the the DressCode interface were developed to enable the conceptual and practical execution of digital designs for fabrication, by specifying designs in real-world units. The graphic manipulation tools were designed to be intuitive, while simultaneously working in conjunction with the programing environment, providing people with another method to understand and alter their programs. Furthermore, I theorized that by maintaining a visual display of the design with consistent updates would provide a greater incentive for people to experiment with their code, and in doing so, gain a better understanding of the algorithms behind them.
 
 \subsection{Programing Language}
 The DressCode programing language is interpreted with semantic functionality that is simulated through a Java-based library.  We relied on the ANTLR framework to generate the necessary lexing and parsing methods for the language, and developed the semantic functionality using java and the java openGL (JOGL). When a program is run in DressCode, the raw script is first tokenized and then parsed to generate an abstract syntax tree (AST). During this phase, all user-generated function definitions are stored in memory. If any parsing errors are encountered, they are output to the console as "compiler errors". Assuming the parse is successful, DressCode then walks the resultant AST and attempts to execute the semantic functionality of the program (figure:\ref{fig:interpreter_structure}.) After being executed, the resultant design is rendered on the display panel. Any runtime errors are displayed in the output console. For most programs, this process is instantaneous, however some programs with complex operations require several seconds to be executed. 
@@ -47,27 +38,8 @@ The DressCode programing language is interpreted with semantic functionality tha
 \label{fig:interpreter_structure}
 \end{figure}
 \end{center}
-The language is imperative in nature, with statements being executed in the order in which they are read. The exception to this is user defined functions, which may be defined at any point in the program, and called before they are defined. Each statement in DressCode must be terminated by a semicolon. I spent some time experimenting with terminating statements with newlines, similar to whitespace sensitive languages like Python, as I thought this might be more conducive to novice use. Unfortunately, the implementation of selective whitespace recognition is a challenging task to define in a grammar, so while we were able to develop a version of DressCode that recognized statements terminated by a line break, it would have taken significant time to develop this functionality to a level of robustness appropriate for user testing. For the short term, we have opted for a syntax requiring semicolons, however we plan to continue to explore newline statement termination in the future. 
 
-\subsubsection{Language Structure}
-Here, I define some of the primary elements of the DressCode syntax and drawing API, and the rationale for their structure. A more thorough language reference is available on the DressCode wiki\cite{DressCodeWiki}.
-
- DressCode supports number, string, boolean, and drawable datatypes (figure \ref{fig:basic_datatypes}.) The first four of these types are relatively standard in comparison to conventional programing languages. Numbers include integers and floating point values. Strings include any sequence of characters enclosed in double quotations. Booleans have two possible values: true, and false. Drawables are a special type, discussed in detail in the API description below. DressCode also contains a list data structure, which can store multiple kinds of datatypes.
-\begin{center}
-%\begin{figure}
-\begin{lstlisting}
-myString = "hello";  //string
-myNum = 10.4;  //number
-numbermyBool = true;  //boolean
-myList = [10,11,false,"world"];  //list with multiple data types
-println(myList[3]); //prints world
-\end{lstlisting}
-%\caption{basic datatypes}
-%\label{fig:basic_datatypes}
-%\end{figure}
-\end{center}
-
-Variable identifiers in DressCode must begin with a letter which followed by 0 or more letters or digits. Variables can be initialized through assignment, or declared and assigned later in the program. All assignment in DressCode is dynamically typed, and variables can be assigned to datatypes that differ from their original assignment at any point. %(figure \ref{fig:variable_assignment}.)
+ DressCode supports number, string, boolean, and drawable datatypes (figure \ref{fig:basic_datatypes}.) In the Soft Objects workshop, participants often became pre-occupied with memorizing datatypes, and had difficulty knowing which type to declare when creating a variable. To address this barrier, in DressCode, variables are dynamically typed, and can be assigned to datatypes that differ from their original assignment at any point. DressCode determines how to treat the data assigned to the variable based on context. %(figure \ref{fig:variable_assignment}.)
 
 \begin{center}
 %\begin{figure}
@@ -88,60 +60,22 @@ println(n1+n2*10); // returns 27.0
 %\end{figure}
 \end{center}
 
-The  language also contains support for basic expressions, as well as block statements, including conditionals, loops and user-defined functions. For mathematical expressions, standard order of operations is maintained, unless parentheses are introduced. All block statements are signified by a keyword followed by a colon, and terminated with the end keyword which is not followed by a semicolon.Conditionals are defined with the if keyword, and may an optional else clause and  zero or more else if clauses. %(figure: \ref{fig:conditionals}.)
+The  language also contains support for basic expressions, as well as block statements, including conditionals, loops and user-defined functions. There are two possible loop statements: repeat statements and while statements. Loops are extremely useful for computational design, especially when creating repeating patterns. For new programers however, loops are a difficult concept, and in many programming languages however loop syntax is often confusing. I attempted to simplify the loops of DressCode by creating an automatic update condition, and designating them with keywords I thought would more accurately reflect their function. I also added several methods that allow users to create loop-based patterns with a single statement, by specifying the number of repeats, and the resultant pattern of the loop (wave, arc, grid, spiral or ellipse). 
 
-\begin{center}
-%\begin{figure}
-\begin{lstlisting}
-//if statement 
-if 5<10:
-println("true"); //prints true
-end
-
-//if statement with else if and else clause
-i=10;
-if i<10:
-println("less than 10");
-else if i==10:
-println("equals 10"); //prints equals 10
-else:
-println("greater than 10");
-end
-\end{lstlisting}
-%\caption{conditional definitions}
-%\label{fig:conditionals}
-%\end{figure}
-\end{center}
-
-There are two possible loop statements: repeat statements and while statements. Repeat statements begin with the repeat keyword and are followed by a the initialization: a variable identifier with a numerical assignment, followed by a colon and the test, a number that determines the point at which the repeat statement will terminate. By default, all repeat statements have an update value of 1, however this can be modified by following the test value with "add" and a 3rd value specifying the update condition. While loops are initialized with the while keyword and followed by a test condition.%(figure: \ref{fig:loops}.) 
-
-\begin{center}
+ \begin{center}
 %\begin{figure}
 \begin{lstlisting}
 //repeat statement
 repeat i=0:10:
 ellipse(0,i*10,10,10); //draws a vertical row of 10 ellipses
 end
-
-//repeat with modified update condition
-repeat i=0:10 add 2:
-println(i); //will print 0,2,4,6,8
-end
-
-//while statement
-c=0;
-while c < WIDTH:
-ellipse(c,10,20);
-c = c+20;
-end
-//draws a row of ellipses that span the width of the canvas
 \end{lstlisting}
 %\caption{loop definitions}
 %\label{fig:loops}
 %\end{figure}
 \end{center}
 
-Finally, custom functions are defined with the def keyword, followed by an identifier and a set of parentheses containing 0 or more arguments separated by commas. The function block is terminated with the end keyword like all other block statements. Just like general assignments, functions arguments are dynamically typed. Functions, loops and conditionals all have their own scope and will prioritize identifiers based on that, however if they cannot locate an identifier within their own scope, they will look for it in the level above.
+Custom functions can also be defined by the user, along with any number of dynamically typed arguments. User defined functions are stored in memory and can be defined at any point in a user's program, and called prior to their definition. 
 \begin{center}
 %\begin{figure}
 \begin{lstlisting}
