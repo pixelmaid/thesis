@@ -1,78 +1,78 @@
-\contentsline {chapter}{\numberline {1}Introduction}{17}{chapter.1}
-\contentsline {chapter}{\numberline {2}Background and Motivation}{21}{chapter.2}
-\contentsline {section}{\numberline {2.1}Computational Design}{21}{section.2.1}
-\contentsline {section}{\numberline {2.2}Digital Fabrication}{26}{section.2.2}
-\contentsline {section}{\numberline {2.3}Craft}{28}{section.2.3}
-\contentsline {section}{\numberline {2.4}Algorithmic Craft}{29}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Digital Fabrication and Craft}{29}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Computational Design and Craft}{30}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Challenges in broad participation in computational design and digital fabrication}{33}{section.2.5}
-\contentsline {chapter}{\numberline {3}Related Software Tools and Research}{35}{chapter.3}
-\contentsline {section}{\numberline {3.1}Programming tools for computational design}{35}{section.3.1}
-\contentsline {section}{\numberline {3.2}Professional CAD tools with computational-design functionality}{37}{section.3.2}
-\contentsline {section}{\numberline {3.3}Entry-level CAD Tools}{39}{section.3.3}
-\contentsline {section}{\numberline {3.4}Entry-level programming environments}{40}{section.3.4}
-\contentsline {section}{\numberline {3.5}Novel Fabrication and CAD tools}{42}{section.3.5}
-\contentsline {chapter}{\numberline {4}Objectives and Evaluation Criteria}{45}{chapter.4}
-\contentsline {section}{\numberline {4.1}Design Tools and Evaluation Methodology}{46}{section.4.1}
-\contentsline {chapter}{\numberline {5}Codeable Objects}{49}{chapter.5}
-\contentsline {section}{\numberline {5.1}Motivation}{50}{section.5.1}
-\contentsline {section}{\numberline {5.2}Tool Description and workflow}{51}{section.5.2}
-\contentsline {section}{\numberline {5.3}Evaluation}{53}{section.5.3}
-\contentsline {section}{\numberline {5.4} Results}{54}{section.5.4}
-\contentsline {section}{\numberline {5.5}Discussion}{55}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Challenges}{57}{subsection.5.5.1}
-\contentsline {section}{\numberline {5.6}Summary}{59}{section.5.6}
-\contentsline {chapter}{\numberline {6}Soft Objects}{61}{chapter.6}
-\contentsline {section}{\numberline {6.1}Motivation}{62}{section.6.1}
-\contentsline {section}{\numberline {6.2}Tool description}{63}{section.6.2}
-\contentsline {section}{\numberline {6.3}Workshop}{66}{section.6.3}
-\contentsline {section}{\numberline {6.4}Results}{67}{section.6.4}
-\contentsline {section}{\numberline {6.5}Discussion}{68}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Identification as a programmer}{68}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Application of computational affordances}{70}{subsection.6.5.2}
-\contentsline {subsection}{\numberline {6.5.3}Aesthetics and Identity Expressed through Code}{71}{subsection.6.5.3}
-\contentsline {subsection}{\numberline {6.5.4}Physical and Digital connections}{72}{subsection.6.5.4}
-\contentsline {subsection}{\numberline {6.5.5}Enthusiasm in crafting and coding}{73}{subsection.6.5.5}
-\contentsline {section}{\numberline {6.6}Limitations}{73}{section.6.6}
-\contentsline {section}{\numberline {6.7}Summary}{75}{section.6.7}
-\contentsline {chapter}{\numberline {7}DressCode}{77}{chapter.7}
-\contentsline {section}{\numberline {7.1}Design principles and Software Features}{78}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Interface Design}{78}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}programming Language}{79}{subsection.7.1.2}
-\contentsline {subsubsection}{Drawing API}{82}{section*.6}
-\contentsline {subsubsection}{Polygon Booleans:}{83}{section*.7}
-\contentsline {subsubsection}{Grouping}{84}{section*.8}
-\contentsline {subsubsection}{Informational Methods}{85}{section*.9}
-\contentsline {section}{\numberline {7.2}Fabrication and Crafting Process}{86}{section.7.2}
-\contentsline {section}{\numberline {7.3}Tool Summary}{87}{section.7.3}
-\contentsline {section}{\numberline {7.4}Workshops}{87}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Expert Workshop}{88}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Youth Workshop}{88}{subsection.7.4.2}
-\contentsline {section}{\numberline {7.5}Results}{92}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Expert Results}{92}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {7.5.2}Youth Results}{92}{subsection.7.5.2}
-\contentsline {section}{\numberline {7.6}Discussion}{93}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1}Starting notions of craft and computation}{94}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2}Enjoyment in programming}{96}{subsection.7.6.2}
-\contentsline {subsection}{\numberline {7.6.3}Design Processes of Youth and Expert practitioners}{98}{subsection.7.6.3}
-\contentsline {subsection}{\numberline {7.6.4}Computational Aesthetics}{102}{subsection.7.6.4}
-\contentsline {subsection}{\numberline {7.6.5}Personal value in Algorithmic Craft}{105}{subsection.7.6.5}
-\contentsline {chapter}{\numberline {8}Conclusion and Future Directions}{109}{chapter.8}
-\contentsline {section}{\numberline {8.1}Future Directions}{111}{section.8.1}
-\contentsline {section}{\numberline {8.2}Conclusion}{113}{section.8.2}
-\contentsline {chapter}{\numberline {A}Interview Questions}{115}{appendix.A}
-\contentsline {paragraph}{Design Evaluation:}{115}{section*.10}
-\contentsline {paragraph}{Programing as a Design Tool:}{115}{section*.11}
-\contentsline {paragraph}{Fabrication:}{115}{section*.12}
-\contentsline {paragraph}{Future Motivation:}{116}{section*.13}
-\contentsline {chapter}{\numberline {B}Full DressCode Language Specifications}{117}{appendix.B}
-\contentsline {subsection}{\numberline {B.0.1}Interface Design}{117}{subsection.B.0.1}
-\contentsline {subsection}{\numberline {B.0.2}Programing Language}{118}{subsection.B.0.2}
-\contentsline {subsubsection}{Language Structure}{119}{section*.14}
-\contentsline {subsubsection}{Drawing API}{122}{section*.15}
-\contentsline {paragraph}{Shape Primitives:}{123}{section*.16}
-\contentsline {paragraph}{Shape Transformations:}{123}{section*.17}
-\contentsline {paragraph}{Polygon Booleans:}{125}{section*.18}
-\contentsline {paragraph}{Additional Methods:}{126}{section*.19}
-\contentsline {paragraph}{Constants:}{127}{section*.20}
+\contentsline {chapter}{\numberline {1}Introduction}{15}{chapter.1}
+\contentsline {chapter}{\numberline {2}Background and Motivation}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}Computational Design}{19}{section.2.1}
+\contentsline {section}{\numberline {2.2}Digital Fabrication}{24}{section.2.2}
+\contentsline {section}{\numberline {2.3}Craft}{26}{section.2.3}
+\contentsline {section}{\numberline {2.4}Algorithmic Craft}{27}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Digital Fabrication and Craft}{27}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Computational Design and Craft}{28}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Challenges in Participation}{31}{section.2.5}
+\contentsline {chapter}{\numberline {3}Related Software Tools and Research}{33}{chapter.3}
+\contentsline {section}{\numberline {3.1}Programming Tools for Computational Design}{33}{section.3.1}
+\contentsline {section}{\numberline {3.2}Professional CAD Tools with Computational-Design Functionality}{35}{section.3.2}
+\contentsline {section}{\numberline {3.3}Entry-Level CAD Tools}{37}{section.3.3}
+\contentsline {section}{\numberline {3.4}Entry-Level Programming Environments}{38}{section.3.4}
+\contentsline {section}{\numberline {3.5}Novel Fabrication Tools}{40}{section.3.5}
+\contentsline {chapter}{\numberline {4}Objectives and Evaluation Criteria}{43}{chapter.4}
+\contentsline {section}{\numberline {4.1}Design Tools and Evaluation Methodology}{44}{section.4.1}
+\contentsline {chapter}{\numberline {5}Codeable Objects}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}Motivation}{48}{section.5.1}
+\contentsline {section}{\numberline {5.2}Tool Description}{49}{section.5.2}
+\contentsline {section}{\numberline {5.3}Evaluation}{51}{section.5.3}
+\contentsline {section}{\numberline {5.4}Results}{52}{section.5.4}
+\contentsline {section}{\numberline {5.5}Discussion}{53}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Challenges}{54}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.6}Summary}{57}{section.5.6}
+\contentsline {chapter}{\numberline {6}Soft Objects}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Motivation}{60}{section.6.1}
+\contentsline {section}{\numberline {6.2}Tool Description}{62}{section.6.2}
+\contentsline {section}{\numberline {6.3}Workshop}{63}{section.6.3}
+\contentsline {section}{\numberline {6.4}Results}{65}{section.6.4}
+\contentsline {section}{\numberline {6.5}Discussion}{66}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Identification as a Programmer}{66}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Application of Computational Affordances}{67}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Aesthetics and Identity Expressed Through Code}{69}{subsection.6.5.3}
+\contentsline {subsection}{\numberline {6.5.4}Physical and Digital Connections}{70}{subsection.6.5.4}
+\contentsline {subsection}{\numberline {6.5.5}Enthusiasm in Crafting and Coding}{70}{subsection.6.5.5}
+\contentsline {section}{\numberline {6.6}Limitations}{71}{section.6.6}
+\contentsline {section}{\numberline {6.7}Summary}{72}{section.6.7}
+\contentsline {chapter}{\numberline {7}DressCode}{75}{chapter.7}
+\contentsline {section}{\numberline {7.1}Design Principles and Software Features}{76}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Interface Design}{76}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Programming Language}{77}{subsection.7.1.2}
+\contentsline {subsubsection}{Drawing API}{80}{section*.5}
+\contentsline {subsubsection}{Polygon Booleans:}{81}{section*.6}
+\contentsline {subsubsection}{Grouping}{82}{section*.7}
+\contentsline {subsubsection}{Informational Methods}{83}{section*.8}
+\contentsline {section}{\numberline {7.2}Fabrication and Crafting Processes}{84}{section.7.2}
+\contentsline {section}{\numberline {7.3}Tool Summary}{85}{section.7.3}
+\contentsline {section}{\numberline {7.4}Workshops}{85}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Expert Workshop}{86}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Youth Workshop}{86}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}Results}{90}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Expert Results}{90}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}Youth Results}{90}{subsection.7.5.2}
+\contentsline {section}{\numberline {7.6}Discussion}{91}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Starting Notions of Craft and Computation}{92}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Enjoyment in Programming}{94}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.6.3}Design Processes}{96}{subsection.7.6.3}
+\contentsline {subsection}{\numberline {7.6.4}Algorithmic Aesthetics}{100}{subsection.7.6.4}
+\contentsline {subsection}{\numberline {7.6.5}Emergence of Personal Value}{103}{subsection.7.6.5}
+\contentsline {chapter}{\numberline {8}Conclusion and Future Directions}{107}{chapter.8}
+\contentsline {section}{\numberline {8.1}Future Directions}{109}{section.8.1}
+\contentsline {section}{\numberline {8.2}Conclusion}{111}{section.8.2}
+\contentsline {chapter}{\numberline {A}Interview Questions}{113}{appendix.A}
+\contentsline {paragraph}{Design Evaluation:}{113}{section*.9}
+\contentsline {paragraph}{Programing as a Design Tool:}{113}{section*.10}
+\contentsline {paragraph}{Fabrication:}{113}{section*.11}
+\contentsline {paragraph}{Future Motivation:}{114}{section*.12}
+\contentsline {chapter}{\numberline {B}Full DressCode Language Specifications}{115}{appendix.B}
+\contentsline {subsection}{\numberline {B.0.1}Interface Design}{115}{subsection.B.0.1}
+\contentsline {subsection}{\numberline {B.0.2}Programing Language}{116}{subsection.B.0.2}
+\contentsline {subsubsection}{Language Structure}{117}{section*.13}
+\contentsline {subsubsection}{Drawing API}{120}{section*.14}
+\contentsline {paragraph}{Shape Primitives:}{121}{section*.15}
+\contentsline {paragraph}{Shape Transformations:}{121}{section*.16}
+\contentsline {paragraph}{Polygon Booleans:}{123}{section*.17}
+\contentsline {paragraph}{Additional Methods:}{124}{section*.18}
+\contentsline {paragraph}{Constants:}{125}{section*.19}

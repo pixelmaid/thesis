@@ -1,65 +1,65 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1-1}{\ignorespaces Algorithmic craft practices, tools and artifacts. }}{18}{figure.1.1}
+\contentsline {figure}{\numberline {1-1}{\ignorespaces Algorithmic craft practices, tools and artifacts. }}{16}{figure.1.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2-1}{\ignorespaces Wall drawings by Sol Lewitt. From left to right: Wall Drawing 19: A wall divided vertically into six equal parts, with two of the four kinds of line directions superimposed in each part (1969), Wall Drawing 38 (Detail): Tissue paper cut into 1.5-inch (4 cm) squares and inserted into holes in the gray pegboard walls. All holes in the walls are filled randomly (1970).}}{22}{figure.2.1}
-\contentsline {figure}{\numberline {2-2}{\ignorespaces Dragonfly by EMERGENT/ Tom Wiscombe (2007). Installation. Inspired by the structure of a dragonfly wing, this installation was shaped in by a set of parameters including gravity, specific support points and flat material properties. The structure was generated based on support and loading data, which was run through a feedback loop, producing a design which supported both the performance criteria and a novel variation of form \cite {dunn}. }}{23}{figure.2.2}
-\contentsline {figure}{\numberline {2-3}{\ignorespaces data.tron by Ryoji Ikeda (2008). Dynamic computer visual and sound installation. Each pixel of the visual image is dynamically calculated as a visualization of data from hard drive errors and software code. \cite {ikeda_website}. }}{24}{figure.2.3}
-\contentsline {figure}{\numberline {2-4}{\ignorespaces Abstract01.js by Marius Watz (2010). Interactive. The piece is comprised of a java script program that autonomously creates unique abstract compositions based on a set of visual guidelines specified by the artist \cite {watz_website}.}}{24}{figure.2.4}
-\contentsline {figure}{\numberline {2-5}{\ignorespaces Arachn\`{E}Armor / Corset by Neri Oxman (2012), Digital Materials Centre Pompidou, Paris, France. The form of the web on the piece is determined by the anatomical location of a person's rib cage \cite {oxman_arachne}. }}{25}{figure.2.5}
-\contentsline {figure}{\numberline {2-6}{\ignorespaces Contra from Distellamap Series by Ben Fry (2005) Digital Print. The Distellamap series translates the code from a number of Atari2600 video games into a series of visualizations. Assembly code from each cartridge is shown in blue, with connection lines denoting ``go to" statements. Data is shown in orange \cite {fry_website}. }}{26}{figure.2.6}
-\contentsline {figure}{\numberline {2-7}{\ignorespaces 3-axis CNC milling machine adapted as CNC deposition tool using a custom threading tool. (Part of the Silk Pavilion Fabrication process)}}{27}{figure.2.7}
-\contentsline {figure}{\numberline {2-8}{\ignorespaces A selection of vases from the Hybrid Reassemblage series by Amit Zoran (2010). Glazed ceramic, SLS nylon element, epoxy glue and black spray paint.}}{30}{figure.2.8}
-\contentsline {figure}{\numberline {2-9}{\ignorespaces Plywood Servo by Peter Schmitt (2011). (Clockwise from upper-left: 3d CAD model of partially constructed servo, laser cut plywood parts and electronic components, Audiograph, completed servo.)}}{31}{figure.2.9}
-\contentsline {figure}{\numberline {2-10}{\ignorespaces RGB Ð NYT Word Frequency by Jer Thorpe (2011). Part of the Random Number Multiples Series. Screen Print. (Counter-clockwise from upper-left: matching paint color to the digital image, close up of print, complete print.)}}{32}{figure.2.10}
-\contentsline {figure}{\numberline {2-11}{\ignorespaces Processing Quilt by Libs Elliott and Joshua Davis (2013). (Counter-clockwise from upper-left: auto-generated triangle compositions in Processing, hand-made quilt grid, Finished quilt.)}}{33}{figure.2.11}
+\contentsline {figure}{\numberline {2-1}{\ignorespaces Wall drawings by Sol Lewitt. From left to right: Wall Drawing 19: A wall divided vertically into six equal parts, with two of the four kinds of line directions superimposed in each part (1969), Wall Drawing 38 (Detail): Tissue paper cut into 1.5-inch (4 cm) squares and inserted into holes in the gray pegboard walls. All holes in the walls are filled randomly (1970).}}{20}{figure.2.1}
+\contentsline {figure}{\numberline {2-2}{\ignorespaces Dragonfly by EMERGENT/ Tom Wiscombe (2007). Installation. Inspired by the structure of a dragonfly wing, this installation was shaped in by a set of parameters including gravity, specific support points and flat material properties. The structure was generated based on support and loading data, which were run through a feedback loop, producing a design that supported both the performance criteria and a novel variation of form \cite {dunn}. }}{21}{figure.2.2}
+\contentsline {figure}{\numberline {2-3}{\ignorespaces data.tron by Ryoji Ikeda (2008). Dynamic computer visual and sound installation. Each pixel of the visual image is dynamically calculated as a visualization of data from hard drive errors and software code. \cite {ikeda_website}. }}{22}{figure.2.3}
+\contentsline {figure}{\numberline {2-4}{\ignorespaces Abstract01.js by Marius Watz (2010). Interactive. The piece is comprised of a Javascript program that autonomously creates unique abstract compositions based on a set of visual guidelines specified by the artist \cite {watz_website}.}}{22}{figure.2.4}
+\contentsline {figure}{\numberline {2-5}{\ignorespaces Arachn\`{E}Armor / Corset by Neri Oxman (2012), Digital Materials Centre Pompidou, Paris, France. The form of the web on the piece is determined by the anatomical location of a person's rib cage \cite {oxman_arachne}. }}{23}{figure.2.5}
+\contentsline {figure}{\numberline {2-6}{\ignorespaces Contra from Distellamap Series by Ben Fry (2005). Digital Print. The Distellamap series translates the code from a number of Atari2600 video games into a series of visualizations. Assembly code from each cartridge is shown in blue, with connection lines denoting ``go to" statements. Data are shown in orange \cite {fry_website}. }}{24}{figure.2.6}
+\contentsline {figure}{\numberline {2-7}{\ignorespaces 3-axis CNC milling machine adapted as CNC deposition tool using a custom threading tool. (Part of the Silk Pavilion Fabrication process)}}{25}{figure.2.7}
+\contentsline {figure}{\numberline {2-8}{\ignorespaces A selection of vases from the Hybrid Reassemblage series by Amit Zoran (2010). Glazed ceramic, SLS nylon element, epoxy glue and black spray paint.}}{28}{figure.2.8}
+\contentsline {figure}{\numberline {2-9}{\ignorespaces Plywood Servo by Peter Schmitt (2011). (Clockwise from upper-left: 3D CAD model of partially constructed servo, laser-cut plywood parts and electronic components, Audiograph, completed servo.)}}{29}{figure.2.9}
+\contentsline {figure}{\numberline {2-10}{\ignorespaces RGB Ð NYT Word Frequency by Jer Thorpe (2011). Part of the Random Number Multiples Series. Screen Print. (Counter-clockwise from upper-left: matching paint color to the digital image, close-up of print, complete print.)}}{30}{figure.2.10}
+\contentsline {figure}{\numberline {2-11}{\ignorespaces Processing Quilt by Libs Elliott and Joshua Davis (2013). (Counter-clockwise from upper-left: auto-generated triangle compositions in Processing, hand-made quilt grid, finished quilt.)}}{31}{figure.2.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3-1}{\ignorespaces Clockwise from upper-left: Fabricate Yourself by Karl D.D. Willis, 3d printed puzzle pieces featuring conference attendees (created with the openFrameworks toolkit, Kinect and a 3d printer), Cell Cycle Bracelet and Ring creation application by Nervous Systems (created with Cinder toolkit), 3d Printed functional record by Amanda Ghassaei, (created using Processing.)}}{36}{figure.3.1}
-\contentsline {figure}{\numberline {3-2}{\ignorespaces Computational design in professional tools. Clockwise from upper-left: A Grashopper program in Rhino, OpenSCAD, the Python scripting interface in Blender, DesignScript.}}{38}{figure.3.2}
-\contentsline {figure}{\numberline {3-3}{\ignorespaces Entry-level CAD tools. Clockwise from upper-left: MeshMixer, 123D Make, TinkerCad.}}{40}{figure.3.3}
-\contentsline {figure}{\numberline {3-4}{\ignorespaces Entry-level forms of computational design. Clockwise from upper-left: A Scratch program using the pen tool, A design made in Logo by rotating a simple doodle, the Logo physical drawing robot, a sample Turtle Art program.}}{41}{figure.3.4}
-\contentsline {figure}{\numberline {3-5}{\ignorespaces Novel CAD tools: from left to right: Spirogator, SketchChair.}}{43}{figure.3.5}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5-1}{\ignorespaces a selection of laser cut lamps from Instructables}}{50}{figure.5.1}
-\contentsline {figure}{\numberline {5-2}{\ignorespaces Instructables lamp tutorial with SolidWorks design process}}{51}{figure.5.2}
-\contentsline {figure}{\numberline {5-3}{\ignorespaces the individual parts of a lamp}}{52}{figure.5.3}
-\contentsline {figure}{\numberline {5-4}{\ignorespaces The first version of Codeable Objects, with only text-based interaction}}{53}{figure.5.4}
-\contentsline {figure}{\numberline {5-5}{\ignorespaces Several of the finished lamps from the first workshop}}{54}{figure.5.5}
-\contentsline {figure}{\numberline {5-6}{\ignorespaces Revised graphic view with sliders}}{57}{figure.5.6}
-\contentsline {figure}{\numberline {5-7}{\ignorespaces The revised paper lamps}}{58}{figure.5.7}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6-1}{\ignorespaces 3D printed fashion (from left to right: Crystallization 3D Top by Iris Van Herpen, Drape Dress by Janne Kyttanen, N12 Bikini by Continuum Fashion, Strvct shoe by Continuum Fashion}}{63}{figure.6.1}
-\contentsline {figure}{\numberline {6-2}{\ignorespaces "Ready to wear" computational fashion (from left to right: Fibonacci Scarf by Diana Eng, Biomimicry laser-cut bracelet by Stefanie Nieuwenhuyse, Laser Lace All-Over Tee by Diana Eng, Interstice bracelet by Nervous Systems, Modular Fashion by Eunsuk Hur}}{64}{figure.6.2}
-\contentsline {figure}{\numberline {6-3}{\ignorespaces Soft Objects primitives}}{65}{figure.6.3}
-\contentsline {figure}{\numberline {6-4}{\ignorespaces Soft Objects workflow}}{65}{figure.6.4}
-\contentsline {figure}{\numberline {6-5}{\ignorespaces Bracelets and scarves from preliminary activities}}{66}{figure.6.5}
-\contentsline {figure}{\numberline {6-6}{\ignorespaces Completed garments (from left to right: octagon dress, flag pants, samurai dress, viral sweatshirt)}}{67}{figure.6.6}
-\contentsline {figure}{\numberline {6-7}{\ignorespaces Progression of samurai dress (from left to right: concept sketch, computationally generated pattern,laser-cut components of final garment)}}{70}{figure.6.7}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {7-1}{\ignorespaces The DressCode interface}}{79}{figure.7.1}
-\contentsline {figure}{\numberline {7-2}{\ignorespaces Interpreter structure}}{80}{figure.7.2}
-\contentsline {figure}{\numberline {7-3}{\ignorespaces SVG import and sample of transformation methods}}{82}{figure.7.3}
-\contentsline {figure}{\numberline {7-4}{\ignorespaces Stripe pattern variations using the DressCode random method }}{83}{figure.7.4}
-\contentsline {figure}{\numberline {7-5}{\ignorespaces Polygon boolean operations}}{84}{figure.7.5}
-\contentsline {figure}{\numberline {7-6}{\ignorespaces Grouping with transformation and repeat statements}}{85}{figure.7.6}
-\contentsline {figure}{\numberline {7-7}{\ignorespaces Several example artifacts created with DressCode Designs (clockwise from top left: vinyl-cut screen printed pillow, vinyl-cut tea light, ink-jet printed silk caftan, laser-cut iron-on tshirt, 3d printed silver pendant) }}{87}{figure.7.7}
-\contentsline {figure}{\numberline {7-8}{\ignorespaces The expert workshop}}{89}{figure.7.8}
-\contentsline {figure}{\numberline {7-9}{\ignorespaces The youth brainstorm and discussion}}{90}{figure.7.9}
-\contentsline {figure}{\numberline {7-10}{\ignorespaces The first algorithm learned by the youth participants}}{90}{figure.7.10}
-\contentsline {figure}{\numberline {7-11}{\ignorespaces Some example variations on the first activity}}{91}{figure.7.11}
-\contentsline {figure}{\numberline {7-12}{\ignorespaces The bracelet template with one instance of the radial function being called}}{91}{figure.7.12}
-\contentsline {figure}{\numberline {7-13}{\ignorespaces a sample of the completed projects from the expert workshop (clockwise from top left: butterfly cuff, leather earrings, patent leather bracelet, algorithmic progression belt)}}{93}{figure.7.13}
-\contentsline {figure}{\numberline {7-14}{\ignorespaces a sample of the completed leather cuffs from the youth workshop}}{94}{figure.7.14}
-\contentsline {figure}{\numberline {7-15}{\ignorespaces Alternative bracelet aesthetics}}{105}{figure.7.15}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {8-1}{\ignorespaces DressCode with declarative view of a design}}{112}{figure.8.1}
+\contentsline {figure}{\numberline {3-1}{\ignorespaces Clockwise from upper-left: Fabricate Yourself by Karl D.D. Willis, 3D printed puzzle pieces featuring conference attendees (created with the openFrameworks toolkit, Kinect, and a 3D printer), Cell Cycle Bracelet and Ring creation application by Nervous Systems (created with Cinder toolkit), 3D-printed functional record by Amanda Ghassaei, (created using Processing.)}}{34}{figure.3.1}
+\contentsline {figure}{\numberline {3-2}{\ignorespaces Computational design in professional tools. Clockwise from upper-left: A Grashopper program in Rhino, OpenSCAD, the Python scripting interface in Blender, DesignScript.}}{36}{figure.3.2}
+\contentsline {figure}{\numberline {3-3}{\ignorespaces Entry-level CAD tools. Clockwise from upper-left: MeshMixer, 123D Make, TinkerCad.}}{38}{figure.3.3}
+\contentsline {figure}{\numberline {3-4}{\ignorespaces Entry-level forms of computational design. Clockwise from upper-left: A Scratch program using the pen tool, A design made in Logo by rotating a simple doodle, the Logo physical drawing robot, a sample Turtle Art program.}}{39}{figure.3.4}
+\contentsline {figure}{\numberline {3-5}{\ignorespaces Novel CAD tools: from left to right: Spirogator, SketchChair.}}{40}{figure.3.5}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B-1}{\ignorespaces The DressCode interface}}{117}{figure.B.1}
-\contentsline {figure}{\numberline {B-2}{\ignorespaces Interpreter structure}}{119}{figure.B.2}
-\contentsline {figure}{\numberline {B-3}{\ignorespaces A selection of methods from the DressCode API}}{122}{figure.B.3}
-\contentsline {figure}{\numberline {B-4}{\ignorespaces DressCode shape primitives with visible origins}}{123}{figure.B.4}
-\contentsline {figure}{\numberline {B-5}{\ignorespaces SVG import and sample of transformation methods}}{124}{figure.B.5}
-\contentsline {figure}{\numberline {B-6}{\ignorespaces Grouping with transformation and repeat statements}}{125}{figure.B.6}
-\contentsline {figure}{\numberline {B-7}{\ignorespaces Polygon boolean operations}}{127}{figure.B.7}
-\contentsline {figure}{\numberline {B-8}{\ignorespaces Stripe pattern variations using the DressCode random method }}{128}{figure.B.8}
+\contentsline {figure}{\numberline {5-1}{\ignorespaces A selection of laser-cut lamps from Instructables}}{48}{figure.5.1}
+\contentsline {figure}{\numberline {5-2}{\ignorespaces Instructables lamp tutorial with SolidWorks design process}}{49}{figure.5.2}
+\contentsline {figure}{\numberline {5-3}{\ignorespaces The individual parts of a lamp}}{50}{figure.5.3}
+\contentsline {figure}{\numberline {5-4}{\ignorespaces The first version of Codeable Objects, with only text-based interaction}}{51}{figure.5.4}
+\contentsline {figure}{\numberline {5-5}{\ignorespaces Several of the finished lamps from the first workshop}}{52}{figure.5.5}
+\contentsline {figure}{\numberline {5-6}{\ignorespaces Revised graphic view with sliders}}{55}{figure.5.6}
+\contentsline {figure}{\numberline {5-7}{\ignorespaces The revised paper lamps}}{56}{figure.5.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6-1}{\ignorespaces 3D-printed fashion (from left to right: Crystallization 3D Top by Iris Van Herpen, Drape Dress by Janne Kyttanen, N12 Bikini by Continuum Fashion, Strvct shoe by Continuum Fashion}}{61}{figure.6.1}
+\contentsline {figure}{\numberline {6-2}{\ignorespaces "Ready-to-wear" computational fashion (from left to right: Fibonacci Scarf by Diana Eng, Biomimicry laser-cut bracelet by Stefanie Nieuwenhuyse, Laser Lace All-Over Tee by Diana Eng, Interstice bracelet by Nervous Systems, Modular Fashion by Eunsuk Hur}}{61}{figure.6.2}
+\contentsline {figure}{\numberline {6-3}{\ignorespaces Soft Objects primitives.}}{62}{figure.6.3}
+\contentsline {figure}{\numberline {6-4}{\ignorespaces Soft Objects workflow.}}{63}{figure.6.4}
+\contentsline {figure}{\numberline {6-5}{\ignorespaces Bracelets and scarves from preliminary activities.}}{64}{figure.6.5}
+\contentsline {figure}{\numberline {6-6}{\ignorespaces Completed garments (from left to right: octagon dress, flag pants, samurai dress, viral sweatshirt)}}{65}{figure.6.6}
+\contentsline {figure}{\numberline {6-7}{\ignorespaces Progression of samurai dress (from left to right: concept sketch, computationally generated pattern,laser-cut components of final garment)}}{68}{figure.6.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7-1}{\ignorespaces The DressCode interface}}{77}{figure.7.1}
+\contentsline {figure}{\numberline {7-2}{\ignorespaces Interpreter structure}}{78}{figure.7.2}
+\contentsline {figure}{\numberline {7-3}{\ignorespaces SVG import and sample of transformation methods}}{80}{figure.7.3}
+\contentsline {figure}{\numberline {7-4}{\ignorespaces Stripe pattern variations using the DressCode random method }}{81}{figure.7.4}
+\contentsline {figure}{\numberline {7-5}{\ignorespaces Polygon boolean operations}}{82}{figure.7.5}
+\contentsline {figure}{\numberline {7-6}{\ignorespaces Grouping with transformation and repeat statements}}{83}{figure.7.6}
+\contentsline {figure}{\numberline {7-7}{\ignorespaces Several example artifacts created with DressCode Designs (clockwise from top left: vinyl-cut screen printed pillow, vinyl-cut tea light, ink-jet printed silk caftan, laser-cut iron-on tshirt, 3d printed silver pendant) }}{85}{figure.7.7}
+\contentsline {figure}{\numberline {7-8}{\ignorespaces The expert workshop}}{87}{figure.7.8}
+\contentsline {figure}{\numberline {7-9}{\ignorespaces The youth brainstorm and discussion}}{88}{figure.7.9}
+\contentsline {figure}{\numberline {7-10}{\ignorespaces The first algorithm learned by the youth participants}}{88}{figure.7.10}
+\contentsline {figure}{\numberline {7-11}{\ignorespaces Some example variations on the first activity}}{89}{figure.7.11}
+\contentsline {figure}{\numberline {7-12}{\ignorespaces The bracelet template with one instance of the radial function being called}}{89}{figure.7.12}
+\contentsline {figure}{\numberline {7-13}{\ignorespaces a sample of the completed projects from the expert workshop (clockwise from top left: butterfly cuff, leather earrings, patent leather bracelet, algorithmic progression belt)}}{91}{figure.7.13}
+\contentsline {figure}{\numberline {7-14}{\ignorespaces a sample of the completed leather cuffs from the youth workshop}}{92}{figure.7.14}
+\contentsline {figure}{\numberline {7-15}{\ignorespaces Alternative bracelet aesthetics}}{103}{figure.7.15}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8-1}{\ignorespaces DressCode with declarative view of a design}}{110}{figure.8.1}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B-1}{\ignorespaces The DressCode interface}}{115}{figure.B.1}
+\contentsline {figure}{\numberline {B-2}{\ignorespaces Interpreter structure}}{117}{figure.B.2}
+\contentsline {figure}{\numberline {B-3}{\ignorespaces A selection of methods from the DressCode API}}{120}{figure.B.3}
+\contentsline {figure}{\numberline {B-4}{\ignorespaces DressCode shape primitives with visible origins}}{121}{figure.B.4}
+\contentsline {figure}{\numberline {B-5}{\ignorespaces SVG import and sample of transformation methods}}{122}{figure.B.5}
+\contentsline {figure}{\numberline {B-6}{\ignorespaces Grouping with transformation and repeat statements}}{123}{figure.B.6}
+\contentsline {figure}{\numberline {B-7}{\ignorespaces Polygon boolean operations}}{125}{figure.B.7}
+\contentsline {figure}{\numberline {B-8}{\ignorespaces Stripe pattern variations using the DressCode random method }}{126}{figure.B.8}
