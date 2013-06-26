@@ -7,33 +7,34 @@
 \chapter{DressCode}\label{sec:DressCode}
 
 \begin{center}
-\includegraphics[width=6.5in]{images/dressCode_main.png}
+\includegraphics[width=\columnwidth]{images/dressCode_main.png}
 \end{center}
 
 
-The preliminary work of Codeable Objects and Soft Objects clearly demonstrated that algorithmic craft offers a compelling opportunity for personal, creative expression through programming. My goal following these first two tools was to address several of their primary limitations in an effort to better engage novice programers in the computational design aspects of algorithmic craft. DressCode is a stand-alone programing environment and design tool created to support new programmers in open, independent algorithmic craft. To evaluate Dress Code, I conducted two separate day-long workshops, one with experienced programmers and designers, and one for young people who were new to programming. I also worked with FUSE, an out of school STEAM exploration program to develop a set of online activities using DressCode, which are currently in the preliminary stages of evaluation.	 
+The preliminary work of Codeable Objects and Soft Objects clearly demonstrated that algorithmic craft offers a compelling opportunity for personal, creative expression through programming. My goal following these first two tools was to address several of their primary limitations in an effort to better engage novice programers in the computational design aspects of algorithmic craft. DressCode is a stand-alone programming environment and design tool created to support new programmers in open, independent algorithmic craft. To evaluate Dress Code, I conducted two separate day-long workshops, one with experienced programmers and designers, and one for young people who were new to programming. I also worked with FUSE, an out of school STEAM exploration program to develop a set of online activities using DressCode, which are currently in the preliminary stages of evaluation.	 
 
 \section{Design principles and Software Features}
 The focus on fashion in the Soft Objects workshop allowed young people to use computation to create wearable artifacts of their own design. I felt this was a particularly compelling form of engaging young people with computation, and decided to continue working in domain of fashion and garment creation for DressCode. Although the name of the tool reflects an emphasis on fashion, as an application DressCode is general purpose, and can be applied to many forms of algorithmic craft. To preserve the emphasis on fashion, the majority of the example projects and artifacts I  have created with DressCode thus far, are fashion-oriented. The workshops I conducted, as well as the curriculum I helped develop also center on creating wearable artifacts.
 
-With DressCode, I attempted to improve on Soft Objects in several ways. DressCode contains its own programing language with a simplified syntax and a limited set of textual programming methods, to allow people with little or no prior programming experience to work with the language quickly and effectively. The methods within the programing language are developed with digital fabrication applications in mind. They provide the user with the means to design freely, while ensuring that the designs created will translate easily to 2-axis fabrication machines, without the need for additional design software. The DressCode interface is developed to equally prioritize textual programing and visual design, and provide constant visual feedback for programing decisions. The environment has two-panels, one displays a graphic rendering of the user's current design, the other displays their programing code. As a user makes changes to their code, the effects on the design are rendered in the graphic panel. By providing a specialized programing language and immediate support for digital fabrication was to assist non-programmers in independently making design decisions with programing. In short, I wanted to make it as easy as possible for people to decide on their own desired style or aesthetic, and then realize it by writing their own code. The following section describes the features of the DressCode software in greater detail.
+With DressCode, I attempted to improve on Soft Objects in several ways. DressCode contains its own programming language with a simplified syntax and a limited set of textual programming methods, to allow people with little or no prior programming experience to work with the language quickly and effectively. The methods within the programming language are developed with digital fabrication applications in mind. They provide the user with the means to design freely, while ensuring that the designs created will translate easily to 2-axis fabrication machines, without the need for additional design software. The DressCode interface is developed to equally prioritize textual programming and visual design, and provide constant visual feedback for programming decisions. The environment has two-panels, one displays a graphic rendering of the user's current design, the other displays their programming code. As a user makes changes to their code, the effects on the design are rendered in the graphic panel. By providing a specialized programming language and immediate support for digital fabrication was to assist non-programmers in independently making design decisions with programming. In short, I wanted to make it as easy as possible for people to decide on their own desired style or aesthetic, and then realize it by writing their own code. The following section describes the features of the DressCode software in greater detail.
 
 \subsection{Interface Design}
  \begin{center}
 \begin{figure}[h!]
-\includegraphics[width=6.5in]{images/dress_code_interface.png}
+\includegraphics[width=\columnwidth]{images/dress_code_interface.png}
 \caption{The DressCode interface}
 \label{fig:dress_code_interface}
 \end{figure}
 \end{center}
 
-The interface of DressCode is divided into two sections, a design panel and a coding panel. The coding panel contains a primary window for entering text, an output console for print output and error reporting. When the play button is pressed, the program in the code window is run and the resulting design is displayed in the design panel. The design panel approximates many of the features of a digital graphic design tool, with rulers and a grid, and a drawing board. The drawing board defines a reference for the coordinate system referenced by the drawing API with the upper left hand corner corresponding to (0,0) in cartesian coordinates. Users can resize the drawing board and set the units to inches or millimeters at any point during the design process. The print button opens a dialog that allows the user to export their current design in a vector format. The design panel also features a set of buttons that allow for graphic manipulation of a user's design. The target button for example, allows the user to graphically select a set of coordinates and have them appear in the programming window as text, and can be used like an eyedropper for pixel coordinates. The plus and minus magnifying glasses and the hand tool are used to pan and zoom in and out of the screen. Lastly, the arrow tool allows for design elements to be graphically selected and manipulated. After a design element is moved with the arrow tool, with the corresponding code for the move appears in the programing window. The graphic components of the the DressCode interface were developed to enable the conceptual and practical execution of digital designs for fabrication, by specifying designs in real-world units. The graphic manipulation tools were designed to be intuitive, while simultaneously working in conjunction with the programing environment, providing people with another method to understand and alter their programs. Furthermore, I theorized that by maintaining a visual display of the design with consistent updates would provide a greater incentive for people to experiment with their code, and in doing so, gain a better understanding of the algorithms behind them.
+The interface of DressCode is divided into two sections, a design panel and a coding panel. The coding panel contains a primary window for entering text, an output console for print output and error reporting. When the play button is pressed, the program in the code window is run and the resulting design is displayed in the design panel. The design panel approximates many of the features of a digital graphic design tool, with rulers and a grid, and a drawing board. The drawing board defines a reference for the coordinate system referenced by the drawing API with the upper left hand corner corresponding to (0,0) in cartesian coordinates. Users can resize the drawing board and set the units to inches or millimeters at any point during the design process. The print button opens a dialog that allows the user to export their current design in a vector format. The design panel also features a set of buttons that allow for graphic manipulation of a user's design. The target button for example, allows the user to graphically select a set of coordinates and have them appear in the programming window as text, and can be used like an eyedropper for pixel coordinates. The plus and minus magnifying glasses and the hand tool are used to pan and zoom in and out of the screen. Lastly, the arrow tool allows for design elements to be graphically selected and manipulated. After a design element is moved with the arrow tool, with the corresponding code for the move appears in the programming window. The graphic components of the the DressCode interface were developed to enable the conceptual and practical execution of digital designs for fabrication, by specifying designs in real-world units. The graphic manipulation tools were designed to be intuitive, while simultaneously working in conjunction with the programming environment, providing people with another method to understand and alter their programs. 
 
-\subsection{Programing Language}
-The DressCode programing language is interpreted with semantic functionality that is simulated through a Java-based library.  We relied on the ANTLR framework to generate the necessary lexing and parsing methods for the language, and developed the semantic functionality using java and the java openGL (JOGL). When a program is run in DressCode, the raw script is first tokenized and then parsed to generate an abstract syntax tree (AST). During this phase, all user-generated function definitions are stored in memory. If any parsing errors are encountered, they are output to the console as "compiler errors". Assuming the parse is successful, DressCode then walks the resultant AST and attempts to execute the semantic functionality of the program (figure:\ref{fig:interpreter_structure}.) After being executed, the resultant design is rendered on the display panel. Any runtime errors are displayed in the output console. For most programs, this process is instantaneous, however some programs with complex operations require several seconds to be executed. 
+\subsection{programming Language}
+I chose to make DressCode a text-based language because I believe that textual programming languages provide a distinct, and beautiful form of expression that is well suited to design. Textual programming can be considered a form of craft, and in the hands of experienced coders, textual programs can be nuanced, artistic, and finely crafted. I was interested in investigating the ways I could communicate the power and poetic potential of textual languages to people who had never programmed before. With that in mind, I tried to reduce the challenges of first-time programming as much as possible, by augmenting it with graphic interaction and feedback. The DressCode programming language is interpreted with semantic functionality that is simulated through a Java-based library. When a program is run, the design is displayed in the display panel, and any runtime errors are printed to the output console. For most programs, this process is instantaneous, however some programs with complex operations require several seconds to be executed. Interpreting the DressCode language enabled me to greatly reduce the amount of time it took to see changes in a design. I hoped this would provide a greater incentive for people to experiment with their code, and by doing so, allow them to gain a better understanding of how to achieve their personal design objectives.
+
   \begin{center}
 \begin{figure}[h!]
-\includegraphics[width=6.5in]{images/interpreter_structure_horz.png}
+\includegraphics[width=\columnwidth]{images/interpreter_structure_horz.png}
 \caption{Interpreter structure}
 \label{fig:interpreter_structure}
 \end{figure}
@@ -60,7 +61,7 @@ println(n1+n2*10); // returns 27.0
 %\end{figure}
 \end{center}
 
-The  language also contains support for basic expressions, as well as block statements, including conditionals, loops and user-defined functions. There are two possible loop statements: repeat statements and while statements. Loops are extremely useful for computational design, especially when creating repeating patterns. For new programers however, loops are a difficult concept, and in many programming languages however loop syntax is often confusing. I attempted to simplify the loops of DressCode by creating an automatic update condition, and designating them with keywords I thought would more accurately reflect their function. I also added several methods that allow users to create loop-based patterns with a single statement, by specifying the number of repeats, and the resultant pattern of the loop (wave, arc, grid, spiral or ellipse). 
+The  language also contains support for basic expressions, as well as block statements, including conditionals, loops and user-defined functions. Loops are extremely useful for computational design, especially when creating repeating patterns. For new programers however, loops are a difficult concept, and loop syntax is often confusing. I attempted to clarify the loops of DressCode by creating a default update condition, and designating them with keywords I thought would more accurately reflect their function. I also added several methods that allow users to create loop-based patterns with a single statement, by specifying the number of repeats, and the resultant pattern of the loop (wave, arc, grid, spiral or ellipse). 
 
  \begin{center}
 %\begin{figure}
@@ -101,80 +102,59 @@ println(result);//prints 120
 \end{center}
 
 \subsubsection{Drawing API}
- The API is organized around the creation and transformation of 2D shape primitives. By duplicating and manipulating these primitives in a structured manner, it is possible to generate complex and interesting designs from simple forms. The API is composed of three primary main categories, divided by functionality: shape primitives, shape transforms, shape booleans, math operations and property access. A selection of the primary methods from each of these categories is detailed in figure \ref{fig:api_table}. 
-
-  \begin{center}
-\begin{figure}[h!]
-\includegraphics[width=6.5in]{images/api_table.png}
-\caption{A selection of methods from the DressCode API}
-\label{fig:api_table}
-\end{figure}
-\end{center}
-\paragraph{Shape Primitives:}
-DressCode shape primitives currently serve as the primary means of drawing (figure: \ref{fig:shape_primitives}.) The simplest primitive is a point, initialized two numerical parameters that denote the x and y coordinates. All closed-shape primitive methods (ellipses, rectangles and polygons) require an argument of either two x,y coordinates, or a point. This coordinate defines the origin of the shape and determines where  the shape will be drawn on the canvas. Ellipses and rectangles have an additional two optional parameters which specify width and height. If only two arguments are provided, the ellipse or rectangle will be drawn with a default width and height; if three arguments are given, the width and height will be the same. Polygons also have two optional parameters following the x and y origin coordinates, however they specify number of sides and length of each side, rather than width and height. Lines can be initialized either as four numerical values, specifying start and end x and y coordinates, two points, or as a vector, with a origin point,  a magnitude, and a heading in degrees. Curves are defined by a set of four points or eight coordinates, which determine the start, first control point, second control point and end point of a 4-point bezier curve. One other method of primitive generation was added in at the request of some of our early users: vector paths stored in Scalable Vector Graphics (SVG) format can be imported and drawn in the DressCode environment, and used in conjunction with primitive transformation and boolean methods.  
-
+ The DressCode API is organized around the creation and transformation of shape primitives including points, lines, curves, polygons, ellipses, rectangles and imported SVG shapes.There is no required "draw" method for DressCode. Instead all primitives are automatically drawn in the display panel in the order of their initialization. This was designed to make it as easy as possible to have one's design appear on the screen. If a user does not want a primitive to appear on the screen, they can hide it.
+ 
+ All primitives can be modified through a set of transformation methods that allow them to be rotated, scaled and moved. Transformations on a primitive are performed by assigning an identifier to the primitive, and then calling the transformation method with the identifier. By using the transformation method to manipulate primitives in a structured manner, it is possible to generate complex and interesting designs from simple forms. Through these methods, DressCode was intended to support the affordances of computational design, specifically precision, visual complexity, generativity and stylistic abstraction, in a way that was feasible for new practitioners.
+ 
  \begin{center}
 \begin{figure}[h!]
-\includegraphics[width=6.5in]{images/primitives.png}
-\caption{DressCode shape primitives with visible origins}
-\label{fig:shape_primitives}
-\end{figure}
-\end{center} 
-
-\paragraph{Shape Transformations:} \label{par:shape_transformation}
-There is no required "draw" method for DressCode, as there are in many other graphics APIs, Instead all primitives are automatically drawn in the display panel in the order of their initialization, once the program has been run. In Soft Objects and Codeable Objects, when we required users to manually call draw method for any and all shapes in their program, they often forgot, and then had difficulty determining the reason why parts of their designs were not visible. 
-
-Each shape primitive method returns an instance of the primitive it creates. A programmer can either create shapes with no reference as in figure \ref{fig:shape_primitives}, or they can assign them to an identifier at initialization, allowing them to reference and modify the shape later in the program. The shape transformation methods allow for a range of modifications to a shape, by passing a reference to the primitive the first argument, followed by different parameters for the modification, depending on the method (figure: \ref{fig:transformation}.) We began with a basic set of transformations, including move, rotate, methods that allowed for the modification of the stroke weight and color of the shape, and a hide method that prevented a primitive from being drawn. Based on our early user testing however, we gradually added in additional methods, based on what people wanted to do with their designs. This included a moveBy method, scale and mirroring functionality, a copy method, and an addition to the rotate method which allowed a shape to be rotated around a point other than its origin. 
-
- \begin{center}
-\begin{figure}[h!]
-\includegraphics[width=6.5in]{images/transformation.png}
+\includegraphics[width=\columnwidth]{images/transformation.png}
 \caption{SVG import and sample of transformation methods}
 \label{fig:transformation}
 \end{figure}
 \end{center} 
-
-DressCode primitives can also be programmatically "grouped". Grouping provides an organizational structure for more complex configurations of primitives allows for the automatic transformations to multiple shapes. Groups have their own origin, which is used as the reference point for all move, rotation and scale methods applied to the group (figure: \ref{fig:grouping}.) For example, a collection of ellipses that is grouped and then moved to the center of the canvas would move the origin of the group to the center, and all the ellipses relative to the new origin. The origin of a group is automatically calculated as the centroid of all of the objects in the group and updated each time a primitive is added or removed. Groups are treated similarly to lists in that individual objects can be accessed and manipulated by via their index. Originally, primitives within a group were transformed relative to the origin of the group, however this caused confusion among many of our initial users. Each individual primitive is now translated according to the coordinate system of the canvas, regardless of whether it is in a group. 
-
- \begin{center}
-\begin{figure}[h!]
-\includegraphics[width=6.5in]{images/grouping.png}
-\caption{Grouping with transformation and repeat statements}
-\label{fig:grouping}
-\end{figure}
-\end{center} 
-
-\paragraph{Polygon Booleans:}
-DressCode also features a subset of transformation methods for polygon boolean operations (figure: \ref{fig:boolean}.) The union, difference, exclusive or and intersection methods accept two primitives as arguments and return the corresponding shape, or group of shapes, depending on the operation. In addition, the merge method performs a union on all objects within a group and returns a single primitive. The expand method converts an object's stroke to a filled polygon with dimensions that match the weight of the stroke. The boolean methods were added for multiple reasons. Polygon boolean operations play an important role in CAD design for fabrication, because they allow for the creation of vector paths that appropriate for subtractive manufacturing processes. In particular, the merge method can function as a catch-all method for preparing designs for fabrication, and the expand method is useful for converting line drawings to paths that will retain their appearance when cut. In prior workshops, we relied on illustrator to prepare file paths for manufacturing, which was difficult, time-consuming and a hindrance to the computational design process. By integrating boolean operations as a part of the programming language in DressCode, it not only prevents users from having to rely on multiple software tools to design, but allows booleans to be used in a computational context, facilitating the creation of a whole new range of forms with simple primitives. 
-
-Both the syntax and functionality of the boolean operations have been modified significantly since the first version of DressCode. In early versions, the majority of the booleans were expressed through mathematical notation, rather than with built in functions (e.g. ellipse1 + ellipse2 would perform a union). After some of our early user testing however, we depreciated this syntax, because many testers felt that mathematical notation was not intuitive beyond the union and difference operations. In addition, the mathematical notation required that all booleans be set equal to an identifier  (e.g. ellipse1 + ellipse2 = e3), in order to evaluate as a valid statement. The new method syntax still returns a resulting boolean, but can also be called without a corresponding assignment statement. Semantically, we originally had the boolean statements operate in a destructive manner as is the case in many graphic drawing programs; union(ellipse1, ellipse2) would destroy the original two ellipses and set the identifier ellipse1 equal to the resulting boolean. This was confusing however, because in a imperative program, the programmer could still reference the destroyed ellipse2. What we opted for instead, was a non-destructive boolean method wherein union(ellipse1,ellipse2) would return a third shape, which would automatically be drawn on the screen, and could be assigned to an identifier as needed. The original ellipse1 and ellipse2 would be hidden, but could both still be referenced without conflict, and could be revealed again on the canvas with the show() method. 
+ 
+Although I started with a basic set of transformations, I gradually added in additional methods, in response to user testing. This included a moveBy method, a polar move method, mirroring functionality, a copy method, and an addition to the rotate method which allowed a shape to be rotated around a point other than its origin. To encourage generatively, I added a random method, although this raised interesting implementation questions. The random method generates different numbers each time a a program is run, which can be a useful design feature, allowing for the generation of numerous patterns with random variations. Figure \ref{fig:random_symmetry} demonstrates variations of an algorithm that produces randomly symmetrical stripe patterns.  It can also be potentially problematic, when the user wishes to keep the same randomly generated number for each interpretation of their design. 
 
  \begin{center}
 \begin{figure}[h!]
-\includegraphics[width=6.5in]{images/boolean.png}
-\caption{Polygon boolean operations}
-\label{fig:boolean}
-\end{figure}
-\end{center} 
-\paragraph{Additional Methods:}
-Aside from methods for shape generation and transformation, DressCode features a set of getter methods that return information about a shape primitive, including its location, origin point, width and height, as well as a method to determine the Euclidean distance between two objects. There are also a set of methods that enable more advanced mathematical operations, including trigonometric functions, mapping, rounding and random number generation. The random method posses an interesting questions for implantation, as it generates different numbers each time a a program is run. This can be a useful design feature, allowing for the generation of numerous patterns with random variations. Figure \ref{fig:random_symmetry} demonstrates variations of an algorithm that produces randomly symmetrical stripe patterns.  It can also become problematic however, when the user wishes to keep the same randomly generated number for each interpretation of their program.  Finally, we recently added a set of methods that allow the specification of numerical values in inches, centimeters and millimeters, or in the current units of the drawing board. These methods are helpful when sizing and transforming primitives to real world measurements rather than pixel values.  
-
-\paragraph{Constants:}
-DressCode has a small set of constants to assist with design. WIDTH and HEIGHT correspond to the width and height of the current drawing board. PI corresponds to the numerical Pi value. Lastly, there are a set of color constants; RED, GREEN, BLUE, PURPLE, PINK, etc., that can be used to define the color of objects with fill and stroke methods. Custom colors can also be specified with 0-255 RGB values. 
-
- \begin{center}
-\begin{figure}[h!]
-\includegraphics[width=6.5in]{images/random_symmetry.png}
+\includegraphics[width=\columnwidth]{images/random_symmetry.png}
 \caption{Stripe pattern variations using the DressCode random method }
 \label{fig:random_symmetry}
 \end{figure}
 \end{center}
 
+\subsubsection{Polygon Booleans:}
+Polygon boolean operations are techniques that allow shape primitives to be combined and subtracted from one another in various ways. Polygon booleans are widely used in CAD applications and are essential for many forms of digital fabrication because they allow for complex configurations of shapes to be combined into effective toolpaths. Polygon Boolean operations are also important from a design perspective, because they facilitate the creation of new forms, not possible through other drawing techniques. Processing does not contain methods for polygon booleans. As a result, in the Soft Objects workshop we had to rely on Adobe Illustrator to prepare designs for fabrication, which was confusing, disruptive to the design process, and time consuming for the participants.  Therefore, it was important to me that DressCode contained native polygon boolean operations which better supported digital fabrication, and  were conducive to the design process. DressCode contains methods for performing unions, intersections, differences and either-or intersections between any two or more shapes. These methods enable users to combine objects and create complex polygons with multiple holes. operation. They can also clip shapes within clipping masks based on the dimensions of the design they are creating. They can also expand strokes to filled polygon paths, enabling the translation of line art to a form that will maintain its appearance when fabricated. By positioning these operations as primary components of the DressCode, I attempted to create a programming language that produced forms that were applicable to fabrication as a direct result of the design process, rather than requiring an extraneous post-processing step that could interfere with the aesthetics of the piece. In this way, users could be in control of their design throughout the entire process of programming, fabricating and crafting. 
+
+ \begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/boolean.png}
+\caption{Polygon boolean operations}
+\label{fig:boolean}
+\end{figure}
+\end{center} 
+
+\subsubsection{Grouping}
+One major concern in computational design is how to effectively organize and collectively manipulate complex designs with many individual elements. To address this, DressCode primitives can also be programmatically grouped, allowing for transformations to simultaneously be applied to multiple elements. Groups have their own origin, which is used as the reference point for all move, rotation and scale methods applied to the group (figure: \ref{fig:grouping}.) The groups in DressCode provide structural mechanism that bridges computational data structures with organizational structures found in non-computational graphics software. Groups are treated similarly to lists in that they can be populated through a loop, and individual objects can be accessed and manipulated by via their index. Similar to Adobe Illustrator and many 3D modeling programs, groups can also be moved with the graphic manipulation tools, and have boolean operations performed on all of the members simultaneously. This connection creates a more balanced treatment between properties of digital graphics software and computational affordances, to better communicate the utility of lists in a design context. Groups also provide a practical advantage for digital fabrication, as they can be automatically merged upon export, returning a single complete tool path that conducive to subtractive fabrication processes.
+
+ \begin{center}
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{images/grouping.png}
+\caption{Grouping with transformation and repeat statements}
+\label{fig:grouping}
+\end{figure}
+\end{center} 
+
+\subsubsection{Informational Methods}
+Computational designers do more than specify designs. They also must be able to access information about components of their design, and make aesthetic or practical decisions based on that information. DressCode features a set of methods that return information about shape primitives, such as their location, origin point, width and height, as well as a method to determine the Euclidean distance between two objects. I also added a set of methods that allow the conversion of pixel values to inches, centimeters and millimeters, or in the current units of the drawing board. These methods encourage designers to evaluate their designs on practical and aesthetic criteria, and allow them to ensure their creations fit the correct parameters for physical construction. 
+
 \section{Fabrication and Crafting Process}
-Similar to the prior tools described in this thesis  once a design is exported from DressCode, it can be imported to the control software of any 2-axis fabrication machine and fabricated into a set of parts.Depending on the material and fabrication process, a variety of end products are possible. In the process of protopying DressCode, I experimented several different fabrication machines, crafting techniques and artifacts. I tested DressCode primarily with the laser-cutter, however I also used it with more accessible machines including low-cost craft vinyl cutters and inkjet printers. I also examined sending DressCode files to online fabrication services such as Shapeways and SpoonFlower, to produce 3D-printed jewelry and larger inkjet printed garments.  I tested the resultant pieces from these fabrication processes with different crafting techniques that ranged in difficulty. Highly accessible techniques included making artifacts that required basic paper-folding or iron on appliqués for clothing. More difficult techniques included sewing garments, screen printing onto fabric, and jewelry making. There was frequently correlation between how easy a craft was to create, and how well it corresponded with the DressCode design process, indicating that for more sophisticated crafting processes like sewing, more advanced organizational functionality might be required for the DressCode software. 
+Because DressCode is intended for algorithmic craft, it had to enable people to translate the designs created in the software to functional physical artifacts. DressCode can export vector files that can be used with any 2-axis fabrication machine. Depending on the materials and machines available, a wide variety of end products are possible. A large component of developing DressCode involved experimenting with different fabrication machines, crafting techniques and end artifacts. I tested the resultant pieces from these fabrication processes with different crafting techniques that ranged in difficulty. Highly accessible techniques included making artifacts that required basic paper-folding or iron on appliqués for clothing. More difficult techniques included sewing garments, screen printing onto fabric, and jewelry making. 
 
-To provide some support in the crafting process for independent users, my undergraduate research assistants and I created a set of example templates in DressCode that are directed towards specific end projects and fabrication machines (figure: \ref{fig:dresscode_examples}). We also began documenting some of the crafting techniques required to complete these projects online \cite{thesis_website}. Mainly though, I relied on in-workshop instruction or curriculum development to assist people in using DressCode to complete finished artifacts.
+Because accessibility was a primary goal, it was important to ensure that DressCode could be used with widely available forms of digital fabrication. I experimented with the laser cutter and CNC milling machines with DressCode however I  also developed a set of projects that were compatible with the cameo craft vinyl cutters, and standard inkjet printers. These options lowered the cost for participation in algorithmic craft for many individuals and groups. I also used DressCode in conjunction with two on-demand online fabrication services,  Shapeways and Spoonflower, to produce 3D-printed jewelry and larger inkjet printed garments. 
 
+The support of algorithmic craft depends on more than good software. It is also important to convey information about material affordances for different forms of fabrication, instructions for combining craft construction methods with fabricated pieces, and inspiration for possible projects and end artifacts. The study of methods for documenting and communicating this information is substantial, and could easily constitute its own thesis. For DressCode, I attempted to experiment with fabrication techniques and projects that were interesting to me, and that I believed would be accessible and compelling for young people.  To provide support for independent users, my undergraduate research assistants and I created a set of example templates in DressCode that are directed towards specific end projects and fabrication machines (figure: \ref{fig:dresscode_examples}). We also began documenting some of the crafting techniques required to complete these projects online. I also worked with FUSE, an interest driven STEM exploration program in Chicago, to document DressCode. With FUSE, I developed an online activity designed to help young people use DressCode to create vinyl cut accessories \footnote{https://www.fusestudio.net/challenge/dresscode/shrink-it}. Despite these initial explorations, there still remains significant research to conduct in the process of documenting and conveying fabrication and craft knowledge in conjunction with computational tools.
  \begin{center}
 \begin{figure}[h!]
 \includegraphics[width=\columnwidth]{images/dresscode_examples.png}
@@ -183,14 +163,17 @@ To provide some support in the crafting process for independent users, my underg
 \end{figure}
 \end{center}
 
+\section{Tool Summary}
+The DressCode programming language, graphical interface and craft and fabrication documentation materials are designed to work in combination to extend the creative opportunities of algorithmic craft while reducing the technical difficulties of using programming to design for digital fabrication. The drawing methods are created to be easy to use, but broad in their creative possibilites. The interface mixes programming functionality with rapid visual feedback and graphic manipulation. The documentation and curricula provide assistance in using digital fabrication machines, and ideas for possible end projects, helping people to translate their designs to functioning crafts. By allowing people to produce complex structures from simple forms, and realize these forms in personal physical artifacts, my intention is to instill confidence in people's ability to program, while generating excitement and enjoyment of the the creative opportunities inherent in algorithmic craft.
+
 
 \section{Workshops}
-We informally tested DressCode with members of the FUSE development team, and by the staff at Dream Yard, an after school STEM education space in the Bronx. Following these tests, and a period of additional development, DressCode was evaluated during two separate day long workshops at the MIT Media lab. The first workshop was conducted among experienced designers, artists and programmers, who were selected individually from MIT, Harvard and the Cambridge community. The second workshop was conducted among ten young adults selected from youth organizations in Cambridge and art and craft workshop mailing-lists at MIT.Both workshops used DressCode to create laser-cut leather crafts.
+To evaluate the success of DressCode in helping young people participate in algorithmic craft, I conducted several user studies and workshops. I informally tested DressCode with members of the FUSE development team, and with the staff at Dream Yard, an after school STEM education space in the Bronx. Following these tests and a period of additional development, DressCode was evaluated during two separate day-long workshops at the MIT Media lab. The first workshop was conducted among experienced designers, artists and programmers, who were selected individually from MIT, Harvard and the Cambridge community. The second workshop was conducted among ten young adults selected from youth organizations in Cambridge and arts-and-craft workshop mailing-lists at MIT. Participants in both workshops used DressCode to create laser-cut leather crafts. By testing DressCode with experts and young people, I hoped to learn about its usability for the target demographic, and also gain insight into future directions and design techniques to incorporate into the tool. 
 
 \subsection{Expert Workshop}
-The expert workshop was comprised of eight participants between the ages of  19 to 33. Five of the eight participants were female and three were male, and all had prior experience in programming. 75\% of the participants indicated a strong prior interest in design, and 50\% enjoyed crafting. All participants had formal training at a college level in either art, design or computer science 
+The expert workshop was comprised of eight participants between the ages of  19 to 33. Five of the eight participants were female, and all had prior experience in programming. 75\% of the participants indicated a strong prior interest in design, and 50\% enjoyed crafting. All participants had formal training at a college level in either art, design or computer science. 
 
-The expert workshop was deliberately open and informal. We began the workshop with an open 30 minute discussion on the connections and intersections between design, arts and crafts and programming. Following this discussion the, participants were given a 45 minute general tutorial on the basics of the DressCode environment and programming language, after which participants were given access to the DressCode online code reference and a physical handout with quick references for some of the key methods. We also provided with a leather bracelet template and several example programs that generated different patterns for the template as  examples. Participants were given the option to design within the template or rely on modifying these examples, but were also free to create whatever they wanted.  Following the programing tutorial, participants were shown the basic fabrication process, and introduced to the materials, consisting of several varieties and colors of leather. Participants then had 3-4 hours to design their piece. As they completed their designs, they were taken in groups to the shop to fabricate their parts and then given access to craft tools and a variety of fasteners (snaps, rivets and jewelry connectors) to convert them into finished artifacts.
+The expert workshop was structured as an open-ended design activity. I began the workshop with a 30 minute discussion on the connections and intersections between design, arts and crafts and programming. Following this discussion the, participants were given a 45 minute tutorial on the basics of the DressCode, after which participants were given access to the online code reference and a physical handout with quick references for some of the key methods. I also provided participants with a leather bracelet template and several example programs that generated different patterns for the template. Participants were given the option to design within the template, but were also free to create whatever they wanted.  After participants spent several hours designing, they were shown the basic fabrication process, and provided with materials consisting of several varieties and colors of leather. Participants then had 3-4 hours to finish the design of  their piece. As they completed their designs, they were taken in groups to the shop to fabricate their parts and then given access to craft tools and a variety of fasteners (snaps, rivets and jewelry connectors) to convert them into finished artifacts.
 
 \begin{center}
 \begin{figure}[h!]
@@ -201,9 +184,9 @@ The expert workshop was deliberately open and informal. We began the workshop wi
 \end{center}
 
 \subsection{Youth Workshop}
-The youth workshop was conducted among ten young adults, aged 15-17, 20\% male and 80\% female. Five of the youth participants were participants in the Teach to Learn, Learn to Teach program in Boston \todo{cite program and find a description}. Of those surveyed three participants had prior experience with Scratch, and two had worked with the Arduino programing environment in a prior Media Lab workshop.  All of the participants said they had some prior experience in art, design, or craft.  Prior to the workshop, 60\% of the participants indicated that they did not feel comfortable programing on their own, however the majority indicated that they were interested in learning more about the process. 
+The youth workshop was conducted among ten young adults, aged 15-17, 20\% male and 80\% female. Five of the youth participants were participants in the Teach 2 Learn, Learn 2 Teach program in Boston \footnote{http://learn2teach.pbworks.com}. Of those surveyed, three participants had prior experience with Scratch, and two had worked with the Arduino programming environment in a prior Media Lab workshop.  All of the participants said they had some prior experience in art, design, or craft.  Prior to the workshop, 60\% of the participants indicated that they did not feel comfortable programming on their own, however the majority indicated that they were interested in learning more about the process. 
 
-The youth workshop was more structured than the expert workshop with the goal of helping to familiarize participants with the possibilities and affordances of computational design and fabrication. We began by passing out three colors of post-its for the categories of of art and craft, design and programming. We then held a 5 minute brainstorm where we asked each participant to write down people, tools, ideas and projects the associated each category on the respective colored post-it. After, we collected the post its, and put them up on a board in related clusters, and used the resulting associations to instigate 30 minute discussion on the participants ideas about the connections between the three domains.  We ended the discussion by talking about some of the possible craft applications of computational design, and began the introduction to DressCode.
+The youth workshop was more structured than the expert workshop with the goal of helping to familiarize participants with the possibilities and affordances of computational design and fabrication. During the workshop, I was assisted by two Media Lab students and an undergraduate research assistant.  We began by passing out three colors of post-its for the categories of of art and craft, design and programming. We then held a 5 minute brainstorm where we asked each participant to write down people, tools, ideas and projects the associated each category on the respective colored post-it. After, we collected the post its, and put them up on a board in related clusters, and used the resulting associations to instigate 30 minute discussion on the participants ideas about the connections between the three domains.  We ended the discussion by talking about some of the possible craft applications of computational design, and began the introduction to DressCode.
 
 \begin{center}
 \begin{figure}[h!]
@@ -213,7 +196,7 @@ The youth workshop was more structured than the expert workshop with the goal of
 \end{figure}
 \end{center}
 
-All of the design work in the youth workshop was structured around the concept of radial symmetry. I chose radial symmetry because it is a relatively easy pattern express mathematically, it serves as an excellent motivation for using a loop, and it is a pattern that is commonly found in nature, making it possible to generate designs that are floral,biological or organic in appearance. In addition, radially symmetric forms are often aesthetically appealing to people.  To begin, I explained the concept of DressCode and then spent 20 minutes leading the group, step by step through the process of creating a basic algorithm that used a repeat loop to create and rotate a number of ellipses around a central point (figure: \ref{fig:starting_algorithm}.) After every participant had successfully created their version of the algorithm, I showed them how they could use the same algorithm to create different designs by changing the number of iterations of the loop, the type of shape that was drawn, and the width and height of the shape. Participants then had 15 minutes to experiment with different parameters, and produce different designs, followed by a group show and tell session (figure: \ref{fig:show_and_tell}.) 
+All of the design work in the youth workshop was structured around the concept of radial symmetry. Radial symmetry provides a good introduction to algorithmic craft because it is a relatively easy pattern express mathematically, and serves as an excellent motivation for using a loop. Radial symmetric patterns are commonly found in nature, making it possible to use radial orderings of shapes to generate designs that are biological in appearance. In addition, radially symmetric forms are often aesthetically appealing to people.  To introduce the youth to computational design, I explained the concept of DressCode and then spent 20 minutes leading the group, step by step through the process of creating a basic algorithm that created a radially-symmetric form(figure: \ref{fig:starting_algorithm}.) After every participant had successfully created their version of the algorithm, I showed them how they could use the same algorithm to create different designs by changing the number of iterations of the loop, the type of shape that was drawn, and the width and height of the shape. Participants then had 15 minutes to experiment with different parameters, and produce different designs, followed by a group show and tell session (figure: \ref{fig:show_and_tell}.) 
 
 \begin{center}
 \begin{figure}[h!]
@@ -241,11 +224,13 @@ Next, the participants were provided with example programs that contained a brac
 \end{figure}
 \end{center}
 
-Participants were given approximately two hours of free design time. When they had settled on a final design, they first printed out a paper copy and ensured that it fit their wrist. Following that, they selected their material and were taken in groups to the laser cutter where they cut their piece. Afterwards, they were shown how to attach the fasteners to the bracelet, and provided with additional handcrafting tools that allowed them to further alter the piece by hand. 
+Participants were given two hours of free design time. When they had settled on a final design, they first printed out a paper copy and ensured that it fit their wrist. Following that, they selected their material and were taken in groups to the laser cutter. Afterwards, they were shown how to attach the fasteners to the bracelet, and provided with tools that allowed them to alter their piece by hand. 
 
 \section{Results}
 \subsection{Expert Results}
-All but one participant in the expert workshop indicated that they were able to successfully able to complete a finished product. The types of end products varied.  While most participants produced leather cuffs, people also created finger puppets, earrings and a belt using the software. Many participants also mixed materials and techniques and created There was a high degree of variation in the algorithms used to create the finished products. Several participants relied exclusively on the radial symmetry algorithm, but others created patterns with computationally ordered curves, rectangles and lines in different arrangements.  The participant who created the leather belt designed the pattern so that it demonstrated the evolution of the algorithm that comprised it; as the individual patterns progress across the length of the belt, they grow in complexity. Because of the high degree in variation among approaches and end products, conducting the expert workshop was difficult. Many of the participants began with design goals that were at odds with the affordances of DressCode, such as creating representational characters in the case of the finger puppet example, or creating organic, irregular forms.  In addition, several of the end projects required instructor intervention to ensure they were suitable for fabrication. Overall, the expert workshop produced a promising set of results and demonstrated the limitations and benefits of using DressCode across a broad range of design approaches. The expert participants also provided feedback on specific features to incorporate into future versions of the DressCode software. The random method and unit conversion methods were added directly following the workshop based on participant suggestion.
+All but one participant in the expert workshop indicated that they were able to successfully able to complete a finished product. The types of end products varied.  While many participants produced leather cuffs, people also created finger puppets, earrings and a belt using the software. There was a high degree of variation in the algorithms used to create the finished products. Several participants relied exclusively on the radial symmetry algorithm, but others created patterns with computationally ordered curves, rectangles and lines in different arrangements.  The participant who created the leather belt designed the pattern so that it demonstrated the evolution of the algorithm that comprised it; as the individual patterns progress across the length of the belt, they grow in complexity. 
+
+Because of the high degree in variation among approaches and end products, conducting the expert workshop was difficult. Many of the participants began with design goals that were at odds with the affordances of DressCode, such as creating representational characters in the case of the finger puppet example.  In addition, several of the end projects required instructor intervention to ensure they were suitable for fabrication, because of their complexity. Overall, the expert workshop produced a promising set of physical artifacts and demonstrated the limitations and benefits of using DressCode across a broad range of design approaches. The expert participants also provided feedback on specific features to incorporate into future versions of the DressCode software. The random method and unit conversion methods were added directly following the workshop based on participant suggestion.
 
 \begin{center}
 \begin{figure}[h!]
@@ -256,7 +241,7 @@ All but one participant in the expert workshop indicated that they were able to 
 \end{center}
 
 \subsection{Youth Results}
-The youth workshop was more structured than the expert workshop, and produced a more consistent set of physical products as a result. All participants in the youth workshop were successfully able to use DressCode to produce a unique leather cuff (figure: \ref{fig:youth_results}.) Despite the consistency in form, the patterns and approaches among the resulting bracelets were highly varied. Each participant was also able to successfully write their own radial symmetry algorithm in the initial lesson and produce a variety of patterns with it. During the bracelet design portion, several participants directly modified the algorithm in the template to better fit their design goals, however all participants primarily relied on radial symmetry in their bracelet design. Eight of the participants  said they planned to wear the bracelets they created during the workshop, however two indicated that they planned to give them as gifts, rather than keep them for themselves. A comparison of the pre-and post-workshop surveys showed that several of the participants' comfort in programing increased following the activity. In addition, more participants indicated that they thought programing was a good tool for personal expression, and design respectively and all participants stated that they believed they could use programing to make things that were beautiful, whereas several had disagreed with this statement before the workshop.
+Because the youth workshop was more structured than the expert workshop, the participants in it produced a more consistent set of physical products. All participants in the youth workshop were successfully able to use DressCode to produce a unique leather cuff (figure: \ref{fig:youth_results}.) Even though every person made the same type of artifact, the patterns and approaches among the bracelets were very different. Some were geometric, some were floral, and some of the styles were difficult to link back to the original radial algorithm. Each participant was also able to successfully write their own radial symmetry algorithm in the initial lesson and produce a variety of patterns with it, which many translated to their bracelets. During the bracelet design portion, several participants directly modified the algorithm in the template to better fit their design goals, and went beyond the bounds of the original program. Eight of the participants  said they planned to wear the bracelets they created during the workshop, however two indicated that they planned to give them as gifts, rather than keep them for themselves. A comparison of the pre-and post-workshop surveys showed that several of the participants' comfort in programming increased following the activity. After the workshop, more participants indicated that they thought programming was a good tool for personal expression and design. All participants stated that they believed they could use programming to make things that were beautiful, whereas several had disagreed with this statement before the workshop.
 
 \begin{center}
 \begin{figure}[h!]
@@ -265,68 +250,63 @@ The youth workshop was more structured than the expert workshop, and produced a 
 \label{fig:youth_results}
 \end{figure}
 \end{center}
-\section{Curriculum description}
-\section{Preliminary curriculum results}
+%\section{Curriculum description}
+%\section{Preliminary curriculum results}
 \section{Discussion}
+The DressCode workshops re-affirmed many of the benefits of algorithmic craft  that were apparent through Soft Objects and Codeable Objects. Through DressCode people were able to express their personal aesthetic preferences by working with computation, digital fabrication and craft. Participants also demonstrated new confidence and and independence in programming and design, and a greater awareness of the applications of computation. The experience was enjoyable, but also intellectually challenging, leading to strong sense of  accomplishment among participants. 
+
+The DressCode workshops also revealed new aspects of algorithmic craft, not apparent in earlier studies.  Young people were discovered to have strong prior associations about programming and craft that were counterproductive to preparing them for the challenges of building objects by hand. In addition, although computational aesthetics are often abstract, in the hands of young designers, they can convey personal symbols, narratives, and signifiers of gender that are extremely powerful when realized in a wearable artifact. Lastly, algorithmic craft artifacts are ascribed a special value by young people that blends the affordances of craft and computation; the artifacts are special because of the programming code that produces them, and their one-of-a-kind rarity as an object.
 
 \subsection{Starting notions of craft and computation}
-When developing a tool for combining craft and computation, it is important to understand people's prior conceptions of these domains. In the case of the DressCode study, there was a strong distinction between the views of the two groups of participants on the respective roles of craft and computer science. During the expert discussion, two separate forms of craft were discussed. The first referred to craft as hobby and amateur practice. The experts also demonstrated an appreciation for craft as an artisinal practice, wherein handcrafted artifacts held higher value than mass produced ones because of the time and expertise required for their production. In the youth discussion of craft, the recognition of craft as artisanal practice was completely absent. Instead they referred to craft as an recreational activity, that anyone could do. The perception of craft as open and accessible by young people is encouraging, however many youth participants also dismissed the difficulty of craft in comparison to programing. One young woman articulated her view on the difference between writing a program and throwing pottery, stating that she knew she could throw a pot, but that she would be unable to write a program, despite having no prior experience in either medium.  The variation in expert and youth perspectives on the levels of expertise present in craft is understandable, given the educational differences between the two groups. 
+When developing a tool for combining craft and computation, it is important to understand people's prior conceptions in these areas. In the case of the DressCode study, there was a strong distinction between the views of the two groups of participants on the respective roles of craft and computation. During the expert discussion, two separate forms of craft were discussed. People acknowledged that craft could be viewed as hobby and amateur practice, however they also demonstrated an appreciation for craft as an artisinal practice. In artisanal crafts, artifacts held higher value than mass produced ones because of the time and expertise required for their production. In the youth discussion, the appreciation of artisianal craft was completely absent. Instead the young participants considered all forms of craft as accessible recreational activities. This distinction was surprising. Although the perception of craft as open and accessible has its benefits, many youth participants dismissed the difficulty of craft in comparison to programming. One young woman articulated her view on the difference between writing a program and throwing pottery, stating that she knew she could throw a pot, but that she would be unable to write a program, despite having no prior experience in either medium:
 
-There was also a difference between the amount of variation in the crafting processes between the two experts and young people. Several participants in the expert group experimented with layering different materials on top of one another for a different effect. One participant sewed a portion of her project rather than attach portions with snaps. Another used the snaps as an aesthetic component, by placing them across the length of the piece and then snapping on different colored pieces of leather in different patterns. There was limited variation in the approaches the youth practitioners took in the crafting portion. Furthermore, many of the youth participants remarked on the surprising difficulty of the handcrafting component.
+\begin{quotation}
+\textit{``It's just a whole new program, it's not something that I already know how to do. Arts and crafts is like, anybody can do it, but here you need to follow what [the instructor] says, you need to know what you're doing ... I think you just need to have more forehand knowledge to know what to do."}
+\\Youth Participant S.M.
+\end{quotation}
 
+There was also a difference between the amount of variation in the crafting processes between the two experts and young people. Several participants in the expert group experimented with layering different materials on top of one another for a different effect. One participant sewed a portion of her project rather than attach portions with snaps. Another used the snaps as an aesthetic component, by placing them across the length of the piece and then snapping on different colored pieces of leather in different patterns. There was limited variation in the approaches the youth practitioners took in the crafting portion. Most stopped after they had attached snaps to their bracelets. The youth participants consistently described the craft component as difficult, and even stressful at times:
 \begin{quotation}
 \textit{``Something that was difficult was hammering the snaps in straight enough for them to function well."}
 \\Youth Participant F
-
+\end{quotation}
+\begin{quotation}
 \textit{``It was enjoyable being able to wear it and making sure that it would fit. It was a little stressful figuring out how to put the clasp on. "}
 \\Youth Participant K
-
+\end{quotation}
+\begin{quotation}
 \textit{``I think the actual physical copy [of my bracelet] is slightly less attractive than the one I had on the computer."}
 \\Youth Participant C
-
+\end{quotation}
+\begin{quotation}
 \textit{``I hate being anxious because I don't know if it's going to come out right. I like the designing on the computer, but once it comes out it looks like crap. So I'm really happy that I came to this (workshop), this is the first one that came out."}
 \\Youth Participant ST
+\end{quotation}
 
-\end{quotation}
-\begin{comment}
-continued excitement w/ laser cutter
-\begin{quotation}
-\textit{``I was excited- I was really happy when it came out. Even though I've used laser cutters, the ones at our centers aren't powerful enough to do something like this.
-This is probably the most complex thing that I've done with a laser cutter."}
-\\Youth Participant ST
-\end{quotation}
-\end{comment}
-It is likely that there is a connection between people's perception of craft, and their ability to engage in new crafting techniques, despite encountering difficulties along the way.
-\todo{section currently not complete}
-\begin{comment}
-\begin{quotation}
-\textit{``It's just a whole new program, it's not something that I already know how to do. Arts and crafts is like, anybody can do it, but here you need to follow what [the instructor] says, you need to know what you're doing ... I think you just need to have more fore-hand knowledge to know what to do."}
-\\Youth Participant S.M.
-\end{quotation}
-\end{comment}
+The frustrations experienced by youth participants in the craft stages of their projects correspond to similar frustrations from participants in the Soft Objects and Codeable Objects workshops. The discussions with the participants on their conceptions of programming and craft at the start of the workshop now provide more context for the cause of this frustration. It is likely that people become frustrated during the hand construction components not merely because craft is difficult, but because they have prior conceptions of craft as accessible, and expect to be successful at it upon their first attempt. Conversely, participants in the workshops are often convinced of their inability to program, so any degree of success represents a significant accomplishment. One of the challenges in engaging people in computation is in convincing them that programming is not as hard as they think. When engaging young people in craft, this challenge is reversed; people should be encouraged to consider craft as a broad field with the potential for difficulty. Successfully aligning and hammering a rivet to a leather bracelet should be considered as great an accomplishment as writing one's first algorithm. Participation in algorithmic craft therefore requires an awareness of one's potential as a programmer, but also the acceptance of the risks inherent in craft, and the opportunity to practice and improve over time as a craftsperson. 
 
-\subsection{Enjoyment in Programing}
-One of the most important points of evaluation for DressCode was how successful novice programers felt in their attempts to use it. In the Soft Objects workshop, participants were excited about the potential of programing, but unanimous in their frustration in using traditional programing syntax with the Soft Objects library, and requiring instructor assistance to execute simple actions. It is difficult to evaluate the DressCode workshop parallel to Soft Objects because the DressCode workshop took place over a shorter time period in the context of a more constrained activity. When evaluated as an independent case of novice programing however, the response in the DressCode environment by novice programmers was promising. In general the youth participants expressed  a sense of enjoyment and low levels of frustration with the coding portion. When asked if they found the programing enjoyable, participants responded in the following ways: 
+\subsection{Enjoyment in programming}
+One of the most important points of evaluation for DressCode was how the experience affected young people's conception of programming, and their understanding of the applications of computation. In the Soft Objects workshop, participants were excited about the potential of programming, but unanimous in their frustration in using traditional programming syntax with the Soft Objects library, and requiring instructor assistance to execute simple actions. It is difficult to evaluate the DressCode workshop parallel to Soft Objects because the DressCode workshop took place over a shorter time period in the context of a more constrained activity. When evaluated as an independent case of novice programming however, the response in the DressCode environment by novice programmers was promising. In general the youth participants expressed  a sense of enjoyment and low levels of frustration with the coding portion. When asked how they felt about the programing portion, participants responded in the following ways: 
 
 \begin{quotation}
 
 \textit{``It wasn't as hard as i thought"}
 \\Youth Participant 1271996 (survey)
 
-\textit{``[It was enjoyable] because it was very straightforward to use and easy to understand."}
+\textit{`` It was very straightforward to use and easy to understand."}
 \\Youth Participant 091897x (survey)
 
-\textit{``Yes, I didn't have much experience with programming before the workshop so it was fun to screw around and see if I could push the boundaries of what I could achieve by hand."}
+\textit{``I didn't have much experience with programming before the workshop so it was fun to screw around and see if I could push the boundaries of what I could achieve by hand."}
 \\Youth Participant 091897x (survey)
 
-\textit{``[The] computer programing was enjoyable for me because i had wanted to do it before but never had the chance. so this workshop gave me exposure to something that i wanted to do for a while. and i totally loved it."}
+\textit{``[The] computer programming was enjoyable for me because i had wanted to do it before but never had the chance. so this workshop gave me exposure to something that i wanted to do for a while. and i totally loved it."}
 \\Youth Participant 092297m (survey)
 
 \textit{``I liked [the language], it wasn't tough, it was very simple. That barrier was removed for me so I could focus on the design."}
 \\Youth Participant ST
 \end{quotation}
 
-It should be noted that the last quote was from a participant who had prior coding experience. All of the other quotes came from participants who were new to programing. Some of the participants did express difficulties, however they were often described in conjunction with enjoyment or with the the recognition that through some effort, they could be overcome:
+It should be noted that the last quote was from a participant who had prior coding experience. All of the other quotes came from participants who were new to programming. Some of the participants did express difficulties, however they were often described in conjunction with enjoyment or with the the recognition that through some effort, they could be overcome:
 
 \begin{quotation}
 
@@ -340,9 +320,10 @@ It should be noted that the last quote was from a participant who had prior codi
 \\Youth Participant 05231997 (survey)
 \end{quotation}
 
-Other youth participants also elaborated on the ways in which they felt programing had been useful in the design process. Their responses  evoked some of the key affordances of computational design discussed in section \ref{sec:computational_design}. For example, one participant described the advantages of programing for creating precise design elements:
+
+These comments point to an important divergence between Soft Objects and DressCode. With both tools participants reflected on frustrations of learning programing. In the Soft Objects workshop, participants talked about how they felt that in the future, they could overcome these difficulties.  With DressCode, participants talked about encountering and overcoming programing challenges during the workshop itself. The recognition of personal ability to solve problems is essential for future success in computational design. Participants in the DressCode workshop were able to apply primary computational design affordances to their designs. During the interviews they elaborated on the ways in which they felt programming had been useful in the design process. For example, one participant described the advantages of programming for creating precise design elements:
 \begin{quotation}
- \textit{``Basically with programing, it like- say I wanted to draw it by hand with the mouse- it would be a lot harder to make the image um , perfect's not the word..everything was scaled perfectly. Say you wanted certain shapes to be certain angles or certain sizes, if you were to code it, you can get it at the right angle, where if you were to draw it by hand, you wouldn't know what angle it is."}
+ \textit{``Basically with programming, it like- say I wanted to draw it by hand with the mouse- it would be a lot harder to make the image um , perfect's not the word..everything was scaled perfectly. Say you wanted certain shapes to be certain angles or certain sizes, if you were to code it, you can get it at the right angle, where if you were to draw it by hand, you wouldn't know what angle it is."}
  Inteviewer:\textit{`` So the precision?"}
 Youth Participant N: \textit{``Yes."}
 \end{quotation}
@@ -363,10 +344,10 @@ Participants also discussed the parametric qualities of designing with code:
 \\Youth Participant 123097f(survey)
 \end{quotation}
 
-Responses like these suggest that DressCode was successful in introducing participants to some of the qualities of computational design, similar to the SoftObjects workshop. Perhaps the greater success was that participants were able to implement these qualities in a more independent manner than with Soft Objects, allowing for a greater sense of personal agency, and a broad appreciation of the power of computational design. This appreciation was indicated in part by the enthusiasm of the participants following the activity:
+Responses like these suggest that DressCode was successful in helping participants to take advantage of computational design for personal expression, similar to the SoftObjects workshop. Participants also expressed an appreciation of the power of computational design, indicated by their enthusiasm of the participants following the activity:
 
 \begin{quotation}
-\textit{``Now i know that you can use computers and programing and stuff to design pretty and physically appealing things, instead of just complex robots and stuff."}
+\textit{``Now i know that you can use computers and programming and stuff to design pretty and physically appealing things, instead of just complex robots and stuff."}
 \\Youth Participant 092297m (survey)
 \end{quotation}
 
@@ -378,25 +359,19 @@ Responses like these suggest that DressCode was successful in introducing partic
 \begin{quotation}
 \textit{``[The bracelet]  is a physical manifestation of my success in coding, maths, and programatic design, and that's what I see when I look at it. It is a little coding confidence totem that can inspire me to continue developing my skills and passion in this area - wow, I didn't realise I felt that strongly about it!"}
 \\Expert Participant 090585p (survey)
-%(A participant speaking about making a design for  t-shirt with DressCode) \textit{``... it's not necessarily just making a shirt with the program, but when you combine this with the %program you get the shirt, so there's endless possibilities.''}
-%\\Youth Participant R
 \end{quotation}
 
-These positive reflections on the potential of programing, combined with the appreciation of specific computational affordances in design, and feelings of accessibility and feasibility of the programming process, are encouraging for a day-long programing activity with first-time coders. An analysis of these successful results in the context of  the prior workshops with Soft Objects and Codeable Objects point to several distinguishing factors. The first is related to the feature-set of DressCode itself. Although the tool still shows significant room for improvement, it appears that the simplified programing syntax, improved drawing API, and more-immediate visual feedback accounted for some of the success of the activity. By providing the participants with a small set of useful programming methods that could be used to generate complex forms and patterns, textual-computational design became relatively feasible for novices. In addition, the features in DressCode that made the transition from design to fabrication less convoluted (by not requiring any post-processing), reduced the technical concerns of the participants and allowing them to focus on using programming to design, rather having to ensure their patterns would work in a practical sense.
-
-Another key factor in the success of the activity was the structure of the workshop itself. By relying on radial symmetry as a design mechanism, participants were given a task that had a wide range of design possibilities, but only required them to understand a few key concepts. This differed significantly from using the Voronoi diagram in Codeable Objects- an algorithm that is easy to explain in concept, but extremely difficult to implement. It also differed from the approach of the SoftObjects workshop, where the wide variety of computational approaches made it difficult to simultaneously ensure that participants designs were successful and that people understood the algorithms behind them. When a longer-term workshop is conducted with DressCode, I will attempt to expand upon the constraints of the first workshop by selecting an additional set of algorithmic patterns similar to radial symmetry in simplicity and design feasibility. Patterns such as spirals, waves and basic fractals offer some possibilities, but there are many others.
-
-One final element in the success of the DressCode activity was the presence of several well-prepared facilitators. For the workshop, I had four facilitators, including myself. The three additional facilitators had prior experience working with DressCode and were included in the development of the activity itself \footnote{It should be mentioned that I did have several wonderful facilitators for the Soft Objects workshop. Their presence was more sporadic however, and their involvement was not as deliberately planned as in the case of the DressCode activity.}. While a part of the facilitator assistance came in the form of addressing bugs and answering syntax questions, they were also invaluable in providing support in the design process. The other facilitators assisted participants by suggesting new design directions, helping them to evaluate their designs, and being supportive and encouraging throughout the day. Although it is desirable to strive for developing novice programing environments that allow for independent use, the benefit of well-structured in-person support should not be overlooked. Especially in the context engaging people first-time programing experiences with computational design, it is beneficial to have support staff who can simultaneously provide both technical and critical assistance. 
+These positive reflections on the potential of programming, combined with the appreciation of specific computational affordances in design, and feelings of accessibility and feasibility of the programming process, point to the intellectual and creative potential of algorithmic craft for young people. As with Soft Objects and Codeable Objects, participants felt successful in their ability to learn and apply computational design, and had fun doing it. With DressCode, participants were able to implement their designs in a more independent manner than with Soft Objects, and with more stylistic freedom than Codeable Objects. This freedom translated to a greater sense of personal agency and accomplishment on the part of the participants. 
 
 \subsection{Design Processes of Youth and Expert practitioners}
-Because DressCode was developed to support personal visual expression through programing, a significant part of my evaluation focused on the design strategies that emerged through the use of the tool. The interviews and post surveys indicated that participants in both the expert and youth workshop engaged in a variety of design strategies in working with DressCode. When asked about her design, one young woman described a process of conscious planning. For example:
+The Codeable Objects and Soft Objects workshops hinted at the potential for people to engage sophisticated design strategies through algorithmic craft. With DressCode I made a more deliberate attempt to document and evaluate participants' approaches, to better understand the ways in which people could design with code. The interviews and post surveys indicated that participants in both the expert and youth workshop engaged in a variety of design strategies in working with DressCode. Some relied on conscious and extensive planning. When asked about her design, one young woman described it in the following manner:
 
 \begin{quotation}
 \textit{``Well I wanted this one (pointing to an element of her bracelet) the first one made out of radial ellipses; I wanted it to look like a flower when they layer down, and the second one is kind of like the same thing, but I wanted to have the pentagon or hexagon, and the next one is the snowflake, and I wanted it to look like a snowflake because my favorite season is winter, the next one the center looks like a different sort of snowflake because all snow flakes are different, so I chose different shapes, and the last one is a rectangle-like a square in the middle and then it's like hexagons."}
 \\Youth Participant S
 \end{quotation}
 
-She also described the activity as requiring ``creativity and thought and dedication", due to the high degree of complexity. When asked how she found programing useful in her design she said:
+She also described the activity as requiring ``creativity and thought and dedication", due to the high degree of complexity. When asked how she found programming useful in her design she said:
 
  \begin{quotation}
 \textit{``You type it in and it brings it to life for you. You can do it on your own....you don't have to buy it. It's different than the casual way that somebody gets a bracelet."}
@@ -410,7 +385,7 @@ Other participants also indicated that impromptu choices played a role in their 
 \end{quotation}
 
 \begin{quotation}
-\textit{``I saw that the duplication of a large shape was kind of happening with a lot of people's designs, so I decided to try and do something a little different. (Show's a first design (ellipses side by side on a line). That was the second phase of this, and then I just started screwing with numbers to see what I could get and I came up with this. I didn't know if I wanted the entire thing to be symmetrical or not, but then I thought that that was getting too boring (the symmetry), so then I changed the number of shapes in the loop to an odd number instead of an even one so that it would offset the design, and came up with this."}
+\textit{``I saw that the duplication of a large shape was kind of happening with a lot of people's designs, so I decided to try and do something a little different. (shows a first design with ellipses side by side on a line). That was the second phase of this, and then I just started screwing with numbers to see what I could get and I came up with this. I didn't know if I wanted the entire thing to be symmetrical or not, but then I thought that that was getting too boring (the symmetry), so then I changed the number of shapes in the loop to an odd number instead of an even one so that it would offset the design, and came up with this."}
 \\Youth Participant R
 \end{quotation}
 
@@ -424,7 +399,7 @@ Other participants also indicated that impromptu choices played a role in their 
 \\Expert Participant 081764
 \end{quotation}
 
-Youth and expert participants varied in the levels of intention in the design process. Because of their professional experience and education, on average the expert participants approached the activity with a greater level of deliberation and were better able to articulate their design process. However, the responses from the youth practitioners demonstrate that they also felt they were able to make conscious design decisions in a programing context. Deliberate design choices were also made based on the materials available. Participants made decisions based on the material properties of the leather as it folded or bent, and considered the fact they were planning wear the resulting piece:
+Youth and expert participants varied in the levels of intention in the design process. Because of their professional experience and education, on average the expert participants approached the activity with a greater level of deliberation and were better able to articulate their design process. However, the responses from the youth practitioners demonstrate that they also felt they were able to make conscious design decisions in a programming context. Deliberate design choices were also made based on the materials available. Participants made decisions based on the material properties of the leather as it folded or bent, and considered the fact they were planning wear the resulting piece:
 
 \begin{quotation}
 \textit{``The ellipse [in the design] was added once I understood that the teeth sticking inward in the design (formed by the inverse of the ellipses sticking outward) would pop out from the surface of the belt when it was curved around my waist- I saw this when we made a paper prototype. The ellipse held the teeth in place."}
@@ -542,9 +517,6 @@ Participants also described a mix of complexity and simplicity in their pieces. 
 
 Because the patterns expressed in mathematics are often reflected in patterns encountered in the natural world, it is not surprising that participants associations ranged between natural terminology (flowers, butterflies and snowflakes), to mathematical descriptors (geometric, ordered, repetitive, linear). What is remarkable is the range of descriptions present both in the context of the visual elements expressed in the designs, and the composition of the entire piece. Although computational design provides specific affordances and limitations that stem from the properties of computation, it is important not to confuse these affordances as restrictions on the types of things it is possible to create.  Similar to non-digital forms of creative media; computational design presents a broad space of aesthetic possibilities, whether it is in the hands of novice programmers and young designers, or experienced programmers and trained designers. The emergence of narrative qualities from one participants design is a particularly compelling example in this regard.
 
-To encourage the creation of personally relevant aesthetics algorithmic craft tools should be open enough to support numerous creative applications. This openness should be tempered by introducing the tools in a way that provides users with a compelling motivation for their use. Algorithmic craft provides one immediate motivation through the goal translating a programmed design to a specific physical artifact, however this can be extended by providing goals for the aesthetics of the resultant piece. For future DressCode workshops, it may be useful to motivate participants by asking them to create artifacts which express a specific feeling or emotion, represent a character, or tell a story. Design briefs of this nature may further people's conception of how computational design can be used to create personally relevant artifacts, and result in an even broader set of aesthetic possibilities in computational design. 
-\todo{is this point too obvious?}
-
 One other important element in the discussion of aesthetics is the social connotations of certain forms and patterns. Because I emphasized designs with radial symmetry in the workshops, many of the resulting patterns had a floral quality, although it was possible to create patterns without floral qualities by using other forms of repetition, and relying on polygon primitives as opposed to elliptical forms.  Despite this flexibility, several of the male participants in the youth workshop remarked on the feminine aesthetics of their finished pieces:
 
 \begin{quotation}
@@ -556,8 +528,8 @@ One other important element in the discussion of aesthetics is the social connot
  \\Youth Participant G
 \end{quotation}
 
- Part of this feminine association may be related to the resulting artifact- in this case a wrist cuff or bracelet. Both male and female participants already wore similar accessories prior to the workshop however, so much of the gender association appeared to be the result of the patterns themselves. Although the participant above talked about the feminine aesthetics of his piece in a joking manner, there are serious implications behind his comments. As described in the discussion of the Soft Objects workshop, algorithmic craft in the context of fashion accessories and wearables offers a powerful opportunity for the expression of one's visual identity. When helping people to create artifacts that they will personally wear, the social perceptions and possible stigmas of certain patterns and forms of those artifacts should be accounted for. This is especially important when working with young people, whose visual identity can be subject to criticism by their peers. Following the workshop, I worked with several male colleagues to develop non-gendered example algorithms for the bracelet design (figure:\ref{fig:weave_bracelets}.) This is not to say that gendered aesthetics are to be avoided altogether; in many cases they are both relevant and desirable. Instead, the cultural, gender and social implications of abstract computational aesthetics should be carefully considered in relation to  the demographics of an intended user group. 
-
+ Part of this feminine association may be related to the resulting artifact- in this case a wrist cuff or bracelet. Both male and female participants already wore similar accessories prior to the workshop however, so much of the gender association appeared to be the result of the patterns themselves. Although the participant above talked about the feminine aesthetics of his piece in a joking manner, there are serious implications behind his comments. When helping people to create artifacts that they will personally wear, the social perceptions and possible stigmas of certain patterns and forms of those artifacts should be accounted for. This is especially important when working with young people, whose visual identity can be subject to criticism by their peers. Following the workshop, I worked with several male colleagues to develop non-gendered example algorithms for the bracelet design (figure:\ref{fig:weave_bracelets}.) This is not to say that gendered aesthetics are to be avoided altogether; in many cases they are both relevant and desirable. Instead, the cultural, gender and social implications of abstract computational aesthetics should be carefully considered in relation to  the demographics of an intended user group. As was indicated in Soft Objects workshop, computational design in the context of fashion offers a powerful opportunity for the expression of one's visual identity. Algorithmic craft is not only a means of creating beautiful functional artifacts. It can serve as a powerful medium of communication, even in the hands of first time programmers. 
+ 
 \begin{center}
 \begin{figure}[h!]
 \includegraphics[width=\columnwidth]{images/weave_bracelets.png}
@@ -567,7 +539,7 @@ One other important element in the discussion of aesthetics is the social connot
 \end{center}
 
 \subsection{Personal value in Algorithmic Craft}
-Although the aesthetic properties of a finished artifact are important to consider, there are many other components of algorithmic craft that define one's experience.  in all of the workshops, other factors also played an important role in the participant's overall experience. When we asked participants to evaluate their designs, they talked about more than how the object looked. Many participants described the unique quality of their piece:
+With Codeable Objects, Soft Objects and DressCode, it was possible for people to create objects that were beautiful. The aesthetic properties of an artifact are important indicators of success, but algorithmic craft is also capable of producing artifacts that have value beyond their physical beauty. When we asked participants to evaluate their designs, they talked about more than how the object looked. Many participants described the unique quality of their piece:
 
 \begin{quotation}
 \textit{``I think it's interesting. I'm assuming this design is unique to me unless someone else goes and makes exactly the same thing, which I highly doubt because of all the random calibration things that I ended up adding."}
@@ -580,14 +552,14 @@ Youth Participant C: \textit{``You can’t find it at American eagle. I buy a lot 
 \\YouthParticipant C: \textit{``yeah"}
 \end{quotation}
 
-As was the case in the Soft Objects workshops, some of the participants also described how their personal preferences played a strong part in the design of the piece. 
+Some of the participants also described how their personal preferences played a strong part in the design of the piece. 
 
 \begin{quotation}
 \textit{``usually when you make something you're making it like “oh I hope society likes this” but this[making the bracelet] was about self satisfaction, so I don't have to take into consideration someone else's opinion."}
 \\Youth Participant S
 \end{quotation}
 
-Comments like these demonstrate participants' awareness of the value in personal craft  practices, in contrast to commercial forms of production. The youth participants entered the workshop with no awareness of the artisanal craft, instead defining craft by its high level of accessibility. By the workshops completion however, the participants described some of the key affordances of craft in their own work, including uniqueness, exclusivity and personal relevancy. Another significant element discussed by participants was their surprise in personally being able to create in this manner through programing. People responded in the following ways when asked to describe their finished piece:
+Comments like these demonstrate participants' awareness of the value in personal craft  practices, in contrast to commercial forms of production. The youth participants entered the workshop with no awareness of the artisanal craft, instead defining craft by its high level of accessibility. By the workshops completion however, the participants described recognized elements of craftsmanship in their own work, including uniqueness, exclusivity and personal relevancy. These qualities translated to the creator attaching a greater value to the artifact. In combination with the recognition of the craft-value of their pieces, participants also valued the artifacts because they were created withprogramming. People responded in the following ways when asked to describe their finished piece:
  
 \begin{quotation}
  \textit{``II think [the programming] kind of reminded me of learning something difficult in like math, because I don't really like math, but when I figure out something, then I start doing it, and can do it and then I feel proud of myself"}
@@ -596,7 +568,7 @@ Comments like these demonstrate participants' awareness of the value in personal
 
  \begin{quotation}
  Interviewer:  \textit{``What stands out to you about your design?"}
- \\Youth Participant S.M.: \textit{``That I actually created it. I'm not really a programing person, doing it and typing it out."}
+ \\Youth Participant S.M.: \textit{``That I actually created it. I'm not really a programming person, doing it and typing it out."}
  \end{quotation}
  
  \begin{quotation}
@@ -605,7 +577,7 @@ Youth Participant J: \textit{``It's on computers and I'm terrible at computers a
 \\Youth Participant J:  \textit{``Really proud."}	
 \end{quotation}
 
-Finally, participants talked explicitly about the value in being exposed to programing in new ways, and their desire to continue working in computational design and digital fabrication.
+At the end of the workshop, participants talked explicitly about the value in being exposed to programming in new ways, and their desire to continue working in computational design and digital fabrication.
 
  \begin{quotation}
 \textit{``I don't know if this is my preferred medium, but I definitely like it.  Making other accessories. If I spent more time playing around with it, I could definitely get something good. 
@@ -614,7 +586,7 @@ I'm glad I did it, it's interesting, It's something that I don't have a lot of e
 \end{quotation}
 
 \begin{quotation}
- \textit{``I thought it was a good experience, It was different and it sort of opens your mind to thinking about what else you could do with programing, fashion and stuff like that."}
+ \textit{``I thought it was a good experience, It was different and it sort of opens your mind to thinking about what else you could do with programming, fashion and stuff like that."}
  \\Youth Participant J
  \end{quotation} 
  
@@ -623,76 +595,13 @@ I'm glad I did it, it's interesting, It's something that I don't have a lot of e
 \\Youth Participant ST
 \end{quotation}
 
-It is apparent that participants not only valued the artifacts they created, but also benefited from the process of producing them. The sense of pride and accomplishment in programing echoes the sentiments of the novice programers in the Soft Objects workshop. The participants in the DressCode workshop were even more vocal about their accomplishment however, in part due to the fact that they were able to program much more independently than in prior workshops. Algorithmic Craft allows people to produce unique objects that have personal and social significance beyond their appearance. Simultaneously, it introduces people to a new context for computation, while simultaneously promoting a sense of personal technological competence. The participants' desire to further engage in similar activities demonstrates the potential for the approach of algorithmic craft to promote continued engagement in programing as a creative practice. 
+It is apparent that participants not only valued the artifacts they created, but also benefited from the process of producing them. The sense of pride and accomplishment in programming echoes the sentiments of the novice programers in the Soft Objects workshop. Algorithmic Craft allows people to produce unique objects that have personal and social significance beyond their appearance. Simultaneously, it introduces people to a new context for computation, while simultaneously promoting a sense of personal technological competence. The participants' desire to further engage in similar activities demonstrates the potential for the approach of algorithmic craft to promote continued engagement in programming as a creative practice.
 
-
-\subsection{Design history and selection}
-\begin{comment}
-\begin{quotation}
-\textit{``As you can see saved 10 different versions so I would save something, not a completed version of it, but as I was going a long and just do random things to it and see what happened, and if I was physically drawing it, I couldn't just do that unless I wanted to just keep erasing and re-drawing, but in this it's simple as just typing in another number and it will change, but you can always go back to what you had, so it's nice like that."}
-\\Youth Participant R
-\end{quotation}
-\end{comment}
-
-
-
-\begin{comment}
-
-beauty
-\begin{quotation}
-Interviewer: \textit{``Do you think your design is beautiful?"}
-\\Youth Participant R: \textit{``No… if it is, it's because of the program, not because something unique I brought to it.. ok I think they're all kind of beautiful- ok I just completely changed my answer. It reminds me of stained glass and I think stained glass is really beautiful."}
-
-social qualities of crafting - maybe for a future direction
-role of critique in the process - maybe for a future direction
+Both computation and craft are special forms of creation. With its generative qualities, computational design can sometimes feel like alchemy. Simple shapes are transmuted to elaborate compositions, almost like magic. Craft has a different form of value, a pride in the knowledge that a piece is rare and distinct, and exists as a direct result of the hands that shaped it. Algorithmic craft provides people with the opportunity to preserve both of these forms of creation in a personal physical form. 
 
 
 
 
-interest in longer design time, appreciation of needing to learn more
-\begin{quotation}
-\textit{``Often when I'm doing art and I take a break from it and come back to fresh eyes, then I'll realize that I can do something differently or get something better"}
-\\Youth Participant S.M.
-\end{quotation}
 
 
-\end{comment}
-\subsection{Relation to Other Design Tools}
-\begin{comment}
-importance of not starting with blank page
-
-\begin{quotation}
-\textit{``I'd rather just have something set and she would just show us how to manipulate the stuff here and it would be easier, instead of showing us all the functions you could do. I would rather have something set for you you, and all I have to do is just plug in numbers."}
-\\Youth Participant S.M.
-\end{quotation}
-
-\begin{quotation}
-\textit{``I've never really done programming like this, but once you have the whole format in and you're just down to changing the numbers then it's fine, but before that if you're not typing something in correctly and you can't find what it is.. but this is relatively simple."}
-\\Youth Participant R
-\end{quotation}
-
-\begin{quotation}
-Interviewer:  \textit{``Would you want to use DressCode again?"}
-\\Youth Participant R:\textit{``Sure yeah, now that I feel more comfortable with it and could just start doing it, rather than having to learn. I think it's a good program for someone who's never done anything before...}
-
-\textit{....There's a t-shirt and the symbol on it you can tell was made in here and just attached to the shirt it's not necessarily just making a shirt with the program, but when you combine this with the program you get the shirt, so there's endless possibilities.''}
-
-\end{quotation}
-
-
-interest in continuing  but comfort in traditional tools
-\begin{quotation}
-\textit{``I'm more of a sketchup person. I need it directly. I can't program and then play it and then it goes."}
-\\Youth Participant S.M.
-\end{quotation}
-
-\begin{quotation}
-\textit{``They all require some kind of digital design program. We just used DressCode, but what I use is Inkscape or libre office to design my stuff, so it's kind of the same process."}
-\\Youth Participant N
-\end{quotation}
-\end{comment}
-
-\subsection{Prototyping pt 2}
-\subsection{Connection to other applications}
-\subsection{ challenges in crafting}
 

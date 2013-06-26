@@ -39,47 +39,40 @@
 \contentsline {chapter}{\numberline {7}DressCode}{77}{chapter.7}
 \contentsline {section}{\numberline {7.1}Design principles and Software Features}{78}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Interface Design}{78}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Programing Language}{80}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.2}programming Language}{79}{subsection.7.1.2}
 \contentsline {subsubsection}{Drawing API}{82}{section*.6}
-\contentsline {paragraph}{Shape Primitives:}{82}{section*.7}
-\contentsline {paragraph}{Shape Transformations:}{83}{section*.8}
-\contentsline {paragraph}{Polygon Booleans:}{84}{section*.9}
-\contentsline {paragraph}{Additional Methods:}{86}{section*.10}
-\contentsline {paragraph}{Constants:}{87}{section*.11}
-\contentsline {section}{\numberline {7.2}Fabrication and Crafting Process}{88}{section.7.2}
-\contentsline {section}{\numberline {7.3}Workshops}{88}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Expert Workshop}{89}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Youth Workshop}{90}{subsection.7.3.2}
-\contentsline {section}{\numberline {7.4}Results}{93}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Expert Results}{93}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Youth Results}{93}{subsection.7.4.2}
-\contentsline {section}{\numberline {7.5}Curriculum description}{95}{section.7.5}
-\contentsline {section}{\numberline {7.6}Preliminary curriculum results}{95}{section.7.6}
-\contentsline {section}{\numberline {7.7}Discussion}{95}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}Starting notions of craft and computation}{95}{subsection.7.7.1}
-\contentsline {subsection}{\numberline {7.7.2}Enjoyment in Programing}{96}{subsection.7.7.2}
-\contentsline {subsection}{\numberline {7.7.3}Design Processes of Youth and Expert practitioners}{99}{subsection.7.7.3}
-\contentsline {subsection}{\numberline {7.7.4}Computational Aesthetics}{103}{subsection.7.7.4}
-\contentsline {subsection}{\numberline {7.7.5}Personal value in Algorithmic Craft}{106}{subsection.7.7.5}
-\contentsline {subsection}{\numberline {7.7.6}Design history and selection}{108}{subsection.7.7.6}
-\contentsline {subsection}{\numberline {7.7.7}Relation to Other Design Tools}{108}{subsection.7.7.7}
-\contentsline {subsection}{\numberline {7.7.8}Prototyping pt 2}{108}{subsection.7.7.8}
-\contentsline {subsection}{\numberline {7.7.9}Connection to other applications}{108}{subsection.7.7.9}
-\contentsline {subsection}{\numberline {7.7.10} challenges in crafting}{108}{subsection.7.7.10}
+\contentsline {subsubsection}{Polygon Booleans:}{83}{section*.7}
+\contentsline {subsubsection}{Grouping}{84}{section*.8}
+\contentsline {subsubsection}{Informational Methods}{85}{section*.9}
+\contentsline {section}{\numberline {7.2}Fabrication and Crafting Process}{86}{section.7.2}
+\contentsline {section}{\numberline {7.3}Tool Summary}{87}{section.7.3}
+\contentsline {section}{\numberline {7.4}Workshops}{87}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Expert Workshop}{88}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Youth Workshop}{88}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}Results}{92}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Expert Results}{92}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}Youth Results}{92}{subsection.7.5.2}
+\contentsline {section}{\numberline {7.6}Discussion}{93}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Starting notions of craft and computation}{94}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Enjoyment in programming}{96}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.6.3}Design Processes of Youth and Expert practitioners}{98}{subsection.7.6.3}
+\contentsline {subsection}{\numberline {7.6.4}Computational Aesthetics}{102}{subsection.7.6.4}
+\contentsline {subsection}{\numberline {7.6.5}Personal value in Algorithmic Craft}{105}{subsection.7.6.5}
 \contentsline {chapter}{\numberline {8}Conclusion and Future Directions}{109}{chapter.8}
-\contentsline {section}{\numberline {8.1}Functional Properties of Algorithmic Crafting Tools}{109}{section.8.1}
-\contentsline {chapter}{\numberline {A}Interview Questions}{111}{appendix.A}
-\contentsline {paragraph}{Design Evaluation:}{111}{section*.12}
-\contentsline {paragraph}{Programing as a Design Tool:}{111}{section*.13}
-\contentsline {paragraph}{Fabrication:}{111}{section*.14}
-\contentsline {paragraph}{Future Motivation:}{112}{section*.15}
-\contentsline {chapter}{\numberline {B}Full DressCode Language Specifications}{113}{appendix.B}
-\contentsline {subsection}{\numberline {B.0.1}Interface Design}{113}{subsection.B.0.1}
-\contentsline {subsection}{\numberline {B.0.2}Programing Language}{114}{subsection.B.0.2}
-\contentsline {subsubsection}{Language Structure}{115}{section*.16}
-\contentsline {subsubsection}{Drawing API}{118}{section*.17}
-\contentsline {paragraph}{Shape Primitives:}{119}{section*.18}
-\contentsline {paragraph}{Shape Transformations:}{119}{section*.19}
-\contentsline {paragraph}{Polygon Booleans:}{121}{section*.20}
-\contentsline {paragraph}{Additional Methods:}{122}{section*.21}
-\contentsline {paragraph}{Constants:}{123}{section*.22}
+\contentsline {section}{\numberline {8.1}Future Directions}{111}{section.8.1}
+\contentsline {section}{\numberline {8.2}Conclusion}{113}{section.8.2}
+\contentsline {chapter}{\numberline {A}Interview Questions}{115}{appendix.A}
+\contentsline {paragraph}{Design Evaluation:}{115}{section*.10}
+\contentsline {paragraph}{Programing as a Design Tool:}{115}{section*.11}
+\contentsline {paragraph}{Fabrication:}{115}{section*.12}
+\contentsline {paragraph}{Future Motivation:}{116}{section*.13}
+\contentsline {chapter}{\numberline {B}Full DressCode Language Specifications}{117}{appendix.B}
+\contentsline {subsection}{\numberline {B.0.1}Interface Design}{117}{subsection.B.0.1}
+\contentsline {subsection}{\numberline {B.0.2}Programing Language}{118}{subsection.B.0.2}
+\contentsline {subsubsection}{Language Structure}{119}{section*.14}
+\contentsline {subsubsection}{Drawing API}{122}{section*.15}
+\contentsline {paragraph}{Shape Primitives:}{123}{section*.16}
+\contentsline {paragraph}{Shape Transformations:}{123}{section*.17}
+\contentsline {paragraph}{Polygon Booleans:}{125}{section*.18}
+\contentsline {paragraph}{Additional Methods:}{126}{section*.19}
+\contentsline {paragraph}{Constants:}{127}{section*.20}
