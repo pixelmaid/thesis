@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  26 JUN 2013 13:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  28 JUN 2013 14:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -400,7 +400,7 @@ Missing character: There is no Ð in font cmr10!
 
  (./chap1.tex
 Chapter 1.
-<images/intro_pic.jpg, id=554, 1879.02pt x 1228.59pt>
+<images/intro_pic.jpg, id=555, 1879.02pt x 1228.59pt>
 File: images/intro_pic.jpg Graphic file (type jpg)
 
 <use images/intro_pic.jpg>
@@ -423,7 +423,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ]
 Chapter 2.
-<images/wall_drawings.jpg, id=573, 469.755pt x 234.8775pt>
+<images/wall_drawings.jpg, id=574, 469.755pt x 234.8775pt>
 File: images/wall_drawings.jpg Graphic file (type jpg)
 
 <use images/wall_drawings.jpg>
@@ -437,13 +437,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 
-<images/dragonfly.jpg, id=590, 1879.02pt x 1156.32pt>
+<images/dragonfly.jpg, id=591, 1879.02pt x 1156.32pt>
 File: images/dragonfly.jpg Graphic file (type jpg)
 
 <use images/dragonfly.jpg>
 Package pdftex.def Info: images/dragonfly.jpg used on input line 46.
 (pdftex.def)             Requested size: 433.62pt x 266.8302pt.
- <images/ikeda.jpg, id=593, 1879.02pt x 1063.975pt>
+ <images/ikeda.jpg, id=594, 1879.02pt x 1063.975pt>
 File: images/ikeda.jpg Graphic file (type jpg)
 
 <use images/ikeda.jpg>
@@ -454,14 +454,14 @@ Package pdftex.def Info: images/ikeda.jpg used on input line 56.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [21 <./images/dragonfly.jpg>]
-<images/marius_watz.jpg, id=600, 1879.02pt x 554.07pt>
+<images/marius_watz.jpg, id=601, 1879.02pt x 554.07pt>
 File: images/marius_watz.jpg Graphic file (type jpg)
 
 <use images/marius_watz.jpg>
 Package pdftex.def Info: images/marius_watz.jpg used on input line 66.
 (pdftex.def)             Requested size: 433.62pt x 127.85614pt.
 
-<images/arachne.jpg, id=603, 1879.02pt x 1156.32pt>
+<images/arachne.jpg, id=604, 1879.02pt x 1156.32pt>
 File: images/arachne.jpg Graphic file (type jpg)
  <use images/arachne.jpg>
 Package pdftex.def Info: images/arachne.jpg used on input line 76.
@@ -471,7 +471,7 @@ Package pdftex.def Info: images/arachne.jpg used on input line 76.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [22 <./images/ikeda.jpg> <./images/marius_watz.jpg>]
-<images/distillamap.jpg, id=610, 1879.02pt x 726.715pt>
+<images/distillamap.jpg, id=611, 1879.02pt x 726.715pt>
 File: images/distillamap.jpg Graphic file (type jpg)
 
 <use images/distillamap.jpg>
@@ -482,13 +482,13 @@ Package pdftex.def Info: images/distillamap.jpg used on input line 86.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [23 <./images/arachne.jpg>] [24 <./images/distillamap.jpg>]
-<images/pavillion_shopbot.png, id=627, 3244.12pt x 714.67pt>
+<images/pavillion_shopbot.png, id=628, 3244.12pt x 714.67pt>
 File: images/pavillion_shopbot.png Graphic file (type png)
 
 <use images/pavillion_shopbot.png>
 Package pdftex.def Info: images/pavillion_shopbot.png used on input line 111.
 (pdftex.def)             Requested size: 433.62pt x 95.51665pt.
- [25 <./images/pavillion_shopbot.png (PNG copy)>] [26] <images/amit.jpg, id=654
+ [25 <./images/pavillion_shopbot.png (PNG copy)>] [26] <images/amit.jpg, id=655
 , 1879.02pt x 911.405pt>
 File: images/amit.jpg Graphic file (type jpg)
 
@@ -499,7 +499,7 @@ Package pdftex.def Info: images/amit.jpg used on input line 146.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27] <images/plywood_servo.jpg, id=663, 1879.02pt x 1276.77pt>
+[27] <images/plywood_servo.jpg, id=664, 1879.02pt x 1276.77pt>
 File: images/plywood_servo.jpg Graphic file (type jpg)
 
 <use images/plywood_servo.jpg>
@@ -510,7 +510,7 @@ Package pdftex.def Info: images/plywood_servo.jpg used on input line 157.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [28 <./images/amit.jpg>]
-<images/thorpe_screenprint.jpg, id=672, 1879.02pt x 1156.32pt>
+<images/thorpe_screenprint.jpg, id=673, 1879.02pt x 1156.32pt>
 File: images/thorpe_screenprint.jpg Graphic file (type jpg)
 
 <use images/thorpe_screenprint.jpg>
@@ -523,7 +523,7 @@ Missing character: There is no Ð in font cmr10!
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [29 <./images/plywood_servo.jpg>]
-<images/processing_quilt.jpg, id=681, 1879.02pt x 1156.32pt>
+<images/processing_quilt.jpg, id=682, 1879.02pt x 1156.32pt>
 File: images/processing_quilt.jpg Graphic file (type jpg)
 
 <use images/processing_quilt.jpg>
@@ -543,7 +543,7 @@ Chapter 3.
 
 
 
-] <images/framework_examples.jpg, id=715, 1858.945pt x 1156.32pt>
+] <images/framework_examples.jpg, id=716, 1858.945pt x 1156.32pt>
 File: images/framework_examples.jpg Graphic file (type jpg)
 
 <use images/framework_examples.jpg>
@@ -554,7 +554,7 @@ Overfull \hbox (9.84607pt too wide) in paragraph at lines 38--38
 []\OT1/cmr/bx/n/14.4 Professional CAD Tools with Computational-Design Func-
  []
 
-[35] <images/cad_computation.jpg, id=732, 1879.02pt x 1332.98pt>
+[35] <images/cad_computation.jpg, id=733, 1879.02pt x 1332.98pt>
 File: images/cad_computation.jpg Graphic file (type jpg)
 
 <use images/cad_computation.jpg>
@@ -562,7 +562,7 @@ Package pdftex.def Info: images/cad_computation.jpg used on input line 47.
 (pdftex.def)             Requested size: 433.62pt x 307.59593pt.
 Missing character: There is no § in font cmr10!
  [36 <./images/cad_computation.jpg>]
-<images/novice_cad.jpg, id=743, 1879.02pt x 927.465pt>
+<images/novice_cad.jpg, id=744, 1879.02pt x 927.465pt>
 File: images/novice_cad.jpg Graphic file (type jpg)
 
 <use images/novice_cad.jpg>
@@ -577,14 +577,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Citation `design blocks' on page 38 undefined on input line 77.
 
 [38 <./images/novice_cad.jpg>]
-<images/novice_computational_design.jpg, id=762, 1879.02pt x 1429.34pt>
+<images/novice_computational_design.jpg, id=763, 1879.02pt x 1429.34pt>
 File: images/novice_computational_design.jpg Graphic file (type jpg)
 
 <use images/novice_computational_design.jpg>
 Package pdftex.def Info: images/novice_computational_design.jpg used on input l
 ine 81.
 (pdftex.def)             Requested size: 433.62pt x 329.83179pt.
- [39 <./images/novice_computational_design.jpg>] <images/novel_cad.jpg, id=775,
+ [39 <./images/novice_computational_design.jpg>] <images/novel_cad.jpg, id=776,
  1879.02pt x 594.22pt>
 File: images/novel_cad.jpg Graphic file (type jpg)
 
@@ -613,28 +613,28 @@ Missing character: There is no Õ in font cmr10!
 
 ]
 Chapter 5.
-<images/finished_lamps.png, id=810, 1409.265pt x 1141.26375pt>
+<images/finished_lamps.png, id=811, 1409.265pt x 1141.26375pt>
 File: images/finished_lamps.png Graphic file (type png)
 
 <use images/finished_lamps.png>
 Package pdftex.def Info: images/finished_lamps.png used on input line 10.
 (pdftex.def)             Requested size: 433.62pt x 351.15855pt.
  [47 <./images/finished_lamps.png (PNG copy)>]
-<images/instructables_lamps.png, id=815, 1409.265pt x 1050.92625pt>
+<images/instructables_lamps.png, id=816, 1409.265pt x 1050.92625pt>
 File: images/instructables_lamps.png Graphic file (type png)
 
 <use images/instructables_lamps.png>
 Package pdftex.def Info: images/instructables_lamps.png used on input line 16.
 (pdftex.def)             Requested size: 433.62pt x 323.36237pt.
  [48 <./images/instructables_lamps.png (PNG copy)>] <images/solidworks_lamp.png
-, id=822, 1409.265pt x 493.845pt>
+, id=823, 1409.265pt x 493.845pt>
 File: images/solidworks_lamp.png Graphic file (type png)
 
 <use images/solidworks_lamp.png>
 Package pdftex.def Info: images/solidworks_lamp.png used on input line 24.
 (pdftex.def)             Requested size: 433.62pt x 151.9525pt.
 
-<images/parts.png, id=825, 1409.265pt x 948.54375pt>
+<images/parts.png, id=826, 1409.265pt x 948.54375pt>
 File: images/parts.png Graphic file (type png)
  <use images/parts.png>
 Package pdftex.def Info: images/parts.png used on input line 34.
@@ -644,7 +644,7 @@ Package pdftex.def Info: images/parts.png used on input line 34.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [49 <./images/solidworks_lamp.png>]
-<images/codeable_objects_v1.jpg, id=832, 1003.75pt x 634.37pt>
+<images/codeable_objects_v1.jpg, id=833, 1003.75pt x 634.37pt>
 File: images/codeable_objects_v1.jpg Graphic file (type jpg)
 
 <use images/codeable_objects_v1.jpg>
@@ -655,21 +655,21 @@ Package pdftex.def Info: images/codeable_objects_v1.jpg used on input line 45.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [50 <./images/parts.png>] [51 <./images/codeable_objects_v1.jpg>]
-<images/finished_lamps2.png, id=844, 1409.265pt x 548.0475pt>
+<images/finished_lamps2.png, id=845, 1409.265pt x 548.0475pt>
 File: images/finished_lamps2.png Graphic file (type png)
 
 <use images/finished_lamps2.png>
 Package pdftex.def Info: images/finished_lamps2.png used on input line 59.
 (pdftex.def)             Requested size: 433.62pt x 168.63022pt.
  [52 <./images/finished_lamps2.png>] [53]
-[54] <images/slider_interface.png, id=860, 1862.96pt x 1461.46pt>
+[54] <images/slider_interface.png, id=861, 1862.96pt x 1461.46pt>
 File: images/slider_interface.png Graphic file (type png)
 
 <use images/slider_interface.png>
 Package pdftex.def Info: images/slider_interface.png used on input line 122.
 (pdftex.def)             Requested size: 433.62pt x 340.16504pt.
  [55 <./images/slider_interface.png>]
-<images/paper_lamps.png, id=868, 1409.265pt x 301.125pt>
+<images/paper_lamps.png, id=869, 1409.265pt x 301.125pt>
 File: images/paper_lamps.png Graphic file (type png)
 
 <use images/paper_lamps.png>
@@ -687,7 +687,7 @@ Underfull \vbox (badness 1852) has occurred while \output is active []
 
 ]
 Chapter 6.
-<images/fashion_show.png, id=881, 1409.265pt x 867.24pt>
+<images/fashion_show.png, id=882, 1409.265pt x 867.24pt>
 File: images/fashion_show.png Graphic file (type png)
 
 <use images/fashion_show.png>
@@ -699,7 +699,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 10--11
  []
 
 [59 <./images/fashion_show.png (PNG copy)>]
-<images/3D_prinited_high_fashion.png, id=888, 1879.02pt x 469.755pt>
+<images/3D_prinited_high_fashion.png, id=889, 1879.02pt x 469.755pt>
 File: images/3D_prinited_high_fashion.png Graphic file (type png)
 
 <use images/3D_prinited_high_fashion.png>
@@ -718,7 +718,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Reference `accessible_fashion' on page 60 undefined on input lin
 e 27.
 
-[60] <images/accessible_fashion.png, id=896, 1879.02pt x 469.755pt>
+[60] <images/accessible_fashion.png, id=897, 1879.02pt x 469.755pt>
 File: images/accessible_fashion.png Graphic file (type png)
 
 <use images/accessible_fashion.png>
@@ -731,7 +731,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 33--34
 
 [61 <./images/3D_prinited_high_fashion.png (PNG copy)> <./images/accessible_fas
 hion.png (PNG copy)>]
-<images/primitive_syntax.png, id=902, 1409.265pt x 707.64375pt>
+<images/primitive_syntax.png, id=903, 1409.265pt x 707.64375pt>
 File: images/primitive_syntax.png Graphic file (type png)
 
 <use images/primitive_syntax.png>
@@ -743,7 +743,7 @@ Overfull \hbox (42.93498pt too wide) in paragraph at lines 45--46
  []
 
 [62 <./images/primitive_syntax.png (PNG copy)>]
-<images/softobjects_workflow.jpg, id=908, 1418.29875pt x 903.375pt>
+<images/softobjects_workflow.jpg, id=909, 1418.29875pt x 903.375pt>
 File: images/softobjects_workflow.jpg Graphic file (type jpg)
 
 <use images/softobjects_workflow.jpg>
@@ -756,7 +756,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 56--57
  []
 
 [63 <./images/softobjects_workflow.jpg>]
-<images/scarves_bracelets.png, id=914, 1409.265pt x 261.97874pt>
+<images/scarves_bracelets.png, id=915, 1409.265pt x 261.97874pt>
 File: images/scarves_bracelets.png Graphic file (type png)
 
 <use images/scarves_bracelets.png>
@@ -771,7 +771,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 67--68
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64 <./images/scarves_bracelets.png (PNG copy)>]
-<images/fashion_results.png, id=921, 1409.265pt x 466.74374pt>
+<images/fashion_results.png, id=922, 1409.265pt x 466.74374pt>
 File: images/fashion_results.png Graphic file (type png)
 
 <use images/fashion_results.png>
@@ -783,7 +783,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 81--82
  []
 
 [65 <./images/fashion_results.png (PNG copy)>] [66] [67]
-<images/samurai_dress_progression.png, id=936, 1343.0175pt x 554.07pt>
+<images/samurai_dress_progression.png, id=937, 1343.0175pt x 554.07pt>
 File: images/samurai_dress_progression.png Graphic file (type png)
 
 <use images/samurai_dress_progression.png>
@@ -809,14 +809,14 @@ t line 194.
 
 ]
 Chapter 7.
-<images/dressCode_main.png, id=971, 1879.02pt x 1184.425pt>
+<images/dressCode_main.png, id=972, 1879.02pt x 1184.425pt>
 File: images/dressCode_main.png Graphic file (type png)
 
 <use images/dressCode_main.png>
 Package pdftex.def Info: images/dressCode_main.png used on input line 10.
 (pdftex.def)             Requested size: 433.62pt x 273.31566pt.
  [75 <./images/dressCode_main.png (PNG copy)>]
-<images/dress_code_interface.png, id=976, 1879.02pt x 1156.32pt>
+<images/dress_code_interface.png, id=977, 1879.02pt x 1156.32pt>
 File: images/dress_code_interface.png Graphic file (type png)
 
 <use images/dress_code_interface.png>
@@ -828,143 +828,139 @@ Package pdftex.def Info: images/dress_code_interface.png used on input line 24.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [76] [77 <./images/dress_code_interface.png (PNG copy)>]
-<images/interpreter_structure_horz.png, id=985, 1439.3775pt x 496.85625pt>
+<images/interpreter_structure_horz.png, id=987, 1439.3775pt x 496.85625pt>
 File: images/interpreter_structure_horz.png Graphic file (type png)
 
 <use images/interpreter_structure_horz.png>
 Package pdftex.def Info: images/interpreter_structure_horz.png used on input li
-ne 37.
+ne 39.
 (pdftex.def)             Requested size: 433.62pt x 149.67969pt.
-
-
-LaTeX Warning: Reference `fig:basic_datatypes' on page 78 undefined on input li
-ne 43.
-
-[78 <./images/interpreter_structure_horz.png (PNG copy)>] [79]
-<images/transformation.png, id=1030, 1879.02pt x 1092.08pt>
+ [78 <./images/interpreter_structure_horz.png (PNG copy)>] [79]
+<images/transformation.png, id=1033, 1879.02pt x 1092.08pt>
 File: images/transformation.png Graphic file (type png)
 
 <use images/transformation.png>
-Package pdftex.def Info: images/transformation.png used on input line 111.
+Package pdftex.def Info: images/transformation.png used on input line 113.
 (pdftex.def)             Requested size: 433.62pt x 252.0063pt.
  [80 <./images/transformation.png (PNG copy)>]
-<images/random_symmetry.png, id=1037, 1418.29875pt x 882.29625pt>
+<images/random_symmetry.png, id=1039, 1418.29875pt x 882.29625pt>
 File: images/random_symmetry.png Graphic file (type png)
 
 <use images/random_symmetry.png>
-Package pdftex.def Info: images/random_symmetry.png used on input line 121.
+Package pdftex.def Info: images/random_symmetry.png used on input line 123.
 (pdftex.def)             Requested size: 433.62pt x 269.73944pt.
- [81 <./images/random_symmetry.png (PNG copy)>] <images/boolean.png, id=1043, 1
+ [81 <./images/random_symmetry.png (PNG copy)>] <images/boolean.png, id=1045, 1
 409.265pt x 819.06pt>
 File: images/boolean.png Graphic file (type png)
  <use images/boolean.png>
-Package pdftex.def Info: images/boolean.png used on input line 132.
+Package pdftex.def Info: images/boolean.png used on input line 134.
 (pdftex.def)             Requested size: 433.62pt x 252.0188pt.
 
 [82 <./images/boolean.png (PNG copy)>]
-<images/grouping.png, id=1050, 1409.265pt x 819.06pt>
+<images/grouping.png, id=1052, 1409.265pt x 819.06pt>
 File: images/grouping.png Graphic file (type png)
 
 <use images/grouping.png>
-Package pdftex.def Info: images/grouping.png used on input line 143.
+Package pdftex.def Info: images/grouping.png used on input line 145.
 (pdftex.def)             Requested size: 433.62pt x 252.0188pt.
- [83 <./images/grouping.png (PNG copy)>]
 Missing character: There is no Ž in font cmr10!
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 157.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 157.
 
-<images/dresscode_examples.png, id=1058, 2821.54124pt x 1279.78125pt>
+Underfull \vbox (badness 5592) has occurred while \output is active []
+
+ [83 <./images/grouping.png (PNG copy)>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 159.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 159.
+
+<images/dresscode_examples.png, id=1060, 2821.54124pt x 1279.78125pt>
 File: images/dresscode_examples.png Graphic file (type png)
 
 <use images/dresscode_examples.png>
-Package pdftex.def Info: images/dresscode_examples.png used on input line 160.
+Package pdftex.def Info: images/dresscode_examples.png used on input line 162.
 (pdftex.def)             Requested size: 433.62pt x 196.66512pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[84] [85 <./images/dresscode_examples.png (PNG copy)>]
-<images/adult_design_time.png, id=1072, 1409.265pt x 867.24pt>
+
+Underfull \vbox (badness 1755) has occurred while \output is active []
+
+ [84]
+[85 <./images/dresscode_examples.png (PNG copy)>]
+<images/adult_design_time.png, id=1075, 1409.265pt x 867.24pt>
 File: images/adult_design_time.png Graphic file (type png)
 
 <use images/adult_design_time.png>
-Package pdftex.def Info: images/adult_design_time.png used on input line 180.
+Package pdftex.def Info: images/adult_design_time.png used on input line 182.
 (pdftex.def)             Requested size: 433.62pt x 266.84344pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[86] <images/youth_brainstorm.png, id=1079, 1409.265pt x 484.81125pt>
+[86] <images/youth_brainstorm.png, id=1083, 1409.265pt x 484.81125pt>
 File: images/youth_brainstorm.png Graphic file (type png)
 
 <use images/youth_brainstorm.png>
-Package pdftex.def Info: images/youth_brainstorm.png used on input line 193.
+Package pdftex.def Info: images/youth_brainstorm.png used on input line 195.
 (pdftex.def)             Requested size: 433.62pt x 149.17288pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [87 <./images/adult_design_time.png (PNG copy)>]
-<images/first_algorithm.png, id=1086, 1409.265pt x 502.87875pt>
+<images/first_algorithm.png, id=1090, 1409.265pt x 502.87875pt>
 File: images/first_algorithm.png Graphic file (type png)
 
 <use images/first_algorithm.png>
-Package pdftex.def Info: images/first_algorithm.png used on input line 203.
+Package pdftex.def Info: images/first_algorithm.png used on input line 205.
 (pdftex.def)             Requested size: 433.62pt x 154.73213pt.
 
-<images/show_and_tell.png, id=1087, 469.755pt x 103.38625pt>
+<images/show_and_tell.png, id=1091, 1879.02pt x 413.545pt>
 File: images/show_and_tell.png Graphic file (type png)
 
 <use images/show_and_tell.png>
-Package pdftex.def Info: images/show_and_tell.png used on input line 211.
-(pdftex.def)             Requested size: 433.62pt x 95.43358pt.
+Package pdftex.def Info: images/show_and_tell.png used on input line 213.
+(pdftex.def)             Requested size: 433.62pt x 95.42885pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [88 <./images/youth_brainstorm.png (PNG copy)> <./images/first_algorithm.png (P
-NG copy)>] <images/bracelet_template.png, id=1093, 1409.265pt x 478.78876pt>
+NG copy)>] <images/bracelet_template.png, id=1097, 1409.265pt x 478.78876pt>
 File: images/bracelet_template.png Graphic file (type png)
 
 <use images/bracelet_template.png>
-Package pdftex.def Info: images/bracelet_template.png used on input line 221.
+Package pdftex.def Info: images/bracelet_template.png used on input line 223.
 (pdftex.def)             Requested size: 433.62pt x 147.31981pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [89 <./images/show_and_tell.png (PNG copy)> <./images/bracelet_template.png (P
 NG copy)>]
-<images/expert_results.png, id=1098, 1879.02pt x 1092.08pt>
+<images/expert_results.png, id=1102, 1879.02pt x 1092.08pt>
 File: images/expert_results.png Graphic file (type png)
 
 <use images/expert_results.png>
-Package pdftex.def Info: images/expert_results.png used on input line 237.
+Package pdftex.def Info: images/expert_results.png used on input line 239.
 (pdftex.def)             Requested size: 433.62pt x 252.0063pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[90] <images/youth_results.png, id=1104, 1409.265pt x 725.71124pt>
+ [90 <./images/expert_results.png (PNG copy)>]
+<images/youth_results.png, id=1108, 1409.265pt x 725.71124pt>
 File: images/youth_results.png Graphic file (type png)
 
 <use images/youth_results.png>
-Package pdftex.def Info: images/youth_results.png used on input line 248.
+Package pdftex.def Info: images/youth_results.png used on input line 250.
 (pdftex.def)             Requested size: 433.62pt x 223.29607pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[91 <./images/expert_results.png (PNG copy)>] [92 <./images/youth_results.png (
-PNG copy)>] [93] [94] [95] [96] [97] [98] [99] [100] [101]
+ [91 <./images/youth_results.png (PNG copy)>] [92] [93] [94] [95] [96] [97] [98
+] [99]
+[100] [101]
 Missing character: There is no É in font cmti10!
  [102]
-<images/weave_bracelets.png, id=1157, 1879.02pt x 1104.125pt>
+<images/weave_bracelets.png, id=1161, 1879.02pt x 1104.125pt>
 File: images/weave_bracelets.png Graphic file (type png)
 
 <use images/weave_bracelets.png>
-Package pdftex.def Info: images/weave_bracelets.png used on input line 535.
+Package pdftex.def Info: images/weave_bracelets.png used on input line 537.
 (pdftex.def)             Requested size: 433.62pt x 254.78578pt.
  [103 <./images/weave_bracelets.png (PNG copy)>]
 Missing character: There is no Õ in font cmti10!
@@ -987,7 +983,7 @@ Missing character: There is no Ó in font cmti10!
 
 ]
 Chapter 8.
-[107] [108] <images/declarative_view.png, id=1185, 1879.02pt x 1156.32pt>
+[107] [108] <images/declarative_view.png, id=1189, 1879.02pt x 1156.32pt>
 File: images/declarative_view.png Graphic file (type png)
 
 <use images/declarative_view.png>
@@ -1052,7 +1048,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 22--23
 LaTeX Warning: Reference `fig:basic_datatypes' on page 117 undefined on input l
 ine 32.
 
-[117] [118] [119] <images/api_table.png, id=1313, 1409.265pt x 542.025pt>
+[117] [118] [119] <images/api_table.png, id=1317, 1409.265pt x 542.025pt>
 File: images/api_table.png Graphic file (type png)
 
 <use images/api_table.png>
@@ -1064,7 +1060,7 @@ Overfull \hbox (36.135pt too wide) in paragraph at lines 151--152
  []
 
 [120 <./images/api_table.png (PNG copy)>]
-<images/primitives.png, id=1336, 1409.265pt x 623.32875pt>
+<images/primitives.png, id=1340, 1409.265pt x 623.32875pt>
 File: images/primitives.png Graphic file (type png)
 
 <use images/primitives.png>
@@ -1173,13 +1169,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 7962 strings out of 494578
- 116953 string characters out of 3168574
- 341187 words of memory out of 3000000
- 10537 multiletter control sequences out of 15000+200000
- 9431 words of font info for 34 fonts, out of 3000000 for 9000
+ 7965 strings out of 494578
+ 116985 string characters out of 3168574
+ 341188 words of memory out of 3000000
+ 10538 multiletter control sequences out of 15000+200000
+ 9778 words of font info for 35 fonts, out of 3000000 for 9000
  314 hyphenation exceptions out of 8191
- 29i,8n,35p,2044b,1729s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,8n,35p,2044b,1719s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsfonts/
@@ -1191,12 +1187,13 @@ msfonts/cm/cmr6.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public
 ic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2012basic/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on main.pdf (129 pages, 55790985 bytes).
+type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2012basic/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2012basic/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on main.pdf (129 pages, 56890108 bytes).
 PDF statistics:
- 1559 PDF objects out of 1728 (max. 8388607)
- 1341 compressed objects within 14 object streams
- 440 named destinations out of 1000 (max. 500000)
+ 1566 PDF objects out of 1728 (max. 8388607)
+ 1347 compressed objects within 14 object streams
+ 441 named destinations out of 1000 (max. 500000)
  765 words of extra memory for PDF output out of 10000 (max. 10000000)
 

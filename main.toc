@@ -39,8 +39,8 @@
 \contentsline {chapter}{\numberline {7}DressCode}{75}{chapter.7}
 \contentsline {section}{\numberline {7.1}Design Principles and Software Features}{76}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Interface Design}{76}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Programming Language}{77}{subsection.7.1.2}
-\contentsline {subsubsection}{Drawing API}{80}{section*.5}
+\contentsline {subsection}{\numberline {7.1.2}Programming Language}{78}{subsection.7.1.2}
+\contentsline {subsubsection}{Drawing API}{79}{section*.5}
 \contentsline {subsubsection}{Polygon Booleans:}{81}{section*.6}
 \contentsline {subsubsection}{Grouping}{82}{section*.7}
 \contentsline {subsubsection}{Informational Methods}{83}{section*.8}
@@ -49,10 +49,10 @@
 \contentsline {section}{\numberline {7.4}Workshops}{85}{section.7.4}
 \contentsline {subsection}{\numberline {7.4.1}Expert Workshop}{86}{subsection.7.4.1}
 \contentsline {subsection}{\numberline {7.4.2}Youth Workshop}{86}{subsection.7.4.2}
-\contentsline {section}{\numberline {7.5}Results}{90}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Expert Results}{90}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {7.5.2}Youth Results}{90}{subsection.7.5.2}
-\contentsline {section}{\numberline {7.6}Discussion}{91}{section.7.6}
+\contentsline {section}{\numberline {7.5}Results}{89}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Expert Results}{89}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}Youth Results}{91}{subsection.7.5.2}
+\contentsline {section}{\numberline {7.6}Discussion}{92}{section.7.6}
 \contentsline {subsection}{\numberline {7.6.1}Starting Notions of Craft and Computation}{92}{subsection.7.6.1}
 \contentsline {subsection}{\numberline {7.6.2}Enjoyment in Programming}{94}{subsection.7.6.2}
 \contentsline {subsection}{\numberline {7.6.3}Design Processes}{96}{subsection.7.6.3}
